@@ -1,5 +1,5 @@
 // Offline-cache. Verhoog VERSION bij elke release.
-const VERSION = 'sk-v2';
+const VERSION = 'sk-v3';
 const CORE = [
   './', 'index.html', 'css/style.css', 'manifest.webmanifest',
   'js/app.js', 'js/art.js', 'js/sfx.js', 'js/speech.js', 'js/brain.js', 'js/games.js',

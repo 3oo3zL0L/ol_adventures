@@ -227,7 +227,7 @@ function parentMenu() {
   const reset = h('button', { class: 'btn berry' }, 'Voortgang wissen');
   const close = h('button', { class: 'btn white' }, 'Sluiten');
   const info = h('p', { class: 'muted' },
-    `Stem: ${speech.voiceName?.() || 'standaard'} · Microfoon: ${speech.canListen() ? 'beschikbaar' : 'niet beschikbaar hier (gebruik dicteren of knoppen)'} · Gespeeld: ${Math.round(playMs / 60000)} min`);
+    `Stem: ingesproken clips (${settings.name === 'Olivier' ? 'met naam' : 'naam via iPad-stem'}), reserve: ${speech.voiceName?.() || 'standaard'} · Microfoon: ${speech.canListen() ? 'beschikbaar' : 'niet beschikbaar hier (gebruik dicteren of knoppen)'} · Gespeeld: ${Math.round(playMs / 60000)} min`);
   save.addEventListener('click', () => {
     const v = f.read(); if (!v) return;
     settings = { ...settings, ...v }; saveSettings(); sfx.volume = settings.volume; sfx.music(settings.music && inPlay);
@@ -506,6 +506,8 @@ async function playChapter(n) {
     if (run !== runId) return;
     progress.resume = { ch: n, step: i }; saveProgress();
     if (timeUp() && steps[i].t !== 'game' && steps[i].t !== 'talk') return restScreen();
+    const nx = steps[i + 1];
+    if (nx?.t === 'say') speech.prefetch?.(fill(nx.text), nx.who);
     await runStep(steps[i]);
     if (run !== runId) return;
     if (steps[i].t !== 'say') bubbleEl?.remove();
@@ -530,7 +532,7 @@ function showSticker() {
   const close = h('button', { class: 'btn go' }, 'Terug');
   close.addEventListener('click', () => { sfx.play('tap'); overlay.replaceChildren(); });
   overlay.replaceChildren(h('div', { class: 'card', style: 'align-items:center' }, h('h2', {}, `🏅 Stickerboek · ⭐ ${progress.stars}`), grid, close));
-  narrate(`Je hebt al ${progress.stars} sterren verzameld!`);
+  narrate('Kijk eens hoeveel sterren je al hebt verzameld!');
 }
 
 async function showMap() {

@@ -148,7 +148,7 @@ export async function sum(params, ctx) {
 }
 
 // ---------- geheugen / klimroute ----------
-const ARROW_WORDS = { '⬅️': 'links', '➡️': 'rechts', '⬆️': 'omhoog', '⬇️': 'omlaag' };
+export const ARROW_WORDS = { '⬅️': 'links', '➡️': 'rechts', '⬆️': 'omhoog', '⬇️': 'omlaag' };
 export async function memory(params, ctx) {
   const items = params.items?.length ? params.items : ['⬅️', '⬆️', '➡️'];
   const length = params.length ?? 3;
@@ -228,7 +228,7 @@ const SOUND = {
   aa: 'aa', ee: 'ee', oo: 'oo', uu: 'uu', ie: 'ie', oe: 'oe', eu: 'eu', ui: 'ui', ei: 'ei', ij: 'ij', ou: 'ou', au: 'au', ng: 'ng', sch: 'sch',
 };
 export const sound = (g) => SOUND[g] || g;
-const sounded = (word) => graphemes(word).map(sound).join(' ... ');
+export const sounded = (word) => graphemes(word).map(sound).join(' ... ');
 
 export async function word(params, ctx) {
   const { mode = 'listen', word: w, pic = '❓' } = params;

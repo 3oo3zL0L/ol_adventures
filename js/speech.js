@@ -1,5 +1,6 @@
-// Spraak: voorlezen (speechSynthesis) en luisteren (SpeechRecognition) voor iPad/Safari.
-// Alles lokaal in de browser; geen netwerk vanuit deze module.
+// Spraak: voorlezen en luisteren (SpeechRecognition) voor iPad/Safari.
+// Voorlezen gebruikt vooraf ingesproken clips (audio/, zie tools/voice) en valt per zin
+// terug op de ingebouwde stem (speechSynthesis) als er geen clip is.
 
 const synth = typeof window !== 'undefined' ? window.speechSynthesis : undefined;
 
@@ -72,6 +73,7 @@ if (synth) {
 
 /** Aanroepen binnen een tik/klik: iOS staat spraak pas toe na een gebruikersgebaar. */
 export function unlock() {
+  unlockClips();
   if (!synth) return Promise.resolve();
   if (!unlocked) {
     try {
@@ -124,6 +126,101 @@ export function splitSentences(text, max = 160) {
   return out;
 }
 
+// ------------------------------------------------------------------ clips (vooraf ingesproken)
+
+/** FNV-1a (32 bit) als hex; zelfde functie in tools/voice. */
+export function hash(str) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 0x01000193); }
+  return (h >>> 0).toString(16).padStart(8, '0');
+}
+/** Pad van de clip voor een zin: audio/<wie>/<hash>.mp3 */
+export const clipPath = (chunk, who) => `audio/${who}/${hash(chunk)}.mp3`;
+
+const hasWindow = typeof window !== 'undefined';
+let actx = null;
+let clipIndex = null; // Set met 'wie/hash'
+let clipIndexLoad = null;
+const buffers = new Map(); // pad -> Promise<AudioBuffer>
+let currentSource = null;
+const misses = hasWindow ? (window.__voiceMiss = window.__voiceMiss || []) : [];
+
+function loadIndex() {
+  if (clipIndexLoad) return clipIndexLoad;
+  clipIndexLoad = (hasWindow && typeof fetch === 'function'
+    ? fetch('audio/index.json').then((r) => (r.ok ? r.json() : { clips: [] })).catch(() => ({ clips: [] }))
+    : Promise.resolve({ clips: [] })
+  ).then((d) => { clipIndex = new Set(d.clips || []); return clipIndex; });
+  return clipIndexLoad;
+}
+if (hasWindow) loadIndex();
+
+function unlockClips() {
+  if (!hasWindow) return;
+  try {
+    // iOS: WebAudio anders stil bij de stil-schakelaar.
+    if (navigator.audioSession) navigator.audioSession.type = 'playback';
+  } catch { /* */ }
+  try {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return;
+    if (!actx) actx = new AC();
+    if (actx.state === 'suspended') actx.resume();
+    const b = actx.createBuffer(1, 1, 22050);
+    const src = actx.createBufferSource();
+    src.buffer = b; src.connect(actx.destination); src.start(0);
+  } catch { /* */ }
+}
+
+function hasClip(chunk, who) {
+  return !!(actx && clipIndex && clipIndex.has(`${who}/${hash(chunk)}`));
+}
+
+function getBuffer(path) {
+  if (!buffers.has(path)) {
+    const p = fetch(path)
+      .then((r) => { if (!r.ok) throw new Error(r.status); return r.arrayBuffer(); })
+      .then((ab) => new Promise((res, rej) => actx.decodeAudioData(ab, res, rej)));
+    p.catch(() => buffers.delete(path));
+    buffers.set(path, p);
+    if (buffers.size > 120) buffers.delete(buffers.keys().next().value);
+  }
+  return buffers.get(path);
+}
+
+function playClip(chunk, who, gen) {
+  return new Promise((resolve) => {
+    getBuffer(clipPath(chunk, who)).then((buf) => {
+      if (gen !== generation) return resolve(true);
+      if (actx.state === 'suspended') actx.resume();
+      const src = actx.createBufferSource();
+      src.buffer = buf;
+      src.connect(actx.destination);
+      let done = false;
+      const finish = () => {
+        if (done) return; done = true;
+        clearTimeout(timer);
+        if (currentSource === src) currentSource = null;
+        if (pendingResolve === finish) pendingResolve = null;
+        resolve(true);
+      };
+      const timer = setTimeout(finish, buf.duration * 1000 + 1500);
+      src.onended = finish;
+      currentSource = src;
+      pendingResolve = finish;
+      src.start(0);
+    }).catch(() => resolve(false));
+  });
+}
+
+/** Laad alvast de clips voor een tekst (zodat er geen pauze is als hij aan de beurt is). */
+export function prefetch(text, who = 'verteller') {
+  if (!actx || !clipIndex) return;
+  for (const chunk of splitSentences(cleanForSpeech(text))) {
+    if (hasClip(chunk, who)) getBuffer(clipPath(chunk, who)).catch(() => {});
+  }
+}
+
 // ------------------------------------------------------------------ spreken
 
 function speakChunk(chunk, cfg, gen) {
@@ -164,9 +261,22 @@ function speakChunk(chunk, cfg, gen) {
  * @param {string} [who='verteller']
  */
 export async function speak(text, who = 'verteller') {
-  if (!synth || typeof SpeechSynthesisUtterance === 'undefined') return;
   const clean = cleanForSpeech(text);
   if (!clean) return;
+  if (!clipIndex && clipIndexLoad) await Promise.race([clipIndexLoad, new Promise((r) => setTimeout(r, 1500))]);
+  const chunks = splitSentences(clean);
+  if (chunks.every((c) => hasClip(c, who))) {
+    cancel();
+    const gen = generation;
+    chunks.forEach((c) => getBuffer(clipPath(c, who)).catch(() => {}));
+    for (const chunk of chunks) {
+      if (gen !== generation) return;
+      if (!(await playClip(chunk, who, gen))) await speakTts(chunk, who, gen);
+    }
+    return;
+  }
+  chunks.filter((c) => !hasClip(c, who)).forEach((c) => misses.push(`${who}: ${c}`));
+  if (!synth || typeof SpeechSynthesisUtterance === 'undefined') return;
   // iOS-bug: eerst cancel(), anders blijft de wachtrij soms hangen.
   const wasBusy = synth.speaking || synth.pending;
   cancel();
@@ -174,23 +284,32 @@ export async function speak(text, who = 'verteller') {
   if (!voice) await loadVoices(800);
   if (wasBusy) await new Promise((r) => setTimeout(r, 60)); // iOS heeft even nodig na cancel()
   const cfg = VOICES[who] || VOICES.verteller;
-  for (const chunk of splitSentences(clean)) {
+  for (const chunk of chunks) {
     if (gen !== generation) return;
+    if (hasClip(chunk, who)) { if (await playClip(chunk, who, gen)) continue; }
     await speakChunk(chunk, cfg, gen);
   }
+}
+
+async function speakTts(chunk, who, gen) {
+  if (!synth || typeof SpeechSynthesisUtterance === 'undefined') return;
+  if (!voice) await loadVoices(800);
+  await speakChunk(chunk, VOICES[who] || VOICES.verteller, gen);
 }
 
 /** Stop direct met voorlezen; lopende speak()-promises resolven. */
 export function cancel() {
   generation++;
   try { synth?.cancel(); } catch { /* negeren */ }
+  try { currentSource?.stop(); } catch { /* al gestopt */ }
+  currentSource = null;
   const r = pendingResolve;
   pendingResolve = null;
   if (r) r();
 }
 
 export function isSpeaking() {
-  return !!(synth && (synth.speaking || synth.pending));
+  return !!currentSource || !!(synth && (synth.speaking || synth.pending));
 }
 
 // ------------------------------------------------------------------ luisteren

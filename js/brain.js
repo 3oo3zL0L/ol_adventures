@@ -225,9 +225,9 @@ export const FALLBACKS = [
   'Hihi, wat een vraag! Vraag eens hoe het eruitziet.',
   'Hmm, daar zeg ik niks over. Vraag eens wat je ermee kunt doen!',
 ];
-const EMPTY_REPLY = 'Ik hoorde je niet goed. Wil je het nog eens zeggen?';
-const DEFAULT_WIN = 'Ja! Goed geraden, {HELD}! Knap hoor!';
-const DEFAULT_WRONG = 'Nee, dat is het niet! Goed geprobeerd. Stel nog een vraag!';
+export const EMPTY_REPLY = 'Ik hoorde je niet goed. Wil je het nog eens zeggen?';
+export const DEFAULT_WIN = 'Ja! Goed geraden, {HELD}! Knap hoor!';
+export const DEFAULT_WRONG = 'Nee, dat is het niet! Goed geprobeerd. Stel nog een vraag!';
 
 // ------------------------------------------------------------------ helpers
 
@@ -294,14 +294,14 @@ function miss(step, state, base) {
   if (state.misses >= 2) {
     const hint = nextHint(step, state);
     // Kort houden: alleen de eerste zin van de basisreactie, dan de hint.
-    if (hint) return { reply: `${firstSentence(base)} Ik geef je een hint: ${hint}`, kind: 'hint' };
+    if (hint) return { reply: `${firstSentence(base)} Ik geef je een hint! ${hint}`, kind: 'hint' };
   }
   return { reply: base, kind: 'fallback' };
 }
 
 function withHint(step, st, base) {
   const hint = nextHint(step, st);
-  return hint ? `${base} Ik geef je een hint: ${hint}` : base;
+  return hint ? `${base} Ik geef je een hint! ${hint}` : base;
 }
 
 // Het geheim: exact/stam, of 1 fout alleen bij de ECHTE key (niet bij schrijf-varianten) en alleen
