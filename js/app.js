@@ -112,7 +112,7 @@ function renderHud(mode) {
   hud.replaceChildren();
   if (mode === 'play') {
     const home = h('button', { class: 'pill icon', 'aria-label': 'Naar de kaart' }, '🏠');
-    home.addEventListener('click', () => { sfx.play('tap'); speech.cancel(); abortPlay = true; showMap(); });
+    home.addEventListener('click', () => { sfx.play('tap'); speech.cancel(); runId++; showMap(); });
     hud.append(home);
   }
   hud.append(h('div', { class: 'pill', id: 'starpill' }, '⭐', String(progress.stars)));
@@ -146,6 +146,7 @@ function parentButton() {
 }
 
 // ---------- PIN ----------
+let pinFails = 0, pinBlockedUntil = 0;
 function pinGate(title = 'Voor ouders: PIN') {
   return new Promise((resolve) => {
     let entry = '';
@@ -158,11 +159,13 @@ function pinGate(title = 'Voor ouders: PIN') {
       b.addEventListener('click', () => {
         sfx.play('tap');
         if (k === '✕') return close(false);
+        if (Date.now() < pinBlockedUntil) { dots.textContent = '⏳'; return; }
         if (k === '⌫') entry = entry.slice(0, -1); else if (entry.length < 4) entry += k;
         dots.textContent = '●'.repeat(entry.length) + '○'.repeat(4 - entry.length);
         if (entry.length === 4) {
-          if (entry === settings.pin) close(true);
-          else { sfx.play('fout'); dots.classList.add('shake'); setTimeout(() => { dots.classList.remove('shake'); entry = ''; dots.textContent = '○○○○'; }, 500); }
+          if (entry === settings.pin) { pinFails = 0; close(true); }
+          else {
+            if (++pinFails >= 3) { pinBlockedUntil = Date.now() + 30000; pinFails = 0; } sfx.play('fout'); dots.classList.add('shake'); setTimeout(() => { dots.classList.remove('shake'); entry = ''; dots.textContent = '○○○○'; }, 500); }
         }
       });
       pad.append(b);
@@ -231,7 +234,7 @@ function parentMenu() {
     overlay.replaceChildren(); renderHud(inPlay ? 'play' : 'map'); if (!inPlay) showMap();
   });
   testVoice.addEventListener('click', () => speech.speak(`Hallo ${settings.name}! Klaar voor avontuur?`, 'kwebbel'));
-  unlock.addEventListener('click', () => { playMs = 0; lockUntil(0); overlay.replaceChildren(); showMap(); });
+  unlock.addEventListener('click', () => { resetPlayTime(); lockUntil(0); overlay.replaceChildren(); showMap(); });
   reset.addEventListener('click', () => {
     if (!confirm('Alle sterren, stickers en voortgang wissen?')) return;
     progress = structuredClone(DEF_PROGRESS); saveProgress(); overlay.replaceChildren(); showMap();
@@ -242,12 +245,18 @@ function parentMenu() {
 }
 
 // ---------- speeltijd ----------
-let playMs = 0, lastTick = Date.now(), inPlay = false;
+const TIME_KEY = 'sk_time', SESSION_GAP = 60 * 60000;
+let playMs = 0, lastTick = Date.now(), inPlay = false, lastPlay = 0;
+try { const t = JSON.parse(localStorage.getItem(TIME_KEY) || '{}'); if (Date.now() - (t.last || 0) < SESSION_GAP) { playMs = t.ms || 0; lastPlay = t.last; } } catch {}
 setInterval(() => {
   const now = Date.now();
-  if (inPlay && document.visibilityState === 'visible') playMs += now - lastTick;
+  if (inPlay && document.visibilityState === 'visible') {
+    playMs += now - lastTick; lastPlay = now;
+    try { localStorage.setItem(TIME_KEY, JSON.stringify({ ms: playMs, last: now })); } catch {}
+  }
   lastTick = now;
 }, 1000);
+const resetPlayTime = () => { playMs = 0; try { localStorage.removeItem(TIME_KEY); } catch {} };
 const LOCK_KEY = 'sk_lock';
 const lockUntil = (t) => { try { localStorage.setItem(LOCK_KEY, String(t)); } catch {} };
 const lockedUntil = () => { try { return +localStorage.getItem(LOCK_KEY) || 0; } catch { return 0; } };
@@ -258,7 +267,7 @@ async function restScreen() {
   if (lockedUntil() < Date.now()) lockUntil(Date.now() + 60 * 60000);
   clearUI(); await setBg('nacht'); setChars(['kwebbel']); renderHud('rest');
   const again = h('button', { class: 'btn white' }, '🔒 Ouder: verder spelen');
-  again.addEventListener('click', async () => { if (await pinGate()) { playMs = 0; lockUntil(0); showMap(); } });
+  again.addEventListener('click', async () => { if (await pinGate()) { resetPlayTime(); lockUntil(0); showMap(); } });
   ui.append(h('div', { class: 'title-screen' }, h('div', { class: 'logo' }, '🌙 Rustpauze', h('small', {}, 'Het avontuur wacht op je!')), again));
   await say('kwebbel', 'Gaap… tijd om uit te rusten, dat vind ik fijn. Straks weer avontuur, dan zal het nog leuker zijn!', { mood: 'blij' });
 }
@@ -330,11 +339,12 @@ async function runTalk(step) {
     if (busy || !q.trim()) return;
     busy = true;
     try {
-      heard.textContent = fromKid ? `“${q}”` : '';
-      showBubble('olivier', q);
-      if (!fromKid) await narrate(q, 'olivier');
       let res = {};
       try { res = answer(step, q, brainState) || {}; } catch (e) { console.warn(e); }
+      const hide = ['safety', 'private', 'rude'].includes(res.kind);
+      heard.textContent = fromKid && !hide ? `“${q}”` : '';
+      if (!hide) showBubble('olivier', q);
+      if (!fromKid) await narrate(q, 'olivier');
       brainState.asked++;
       if (res.solvedGuess) return win();
       await say(who, res.reply || 'Hmm, goeie vraag! Wat denk jij zelf?');
@@ -351,14 +361,16 @@ async function runTalk(step) {
   let input = null;
   if (mode === 'mic') {
     const mic = h('button', { class: 'mic', 'aria-label': 'Houd vast om te praten' }, '🎤');
-    let listening = false;
+    let listening = false, autoStop = 0;
     const start = async (e) => {
       e.preventDefault(); if (busy || listening) return;
       listening = true; speech.cancel(); mic.classList.add('on'); heard.textContent = '… ik luister …';
       try { mic.setPointerCapture?.(e.pointerId); } catch {}
       try { speech.startListening(); } catch {}
+      clearTimeout(autoStop); autoStop = setTimeout(stop, 10000);
     };
     const stop = async () => {
+      clearTimeout(autoStop);
       if (!listening) return; listening = false; mic.classList.remove('on'); mic.classList.add('busy');
       let text = '';
       try { text = await speech.stopListening(); } catch {}
@@ -371,7 +383,7 @@ async function runTalk(step) {
         : 'Ik hoorde je niet goed. Hou de knop ingedrukt terwijl je praat, en laat dan los.');
     };
     mic.addEventListener('pointerdown', start);
-    ['pointerup', 'pointercancel'].forEach((ev) => mic.addEventListener(ev, stop));
+    ['pointerup', 'pointercancel', 'lostpointercapture'].forEach((ev) => mic.addEventListener(ev, stop));
     mic.addEventListener('contextmenu', (e) => e.preventDefault());
     input = h('div', { class: 'row' }, mic, h('div', { class: 'muted', style: 'font-size:2.6vmin;max-width:26vmin' }, 'Houd vast en stel je vraag!'));
   } else if (mode === 'dictate') {
@@ -475,13 +487,14 @@ async function runStep(step) {
 }
 
 // ---------- hoofdstuk spelen ----------
-let currentChapter = 1, abortPlay = false;
+let currentChapter = 1, runId = 0;
 async function playChapter(n) {
   if (lockedUntil() > Date.now() || timeUp()) return restScreen();
   let mod;
   try { mod = await import(`./story/h${n}.js`); } catch { return comingSoon(n); }
   const steps = mod.default.steps;
-  currentChapter = n; abortPlay = false; inPlay = true;
+  const run = ++runId;
+  currentChapter = n; inPlay = true;
   sfx.music(settings.music);
   renderHud('play'); clearUI();
   let start = progress.resume?.ch === n ? progress.resume.step : 0;
@@ -490,11 +503,11 @@ async function playChapter(n) {
   const lastScene = steps.slice(0, start + 1).reverse().find((s) => s.t === 'scene') || steps.find((s) => s.t === 'scene');
   if (lastScene) { await setBg(lastScene.bg); setChars(lastScene.chars || []); }
   for (let i = start; i < steps.length; i++) {
-    if (abortPlay) return;
+    if (run !== runId) return;
     progress.resume = { ch: n, step: i }; saveProgress();
     if (timeUp() && steps[i].t !== 'game' && steps[i].t !== 'talk') return restScreen();
     await runStep(steps[i]);
-    if (abortPlay) return;
+    if (run !== runId) return;
     if (steps[i].t !== 'say') bubbleEl?.remove();
   }
   progress.resume = null;
@@ -521,7 +534,7 @@ function showSticker() {
 }
 
 async function showMap() {
-  inPlay = false; abortPlay = true; sfx.music(false); speech.cancel();
+  inPlay = false; runId++; sfx.music(false); speech.cancel();
   if (lockedUntil() > Date.now()) return restScreen();
   clearUI(); bubbleEl = null; await setBg('titel'); setChars([]); renderHud('map');
   const row = h('div', { class: 'chapters' });
@@ -548,10 +561,12 @@ async function titleScreen() {
   const play = h('button', { class: 'btn go', style: 'font-size:6vmin;padding:2.4vmin 7vmin' }, '▶ Spelen');
   ui.append(h('div', { class: 'title-screen' }, h('div', { class: 'logo' }, 'Het Sterrenkompas', h('small', {}, 'Een avontuur in Oisterwijk')), play));
   renderHud('title');
-  await new Promise((r) => play.addEventListener('click', r, { once: true }));
-  // iOS: audio en spraak moeten binnen een tik worden vrijgegeven.
-  try { speech.unlock(); } catch {}
-  try { sfx.unlock(); sfx.volume = settings.volume; sfx.play('tap'); } catch {}
+  await new Promise((r) => play.addEventListener('click', () => {
+    // iOS: audio en spraak moeten binnen de tik zelf worden vrijgegeven.
+    try { speech.unlock(); } catch {}
+    try { sfx.unlock(); sfx.volume = settings.volume; sfx.play('tap'); } catch {}
+    r();
+  }, { once: true }));
   if (!settings.name || !settings.pin) await firstRun();
   await showMap();
   narrate(`Hoi ${settings.name}! Kies een avontuur.`, 'kwebbel');

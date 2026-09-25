@@ -1,6 +1,6 @@
 # Spraak en personagebrein
 
-Alles draait lokaal in de browser. Er zijn geen API-calls, er is geen server en niets verlaat de iPad.
+Alles draait lokaal in de browser. Er zijn geen API-calls en er is geen eigen server; de game zelf stuurt niets weg (een strikte CSP blokkeert externe verbindingen). Let op: de spraakherkenning en het dicteren van Safari/iOS zelf kunnen audio naar Apple sturen om het om te zetten naar tekst. Wie dat niet wil, zet in het oudermenu "Praten" op "Alleen tikknoppen".
 
 ## Voorlezen (`js/speech.js`)
 - `unlock()` bij de eerste tik: spreekt een stille utterance (iOS geeft pas spraak vrij na een gebruikersgebaar) en laadt de stemmen (`voiceschanged`, max 1,5 s).

@@ -83,21 +83,24 @@ export async function count(params, ctx) {
     const p = panel(ctx, 'Hoeveel zie je er?');
     p.dataset.answer = n;
     p.append(h('div', { class: 'objects' }, item.repeat(n)));
+    ctx.speak('Hoeveel zie je er?', 'verteller');
     return chooseNumber(ctx, p, n);
   }
   const total = Math.max(params.total ?? n + 3, n + 1);
   const p = panel(ctx, `Tik er ${n} aan`);
+  ctx.speak(`Tik er ${NUM_WORDS[n] || n} aan. Tik daarna op klaar.`, 'verteller');
   p.dataset.answer = n;
   const field = h('div', { class: 'scatter' });
   p.append(field);
   const done = h('button', { class: 'btn go' }, '✔ Klaar');
   p.append(done);
   // Posities in een los raster, zodat niets overlapt.
-  const cols = Math.ceil(Math.sqrt(total * 2)), rows = Math.ceil(total / cols);
-  const cells = shuffle([...Array(cols * Math.max(rows, 2)).keys()]).slice(0, total);
+  const cols = Math.ceil(Math.sqrt(total * 2)), rows = Math.max(Math.ceil(total / cols), 2);
+  const cells = shuffle([...Array(cols * rows).keys()]).slice(0, total);
+  const rowStep = 68 / (rows - 1); // tegel is ±30% van de veldhoogte: rijen overlappen niet
   const picked = [];
   const tiles = cells.map((c) => {
-    const x = (c % cols) / cols * 88 + rnd(4), y = Math.floor(c / cols) / Math.max(rows, 2) * 70 + rnd(8);
+    const x = (c % cols) / cols * 88 + rnd(4), y = Math.floor(c / cols) * rowStep + rnd(2);
     const t = h('button', { class: 'tile sm', style: `left:${x}%;top:${y}%` }, item);
     tapper(t, async () => {
       const i = picked.indexOf(t);

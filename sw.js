@@ -1,5 +1,5 @@
 // Offline-cache. Verhoog VERSION bij elke release.
-const VERSION = 'sk-v1';
+const VERSION = 'sk-v2';
 const CORE = [
   './', 'index.html', 'css/style.css', 'manifest.webmanifest',
   'js/app.js', 'js/art.js', 'js/sfx.js', 'js/speech.js', 'js/brain.js', 'js/games.js',
@@ -16,14 +16,16 @@ self.addEventListener('activate', (e) => {
     .then(() => self.clients.claim()));
 });
 
-// Netwerk eerst (altijd de nieuwste versie), cache als het offline is.
 self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
-  e.respondWith(
-    fetch(req).then((res) => {
-      if (res.ok) { const copy = res.clone(); caches.open(VERSION).then((c) => c.put(req, copy)); }
-      return res;
-    }).catch(() => caches.match(req, { ignoreSearch: true }).then((r) => r || caches.match('index.html')))
-  );
+  // Netwerk met 3 s timeout; bij traag of geen netwerk de cache.
+  const net = fetch(req);
+  const slow = new Promise((resolve) => setTimeout(resolve, 3000))
+    .then(() => caches.match(req, { ignoreSearch: true }))
+    .then((hit) => hit || net);
+  e.respondWith(Promise.race([net.then((res) => {
+    if (res.ok) { const copy = res.clone(); caches.open(VERSION).then((c) => c.put(req, copy)); }
+    return res;
+  }), slow]).catch(() => caches.match(req, { ignoreSearch: true }).then((r) => r || caches.match('index.html'))));
 });
