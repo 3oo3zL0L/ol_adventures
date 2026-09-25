@@ -1,9 +1,9 @@
 // Offline-cache. Verhoog VERSION bij elke release.
-const VERSION = 'sk-v3';
+const VERSION = 'sk-v4';
 const CORE = [
   './', 'index.html', 'css/style.css', 'manifest.webmanifest',
   'js/app.js', 'js/art.js', 'js/sfx.js', 'js/speech.js', 'js/brain.js', 'js/games.js',
-  'js/story/h1.js', 'icons/icon.svg', 'icons/apple-touch-icon.png',
+  'js/story/h1.js', 'js/story/h2.js', 'js/story/h3.js', 'js/story/h4.js', 'js/story/h5.js', 'icons/icon.svg', 'icons/apple-touch-icon.png',
 ];
 
 self.addEventListener('install', (e) => {
