@@ -16,7 +16,7 @@ const svg = (vb, body, extra = '') =>
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb}" width="100%" height="100%" ${extra}>${body}</svg>`;
 
 export const CHAR_NAMES = {
-  olivier: '{HELD}', florine: 'Florine', kwebbel: 'Kwebbel', brom: 'Brom',
+  held: '{HELD}', florine: 'Florine', kwebbel: 'Kwebbel', brom: 'Brom',
   rommel: 'Rommel', piep: 'Piep', schoen: 'Reuzenschoen', verteller: 'Verteller',
 };
 
@@ -377,7 +377,7 @@ const limb = (d, c, w) => `<path d="${d}" fill="none" stroke="${OL}" stroke-widt
 /* Personages                                                          */
 /* ------------------------------------------------------------------ */
 const CH = {
-  olivier(m) {
+  held(m) {
     const P = {
       lacht: ['M112,214Q86,190 80,150', 'M188,214Q214,190 220,150', [80, 140], [220, 140]],
       blij: ['M112,216Q90,246 86,282', 'M188,214Q222,196 228,156', [86, 292], [229, 145]],

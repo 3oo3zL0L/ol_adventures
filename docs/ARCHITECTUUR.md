@@ -23,7 +23,7 @@ Florine (zusje) staat wel in de verhaaltekst (door ouder aangeleverd, alleen voo
 ### art.js
 - `background(id) -> string` SVG, viewBox `0 0 1600 900`, `preserveAspectRatio="xMidYMid slice"`.
 - `character(id, mood='blij') -> string` SVG, viewBox `0 0 300 400`, figuur staat onderaan-midden.
-  ids: `olivier, florine, kwebbel, brom, rommel, piep, verteller(null)`; moods: `blij, verbaasd, denkt, lacht`.
+  ids: `held, florine, kwebbel, brom, rommel, piep, verteller(null)`; moods: `blij, verbaasd, denkt, lacht`.
 - Onbekende id → eenvoudige placeholder, nooit een exception.
 
 ### sfx.js
@@ -44,8 +44,8 @@ veiligheidsfilter (enge/ongepaste woorden, persoonlijke info, verdriet). Zie `do
 export default { id:'h1', title:'…', sticker:'🗺️', steps:[ … ] }
 ```
 Stappen (`t`):
-- `{t:'scene', bg:'bos', chars:['olivier','florine']}`
-- `{t:'say', who:'verteller'|'olivier'|'florine'|'kwebbel'|…, text:'max 2 korte zinnen, {HELD}', mood?, sfx?}`
+- `{t:'scene', bg:'bos', chars:['held','florine']}`
+- `{t:'say', who:'verteller'|'held'|'florine'|'kwebbel'|…, text:'max 2 korte zinnen, {HELD}', mood?, sfx?}`
 - `{t:'choice', q, options:[{label, icon:'emoji', say?:'reactie'}]}` – kosmetische keuze
 - `{t:'game', game, skill, intro, success, hint, params:{1:{…},2:{…},3:{…}}}` – params per niveau
   - `count`: `{mode:'tap'|'howmany', n, total, item:'emoji'}`

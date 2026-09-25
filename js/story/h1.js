@@ -7,11 +7,11 @@ export default {
   sticker: '🗺️',
   steps: [
     // --- Intro: zaterdag in het bos bij het ven ---
-    { t: 'scene', bg: 'ven', chars: ['olivier', 'florine'] },
+    { t: 'scene', bg: 'ven', chars: ['held', 'florine'] },
     { t: 'say', who: 'verteller', text: 'Het is zaterdag in Oisterwijk. {HELD} heeft een hele week groep 3 gedaan op De Kikkenduut.', sfx: 'wind' },
     { t: 'say', who: 'verteller', text: 'Nu is het tijd voor avontuur. Samen met zusje Florine loopt {HELD} naar het ven.' },
     { t: 'say', who: 'florine', text: 'Kijk, eendjes! Ik ben ook een eendje, kwak!', mood: 'lacht' },
-    { t: 'say', who: 'olivier', text: 'Weet je wat, Florine? Wij gaan een geheime hut bouwen!', mood: 'blij' },
+    { t: 'say', who: 'held', text: 'Weet je wat, Florine? Wij gaan een geheime hut bouwen!', mood: 'blij' },
     { t: 'say', who: 'florine', text: 'Een hut! Met een deur en een koekjeskast!', mood: 'blij' },
     {
       t: 'choice',
@@ -24,8 +24,8 @@ export default {
     },
 
     // --- Hut bouwen ---
-    { t: 'scene', bg: 'bos', chars: ['olivier', 'florine'] },
-    { t: 'say', who: 'olivier', text: 'Eerst hebben we takken nodig. Heel veel takken!', mood: 'denkt' },
+    { t: 'scene', bg: 'bos', chars: ['held', 'florine'] },
+    { t: 'say', who: 'held', text: 'Eerst hebben we takken nodig. Heel veel takken!', mood: 'denkt' },
     { t: 'say', who: 'florine', text: 'Ik heb er een! O nee, dat is een regenworm.', mood: 'verbaasd' },
     {
       t: 'game', game: 'count', skill: 'tellen',
@@ -51,13 +51,13 @@ export default {
         3: { a: 7, b: 5, op: '+', item: '🍂' }
       }
     },
-    { t: 'scene', bg: 'hut', chars: ['olivier', 'florine'] },
+    { t: 'scene', bg: 'hut', chars: ['held', 'florine'] },
     { t: 'say', who: 'verteller', text: 'Kijk eens, een echte geheime hut! Met een deur van takken.', sfx: 'goed' },
     { t: 'say', who: 'florine', text: 'Waar is de koekjeskast? O, hier, in mijn zak!', mood: 'lacht' },
 
     // --- Klimmen in de boom ---
-    { t: 'scene', bg: 'boom', chars: ['olivier', 'florine'] },
-    { t: 'say', who: 'olivier', text: 'Ik klim in de boom. Dan kan ik ver kijken!', mood: 'blij' },
+    { t: 'scene', bg: 'boom', chars: ['held', 'florine'] },
+    { t: 'say', who: 'held', text: 'Ik klim in de boom. Dan kan ik ver kijken!', mood: 'blij' },
     { t: 'say', who: 'florine', text: 'Ik pas op de hut. En vooral op de koekjes!', mood: 'denkt' },
     {
       t: 'game', game: 'memory', skill: 'ruimte',
@@ -70,14 +70,14 @@ export default {
         3: { length: 5, items: ['⬅️', '⬆️', '➡️'] }
       }
     },
-    { t: 'scene', bg: 'boomtop', chars: ['olivier'] },
+    { t: 'scene', bg: 'boomtop', chars: ['held'] },
     { t: 'say', who: 'verteller', text: 'Wauw, vanaf hier zie je het hele bos! En het ven glinstert.', sfx: 'klim' },
 
     // --- Kwebbel verschijnt ---
     { t: 'say', who: 'verteller', text: 'Opeens klinkt er gefladder. Er landt iemand op de tak!', sfx: 'papegaai' },
-    { t: 'scene', bg: 'boomtop', chars: ['olivier', 'kwebbel'] },
+    { t: 'scene', bg: 'boomtop', chars: ['held', 'kwebbel'] },
     { t: 'say', who: 'kwebbel', text: 'Hallo, hallo, ik ben Kwebbel de papegaai! Ik praat in rijm, dat is zo fijn!', mood: 'lacht' },
-    { t: 'say', who: 'olivier', text: 'Een pratende papegaai? In Oisterwijk?', mood: 'verbaasd' },
+    { t: 'say', who: 'held', text: 'Een pratende papegaai? In Oisterwijk?', mood: 'verbaasd' },
     { t: 'say', who: 'kwebbel', text: 'Ik heb een toverkaart, opgerold en rond. Ik vond hem hier in het bos, op de grond!', mood: 'blij' },
     { t: 'say', who: 'kwebbel', text: 'Maar eerst een raadsel, ja, dat moet! In mijn zak zit iets, raad jij het goed?', mood: 'denkt' },
 
@@ -175,11 +175,11 @@ export default {
       ]
     },
     { t: 'say', who: 'kwebbel', text: 'Goed geraden, jij komt ver! Het is van goud, met een ster!', mood: 'lacht', sfx: 'ster' },
-    { t: 'say', who: 'olivier', text: 'Een gouden sleuteltje! Waar is dat voor?', mood: 'denkt' },
+    { t: 'say', who: 'held', text: 'Een gouden sleuteltje! Waar is dat voor?', mood: 'denkt' },
     { t: 'say', who: 'kwebbel', text: 'Bewaar het goed, het is voor later. Net als een zwembandje voor het water!', mood: 'blij' },
 
     // --- Belletje lellen ---
-    { t: 'scene', bg: 'hut', chars: ['olivier', 'florine', 'kwebbel'] },
+    { t: 'scene', bg: 'hut', chars: ['held', 'florine', 'kwebbel'] },
     { t: 'say', who: 'verteller', text: '{HELD} klimt weer naar beneden. Kwebbel fladdert mee naar de hut.', sfx: 'whoosh' },
     { t: 'say', who: 'verteller', text: 'Tring, tring! Iemand belt aan bij de hut!', sfx: 'bel' },
     { t: 'say', who: 'florine', text: 'Wie is daar? Is het de pizza?', mood: 'verbaasd' },
@@ -222,7 +222,7 @@ export default {
     },
     { t: 'say', who: 'verteller', text: 'Ritsel, ritsel, in de struiken zwiept een staart. Een staart met strepen!', sfx: 'whoosh' },
     { t: 'say', who: 'florine', text: 'Een zebra! Een hele kleine zebra!', mood: 'lacht' },
-    { t: 'say', who: 'olivier', text: 'Hmm, dat is geen zebra. Maar wie was het dan?', mood: 'denkt' },
+    { t: 'say', who: 'held', text: 'Hmm, dat is geen zebra. Maar wie was het dan?', mood: 'denkt' },
     { t: 'say', who: 'kwebbel', text: 'Een staart met strepen, zwart en grijs. Dat raadsel lossen we later op, heel wijs!', mood: 'denkt' },
 
     // --- De kaart met het toverwoord ---
@@ -270,7 +270,7 @@ export default {
     { t: 'say', who: 'kwebbel', text: 'Het Sterrenkompas wijst de weg naar huis. Voor elke sok, elk dier en elke muis!', mood: 'denkt' },
     { t: 'say', who: 'kwebbel', text: 'Maar het is weg, dat is een ramp. Nu raakt alles kwijt, van knuffel tot lamp!', mood: 'verbaasd' },
     { t: 'say', who: 'florine', text: 'Mijn knuffel mag niet kwijt! Die heet Konijn.', mood: 'verbaasd' },
-    { t: 'say', who: 'olivier', text: 'Wij gaan het Sterrenkompas zoeken. Toch, Kwebbel?', mood: 'blij' },
+    { t: 'say', who: 'held', text: 'Wij gaan het Sterrenkompas zoeken. Toch, Kwebbel?', mood: 'blij' },
     { t: 'say', who: 'kwebbel', text: 'Ja, samen zoeken, dat is pas een feest. Jij bent een held met een slimme geest!', mood: 'lacht' },
 
     // --- Beloning ---

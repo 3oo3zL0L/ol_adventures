@@ -343,8 +343,8 @@ async function runTalk(step) {
       try { res = answer(step, q, brainState) || {}; } catch (e) { console.warn(e); }
       const hide = ['safety', 'private', 'rude'].includes(res.kind);
       heard.textContent = fromKid && !hide ? `“${q}”` : '';
-      if (!hide) showBubble('olivier', q);
-      if (!fromKid) await narrate(q, 'olivier');
+      if (!hide) showBubble('held', q);
+      if (!fromKid) await narrate(q, 'held');
       brainState.asked++;
       if (res.solvedGuess) return win();
       await say(who, res.reply || 'Hmm, goeie vraag! Wat denk jij zelf?');
@@ -401,7 +401,7 @@ async function runTalk(step) {
       if (busy) return; sfx.play('tap'); b.classList.add('used');
       busy = true;
       try {
-        showBubble('olivier', fq.q); await narrate(fq.q, 'olivier');
+        showBubble('held', fq.q); await narrate(fq.q, 'held');
         brainState.asked++;
         await say(who, fq.a);
         if (brainState.asked >= (step.minQuestions ?? 2)) know.disabled = false;

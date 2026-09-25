@@ -7,7 +7,7 @@ const VOICES = {
   verteller: { rate: 0.95, pitch: 1.0 },
   kwebbel: { rate: 1.05, pitch: 1.5 },
   florine: { rate: 1.0, pitch: 1.6 },
-  olivier: { rate: 1.0, pitch: 1.3 },
+  held: { rate: 1.0, pitch: 1.3 },
   brom: { rate: 0.85, pitch: 0.6 },
   piep: { rate: 1.0, pitch: 1.8 },
   rommel: { rate: 1.05, pitch: 1.2 },

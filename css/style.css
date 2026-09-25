@@ -87,7 +87,7 @@ button { font-family: var(--font); color: var(--ink); touch-action: manipulation
 .btn:disabled { opacity: .45; }
 .btn.pulse { animation: pulse 1.2s ease-in-out infinite; }
 
-.next {
+.next { z-index: 9;
   position: absolute; right: 4vw; bottom: 5vh; width: 17vmin; height: 17vmin; border-radius: 50%;
   font-size: 8vmin; padding: 0; background: var(--go); color: #fff;
   animation: pulse 1.2s ease-in-out infinite;

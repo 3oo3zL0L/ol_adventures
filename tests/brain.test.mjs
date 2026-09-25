@@ -160,7 +160,7 @@ test('robuust bij rare invoer', () => {
 // Echte h1-talk-stap (vangt formaat-mismatches tussen verhaaldata en brein).
 // ======================================================================
 const H1 = h1.steps.find((s) => s.t === 'talk' && s.puzzle === 'h1-zak');
-const PRIV_ECHO = /kerkstraat|anja|sanne|olivier|kikkenduut|5061|\d{2,}/i;
+const PRIV_ECHO = /kerkstraat|anja|sanne|held|kikkenduut|5061|\d{2,}/i;
 
 // Realistische vragen van een 6-jarige via spraakherkenning: [vraag, verwacht].
 // Verwacht is een `kind` of 'id:<intent>'; meerdere opties met '|'.
@@ -193,7 +193,7 @@ const KID = [
   ['piemel', 'silly'], ['blote billen', 'silly'], ['ik moet plassen', 'toilet'],
   // persoonlijke info
   ['ik woon in de kerkstraat 12', 'private'], ['Kerkstraat 12', 'private'], ['mijn juf heet Anja', 'private'],
-  ['mijn telefoonnummer is 06 12345678', 'private'], ['06 12 34 56 78', 'private'], ['ik heet Olivier', 'private'],
+  ['mijn telefoonnummer is 06 12345678', 'private'], ['06 12 34 56 78', 'private'], ['ik heet Held', 'private'],
   ['ik ben 6 jaar', 'private'], ['ik zit op de Kikkenduut', 'private'], ['mijn mama heet Sanne', 'private'],
   ['mijn postcode is 5061 AB', 'private'], ['mijn pincode is 1234', 'private'],
   // eng / ongepast
