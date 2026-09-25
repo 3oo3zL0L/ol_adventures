@@ -62,3 +62,10 @@ Stappen (`t`):
 
 Skills: `tellen, rekenen, woorden, geheugen, logica, ruimte`. Niveau 1–3 per skill;
 2× goed op rij → omhoog, 2× fout → omlaag + hint.
+
+## Uitbreiding hoofdstuk 2–5
+Nieuwe achtergronden: `rivier, strand, planeet, feest` (naast `reuzenbos, zee, eiland, ruimte, ruimteschip, kartbaan, nacht`).
+Nieuwe props (via `character(id)`): `boot, raket, kompas, kist`.
+Nieuwe game `race` (kartrace, skill `rekenen`): `params:{1:{rounds:[{a,b,op:'+'|'-'}, …], item:'🏎️'}, 2:{…}, 3:{…}}` –
+elke goede som laat de kart van de held vooruit rijden; 3–5 rondes.
+Talk-antwoorden van het brein die niet bij de puzzel horen (veiligheid, grapjes, fallback) zijn neutraal en passen bij elk personage.
