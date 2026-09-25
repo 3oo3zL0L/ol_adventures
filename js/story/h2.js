@@ -102,6 +102,7 @@ export default {
     },
     { t: 'say', who: 'verteller', text: 'Brom trekt zijn sok aan. Die sok is zo groot als een slaapzak!', sfx: 'pop' },
     { t: 'say', who: 'florine', text: 'Mag ik erin slapen? Met Konijn?', mood: 'lacht' },
+    { t: 'say', who: 'verteller', text: 'Met één grote stap haalt Brom zijn schoen bij de hut. Nu heeft hij weer twee schoenen aan!', sfx: 'dreun' },
 
     // --- Picknick bij Broms huis ---
     { t: 'say', who: 'brom', text: 'Hmmm, dank je wel. Kom, we gaan picknicken bij mijn huis.', mood: 'blij' },
@@ -161,7 +162,7 @@ export default {
         { id: 'brom', keys: ['wie ben jij', 'hoe heet jij', 'waar woon jij', 'woon jij', 'hoe oud ben jij', 'ben jij bang', 'bang', 'reus', 'reuzen', 'lievelingseten', 'jouw schoen', 'jouw sok'],
           a: 'Ik ben Brom, de reus van het Reuzenbos. Ik ben lief, maar een beetje bang voor muizen.', a2: 'Hmmm, ik eet het liefst appels. Maar die zijn nu allemaal op.' },
         { id: 'muis', keys: ['muis', 'muizen', 'muisje', 'rat'],
-          a: 'Een muis?! Waar, waar? Oef, gelukkig, er is geen muis. Het was ook geen muis, hoor.', a2: 'Hmmm, zeg dat woord niet zo hard. Nee, het was geen muis!' },
+          a: 'Een muis?! Waar, waar? Oef, het was geen muis, hoor.', a2: 'Hmmm, zeg dat woord niet zo hard. Nee, het was geen muis!' },
         { id: 'bijna', keys: ['snoep', 'snoepje', 'snoepjes', 'lolly', 'drop', 'dropje', 'zuurtje', 'chocola', 'chocolade', 'toffee', 'kauwgom', 'spekje'],
           a: 'Hmmm, warm, heel warm! Maar het lekkers zelf is op. Wat bleef er dan liggen?', a2: 'Bijna! Het zoete is weg. Wat zit er om een snoepje heen?' },
         { id: 'dier', keys: ['dier', 'dieren', 'beest', 'beestje', 'leeft', 'leeft het', 'levend', 'vogel', 'hond', 'poes', 'kat', 'eekhoorn', 'kriebelt'],

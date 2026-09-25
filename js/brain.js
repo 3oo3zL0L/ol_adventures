@@ -11,6 +11,8 @@
 //             |'silly'|'toilet'|'rude'|'scary'
 //   intent.hint:true  -> antwoord + de volgende hint uit `hints` (voor 'ik weet het niet', 'zeg het maar').
 //   wrongGuess2?      -> afwisselend met wrongGuess bij fout raden (minder herhaling).
+//   explore:true      -> verkenpuzzel (bv. welke knop): 'wat als…'-vragen zijn nooit een gok (winnen noch fout),
+//                        en de labels van `answers` tellen niet vanzelf als foute gok (alleen expliciete guessKeys).
 // `{HELD}` in replies laat het brein staan; de frontend vervangt die.
 
 // ------------------------------------------------------------------ normaliseren
@@ -264,6 +266,7 @@ function wrongGuessKeys(step) {
   for (const ans of step.answers || []) {
     if (ans.correct) continue;
     keys.push(...flatKeys(ans.guessKeys));
+    if (step.explore) continue;
     const label = tokenize(ans.label || '').filter((t) => !FILLER.has(t.raw)).map((t) => t.raw);
     keys.push(...label);
   }
@@ -338,15 +341,16 @@ export function answer(talkStep, question, state = {}) {
   }
   if (isScary(tokens, norm)) return out(pickRotating(SCARY_REPLIES, st, '_scary'), null, false, 'scary');
 
+  // "Wat als ik op blauw druk?" is een wat-als-vraag, geen gok: bij verkenpuzzels telt die nooit als gok.
+  const whatIf = /\bwat (als|gebeurt|gebeurd|doet)\b|\bals ik\b/.test(norm);
+
   // 2. Goed geraden? (niet-fuzzy tegen korte of veelvoorkomende woorden: zie secretMatch)
-  if (secretMatch(tokens, secretKeysOf(step))) {
+  if (!(whatIf && step.explore) && secretMatch(tokens, secretKeysOf(step))) {
     st.solved = true;
     return out(step.win || DEFAULT_WIN, 'secret', true, 'secret');
   }
 
-  // 3. Fout geraden (een van de andere plaatjes)?
-  // "Wat als ik op blauw druk?" is een wat-als-vraag, geen gok: dan eerst de intents.
-  const whatIf = /\bwat (als|gebeurt|gebeurd|doet)\b|\bals ik\b/.test(norm);
+  // 3. Fout geraden (een van de andere plaatjes)? Een wat-als-vraag gaat eerst naar de intents.
   if (!whatIf && bestKeyScore(tokens, wrongGuessKeys(step), false) > 0) {
     st._wrong = (st._wrong || 0) + 1;
     const base = (st._wrong % 2 === 0 && step.wrongGuess2) || step.wrongGuess || DEFAULT_WRONG;
