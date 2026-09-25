@@ -337,7 +337,7 @@ async function runTalk(step) {
   if (step.char) onStage[0].dataset.id = who; // praat-animatie volgt de spreker
   if (step.intro) await say(who, step.intro);
 
-  const p = h('div', { class: 'panel', style: 'top:auto;bottom:2.5vh;transform:translateX(-50%);left:62%;width:min(68vw,900px)' });
+  const p = h('div', { class: 'panel', style: 'top:auto;bottom:2.5vh;transform:translateX(-50%);left:62%;width:min(68vw,900px);max-height:74vh;overflow:auto;gap:1.6vmin' });
   const heard = h('div', { class: 'heard' });
   const know = h('button', { class: 'btn go', disabled: true }, '💡 Ik weet het!');
   const qbtns = h('div', { class: 'qbtns' });
@@ -404,10 +404,13 @@ async function runTalk(step) {
     input = h('div', { class: 'dictate' }, field, send);
   }
 
-  for (const fq of step.fallbackQs || []) {
+  // Maximaal 3 vraagknoppen tegelijk (past op het scherm); een gebruikte maakt plaats voor de volgende.
+  const pending = [...(step.fallbackQs || [])];
+  const fillQs = () => { while (qbtns.children.length < 3 && pending.length) qbtns.append(qButton(pending.shift())); };
+  const qButton = (fq) => {
     const b = h('button', { class: 'btn' }, fill(fq.q));
     b.addEventListener('click', async () => {
-      if (busy) return; sfx.play('tap'); b.classList.add('used');
+      if (busy) return; sfx.play('tap'); b.remove(); fillQs();
       busy = true;
       try {
         showBubble('held', fq.q); await narrate(fq.q, 'held');
@@ -416,13 +419,16 @@ async function runTalk(step) {
         if (brainState.asked >= (step.minQuestions ?? 2)) know.disabled = false;
       } finally { busy = false; }
     });
-    qbtns.append(b);
-  }
+    return b;
+  };
+  fillQs();
 
   know.addEventListener('click', () => {
     if (busy) return; sfx.play('tap'); speech.cancel();
     const row = h('div', { class: 'row' });
+    row.style.paddingBottom = '4.5vmin';
     const box = h('div', { class: 'panel' }, h('h2', {}, fill(step.ask || 'Wat is het?')), row);
+    box.dataset.answer = (step.answers || []).find((a) => a.correct)?.pic || '';
     for (const a of shuffle(step.answers || [])) {
       const b = h('button', { class: 'tile' }, a.pic, h('span', { class: 'lbl' }, fill(a.label)));
       b.addEventListener('click', async () => {
