@@ -333,7 +333,8 @@ async function runTalk(step) {
       heard.textContent = fromKid ? `“${q}”` : '';
       showBubble('olivier', q);
       if (!fromKid) await narrate(q, 'olivier');
-      const res = answer(step, q, brainState) || {};
+      let res = {};
+      try { res = answer(step, q, brainState) || {}; } catch (e) { console.warn(e); }
       brainState.asked++;
       if (res.solvedGuess) return win();
       await say(who, res.reply || 'Hmm, goeie vraag! Wat denk jij zelf?');
