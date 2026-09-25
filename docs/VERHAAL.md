@@ -66,3 +66,10 @@ Per skill niveau 1-3; start op 1. 2× goed op rij → omhoog; 2× fout → omlaa
 ## Schrijfregels
 Max 2 korte zinnen per `say`. Spreektaal voor 6-jarigen. Naam kind = `{HELD}`. Florine alleen voornaam.
 Kwebbel rijmt; Florine zegt peuter-grapjes. Geluiden via `sfx`. Nooit eng: dreun = spannend-grappig, reus = lief.
+
+## Zoals gebouwd (afwijkingen van het plan)
+- H2: getuigen zijn Brom (geheim: snoeppapiertjes) en Kwebbel (geheim: strepen); geen eekhoorn.
+- H3: speurtocht met Kwebbel naar de rots; Brom loopt mee door de zee en blijft in H4 op het strand.
+- H4: woordje *kip*; aftellen is een min-som; twee keer springen op blokken; wat-als-puzzel met Piep (groene knop).
+- H5: kartrace in twee delen met pitstop, rugby-passes als geheugenspel, ontmaskering van de gemaskerde racer (Rommel);
+  Brom verwelkomt iedereen terug bij het ven. Einde met feest en een 🏆-sticker.

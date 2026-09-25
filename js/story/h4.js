@@ -10,14 +10,14 @@ export default {
     { t: 'scene', bg: 'strand', chars: ['held', 'florine', 'kwebbel', 'raket'] },
     { t: 'say', who: 'verteller', text: 'Op het strand staat een echte raket. Er komt nog een wolkje rook uit, pfff.', sfx: 'wind' },
     { t: 'say', who: 'florine', text: 'Een raket! Mag ik erin, met mijn laarsjes aan?', mood: 'blij' },
-    { t: 'say', who: 'kwebbel', text: 'Een raket op het zand, wat een gek bezoek. Wie zit daarin, in dat ronde hoek?', mood: 'verbaasd' },
+    { t: 'say', who: 'kwebbel', text: 'Een raket op het zand, wat een gek bezoek! Wie zit daar toch in, in welke hoek?', mood: 'verbaasd' },
     { t: 'say', who: 'verteller', text: 'Sssss, het deurtje gaat open. Er rolt iemand naar buiten!', sfx: 'piep' },
     { t: 'scene', bg: 'strand', chars: ['held', 'florine', 'piep', 'raket'] },
     { t: 'say', who: 'piep', text: 'Bliep, hallo aardbewoners! Ik ben Piep, de robot van dit ruimteschip.', mood: 'blij' },
     { t: 'say', who: 'held', text: 'Een echte robot! Wat kom je hier doen, Piep?', mood: 'verbaasd' },
     { t: 'say', who: 'piep', text: 'Mijn kijker zag iets glimmen in de ruimte. Een kompas met een ster erop, bliep!', mood: 'denkt' },
     { t: 'say', who: 'held', text: 'Het Sterrenkompas! Dat zoeken wij al het hele avontuur.', mood: 'blij' },
-    { t: 'say', who: 'piep', text: 'Dan gaan we samen. Er is plek voor drie aardbewoners en één papegaai.', mood: 'lacht' },
+    { t: 'say', who: 'piep', text: 'Dan gaan we samen. Er is plek voor twee aardbewoners en één papegaai.', mood: 'lacht' },
     { t: 'say', who: 'piep', text: 'Wat is dat pluizige ding, Florine? Een zachte ruimtehelm?', mood: 'denkt' },
     { t: 'say', who: 'florine', text: 'Nee gekke robot, dat is Konijn! Konijn gaat ook mee.', mood: 'lacht' },
     { t: 'scene', bg: 'strand', chars: ['held', 'florine', 'brom', 'raket'] },
@@ -90,7 +90,7 @@ export default {
     { t: 'say', who: 'piep', text: 'Sterren gevonden, maar geen Sterrenkompas. Bliep, mijn kijker zegt: verder!', mood: 'denkt', sfx: 'ster' },
 
     // --- Brandstof tanken ---
-    { t: 'scene', bg: 'ruimteschip', chars: ['held', 'florine', 'piep'] },
+    { t: 'scene', bg: 'ruimteschip', chars: ['held', 'florine', 'kwebbel', 'piep'] },
     { t: 'say', who: 'piep', text: 'Oei, de tank is bijna leeg. We moeten brandstof bijdoen, bliep!', mood: 'verbaasd', sfx: 'piep' },
     { t: 'say', who: 'florine', text: 'Ik help! Ik doe er appelsap in.', mood: 'blij' },
     { t: 'say', who: 'piep', text: 'Nee Flo, geen appelsap. Deze raket drinkt alleen sterrenblikjes.', mood: 'lacht' },
@@ -112,6 +112,8 @@ export default {
     { t: 'say', who: 'piep', text: 'Bliep, ik ben het vergeten. Mijn computer weet wel wat elke knop doet!', mood: 'verbaasd' },
     {
       t: 'talk', puzzle: 'h4-knop', who: 'piep',
+      // Verkenpuzzel: 'wat als ik op rood druk?' is nooit een gok, en alleen "rood" noemen geeft het gevolg.
+      explore: true,
       intro: 'Vraag maar: wat als ik op een knop druk? Mijn computer vertelt wat er dan gebeurt, bliep!',
       ask: 'Welke knop gaat naar de planeet met de karts?',
       minQuestions: 2,
@@ -133,14 +135,14 @@ export default {
       // Lokale trefwoordherkenning: beste score wint, bij gelijkspel de eerste.
       intents: [
         { id: 'hint', hint: true,
-          keys: ['hint', 'help', 'helpen', 'ik weet het niet', 'weet niet', 'geen idee', 'moeilijk', 'tip', 'zeg het maar', 'zeg het',
+          keys: ['hint', 'help', 'helpen', 'ik weet het niet', 'weet niet', 'geen idee', 'weet ik nie', 'weet nie', 'moeilijk', 'tip', 'zeg het maar', 'zeg het',
             'vertel het', 'verklap', 'verklappen', 'antwoord', 'snap het niet', 'snap niet', 'wat is het nou', 'ik geef het op', 'geef het op'],
           a: 'Een tip? Mijn computer rekent even, bliep bloep…', a2: 'Geen zorgen, we doen het samen. Bliep!' },
         { id: 'groet', keys: ['hallo', 'hoi', 'hey', 'goedemorgen', 'goedemiddag', 'dag piep', 'hoe gaat het'],
           a: 'Bliep, hallo! Met mij gaat het top, al mijn lampjes branden.', a2: 'Hoi hoi! Vraag maar wat een knop doet, bliep.' },
         { id: 'stoppen', keys: ['stoppen', 'ik wil weg', 'ik wil niet meer', 'doei', 'klaar mee', 'ophouden'],
           a: 'Wil je stoppen? Tik dan op het huisje. Of vraag nog iets, bliep!', a2: 'Even pauze mag altijd. Tik op het huisje, of vraag wat een knop doet.' },
-        { id: 'grap', keys: ['grapje', 'mop', 'poep', 'poepie', 'scheet', 'scheten', 'drol', 'boertje', 'haha', 'hihi', 'gek'],
+        { id: 'grap', keys: ['grapje', 'mop', 'poep', 'poepie', 'scheet', 'drol', 'boertje', 'haha', 'hihi', 'gek'],
           a: 'Bliep bliep, hahaha! Mijn lampjes knipperen van het lachen. Nu weer een knop?', a2: 'Hihi, mijn antenne wiebelt ervan. Vraag nu wat een knop doet!' },
         { id: 'rood', keys: ['rode', 'rode knop', 'roodje', 'rood'],
           a: 'Dan gaat de grote toeter: TOETOET! En dan komen er zeepbellen uit het plafond, bliep.',
@@ -153,7 +155,7 @@ export default {
           a2: 'De gele knop gaat naar de zon. Pfoe, daar heb je wel tien zonnebrillen nodig!' },
         { id: 'groen', keys: ['groene', 'groene knop', 'groen'],
           a: 'Dan vliegen we naar een planeet vol wegen met bochten. En daar rijden kleine autootjes, vroem!',
-          a2: 'Wegen, bochten en autootjes, bliep! Weet je het? Zeg dan: ik kies… en dan de kleur!' },
+          a2: 'Wegen, bochten en autootjes, bliep! Weet je het al? Zeg dan: ik kies de…, en dan de kleur.' },
         { id: 'alles', keys: ['alle knoppen', 'allemaal', 'tegelijk', 'alles tegelijk', 'alle'],
           a: 'Dan draait het schip rondjes als een tol. Bliep, ik word draaierig!', a2: 'Alles tegelijk? Dan maakt de computer een koprol. Liever één knop, hoor!' },
         { id: 'niks', keys: ['niks', 'niets', 'geen knop', 'niet drukken', 'wachten', 'blijven'],
@@ -189,14 +191,16 @@ export default {
       ],
       // Alleen een echte keuze wint ("ik kies de groene"). Alleen "groen" noemen geeft het gevolg (intent 'groen').
       secretKeys: ['kies groen', 'kies de groene', 'kies groene', 'druk op groen', 'druk op de groene', 'denk groen',
-        'denk de groene', 'denk groene', 'het is groen', 'het is de groene', 'de groene is het', 'nemen we groen', 'nemen we de groene'],
+        'denk de groene', 'denk groene', 'het is groen', 'het is de groene', 'de groene is het', 'nemen we groen', 'nemen we de groene',
+        'neem groen', 'neem de groene', 'wil groen', 'wil de groene', 'moet groen', 'moet de groene', 'groen is het', 'groene is het',
+        'gaan voor groen', 'drukken op groen', 'drukken op de groene', 'groene knop drukken', 'groene knop indrukken'],
       win: 'Bliep bliep, ja! Die knop gaat naar de planeet met de karts. Wat ben jij slim!',
-      wrongGuess: 'Bliep! Nee, die knop gaat niet naar de racebanen. Goed geprobeerd! Vraag eens wat een andere knop doet.',
+      wrongGuess: 'Bliep, nee, die knop gaat niet naar de racebanen. Vraag eens wat een andere knop doet!',
       wrongGuess2: 'Bliep bloep, die is het niet. Vraag nog eens: wat als ik op een knop druk?',
       guessKeys: {
-        rood: ['kies rood', 'kies de rode', 'kies rode', 'denk rood', 'denk de rode', 'het is rood', 'het is de rode'],
-        blauw: ['kies blauw', 'kies de blauwe', 'kies blauwe', 'denk blauw', 'denk de blauwe', 'het is blauw', 'het is de blauwe'],
-        geel: ['kies geel', 'kies de gele', 'kies gele', 'denk geel', 'denk de gele', 'het is geel', 'het is de gele']
+        rood: ['kies rood', 'kies de rode', 'kies rode', 'denk rood', 'denk de rode', 'het is rood', 'het is de rode', 'neem rood', 'neem de rode'],
+        blauw: ['kies blauw', 'kies de blauwe', 'kies blauwe', 'denk blauw', 'denk de blauwe', 'het is blauw', 'het is de blauwe', 'neem blauw', 'neem de blauwe'],
+        geel: ['kies geel', 'kies de gele', 'kies gele', 'denk geel', 'denk de gele', 'het is geel', 'het is de gele', 'neem geel', 'neem de gele']
       },
       hints: [
         'Op de planeet met de karts zijn veel wegen. Welke knop gaat naar een planeet met wegen?',
@@ -242,7 +246,6 @@ export default {
         1: {
           mode: 'listen', word: 'kip', pic: '🐔',
           options: [
-            { w: 'kip', pic: '🐔' },
             { w: 'vis', pic: '🐟' },
             { w: 'pen', pic: '🖊️' }
           ]
@@ -281,6 +284,6 @@ export default {
     { t: 'say', who: 'verteller', text: 'Boing, boing! Het schip stuitert als een bal op een zachte heuvel.', sfx: 'sprong' },
     { t: 'say', who: 'florine', text: 'Nog een keer! Nog een keer!', mood: 'lacht' },
     { t: 'say', who: 'verteller', text: 'Overal zijn racebanen, met bochten en bruggen. En daar, heel in de verte…', sfx: 'wind' },
-    { t: 'cliff', text: 'Toet toet! Er toetert een kart. Wie rijdt daar? Wordt vervolgd…' }
+    { t: 'cliff', chars: ['held', 'florine', 'kwebbel', 'piep'], text: 'Toet toet, daar toetert een kart! Wie rijdt daar? Wordt vervolgd…' }
   ]
 };

@@ -115,6 +115,8 @@ button { font-family: var(--font); color: var(--ink); touch-action: manipulation
   position: relative; padding: 0; line-height: 1; transition: transform .1s;
 }
 .tile:active { transform: translateY(.6vmin); box-shadow: 0 .2vmin 0 var(--ink); }
+.tile.multi2 { font-size: 6.5vmin; letter-spacing: -.5vmin; }
+.tile.multi3 { font-size: 4.6vmin; letter-spacing: -.4vmin; }
 .tile.sm { width: 13vmin; height: 13vmin; font-size: 7.5vmin; }
 .tile.num { font-size: 8vmin; font-weight: 900; background: var(--paper-2); }
 .tile.letter { font-size: 7vmin; font-weight: 900; background: #fff; text-transform: lowercase; }

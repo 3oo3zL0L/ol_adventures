@@ -84,7 +84,7 @@ export default {
     },
 
     // --- Florine op het eilandje met de kist ---
-    { t: 'scene', bg: 'eiland', chars: ['held', 'florine', 'kist'] },
+    { t: 'scene', bg: 'eiland', chars: ['held', 'florine', 'kwebbel', 'kist'] },
     { t: 'say', who: 'florine', text: 'Hoi! Ik ben een piraat en Konijn ook, arrr!', mood: 'lacht' },
     { t: 'say', who: 'held', text: 'Gelukkig, Flo! Je zwemvest zit nog goed vast.', mood: 'blij' },
     { t: 'say', who: 'florine', text: 'Ik heb een kist gevonden. Er zat een kaart in!', mood: 'blij' },
@@ -109,7 +109,6 @@ export default {
         1: {
           mode: 'listen', word: 'boot', pic: '⛵',
           options: [
-            { w: 'boot', pic: '⛵' },
             { w: 'maan', pic: '🌙' },
             { w: 'roos', pic: '🌹' }
           ]
@@ -203,20 +202,20 @@ export default {
         { q: 'Moet ik naar links of rechts?', a: 'Links? Nee hoor, daar is alleen gras. Ga naar rechts, dat is de goede pas!' },
         { q: 'Hoeveel stappen?', a: 'Drie grote stappen, dat is genoeg. Een, twee, drie, niet te laat en niet te vroeg!' },
         { q: 'Welke kleur heeft het?', a: 'Het is grijs, zo grijs als een olifant. Het ligt heel stil, vlak naast het zand!' },
-        { q: 'Is het groot?', a: 'Groot is het, zo groot als Brom zijn schoen. Je kunt er zelfs op zitten, dat mag je doen!' },
+        { q: 'Is het groot?', a: 'Groot is het, zo groot als een stoel. Je kunt erop zitten, dat is het doel!' },
         { q: 'Is het zacht?', a: 'Zacht? Nee hoor, het is heel erg hard. Klop je erop, dan doet je knokkel au, apart!' }
       ],
       // Lokale trefwoordherkenning: beste score wint, bij gelijkspel de eerste intent.
       intents: [
         { id: 'hint', hint: true,
-          keys: ['hint', 'help', 'helpen', 'ik weet het niet', 'weet niet', 'geen idee', 'moeilijk', 'tip', 'aanwijzing', 'aanwijzingen',
-            'zeg het maar', 'zeg het', 'vertel het', 'verklap', 'verklappen', 'antwoord', 'snap het niet', 'snap niet', 'ik geef het op', 'geef het op'],
+          keys: ['hint', 'help', 'helpen', 'ik weet het niet', 'weet niet', 'geen idee', 'weet ik nie', 'weet nie', 'moeilijk', 'tip', 'aanwijzing', 'aanwijzingen',
+            'zeg het maar', 'zeg het', 'vertel het', 'verklap', 'verklappen', 'antwoord', 'snap het niet', 'snap niet', 'wat is het nou', 'ik geef het op', 'geef het op'],
           a: 'Een aanwijzing? Die krijg je van mij!', a2: 'Niet getreurd, ik help je erbij!' },
         { id: 'groet', keys: ['hallo', 'hoi', 'hey', 'ahoi', 'ahoy', 'goedemorgen', 'goedemiddag', 'dag kwebbel', 'hoe gaat het'],
           a: 'Ahoi, ahoi, wat fijn dat je praat! Stel mij een vraag, ik sta paraat!', a2: 'Hoi kapitein, met mij gaat het top! Vraag maar raak, ik zeg geen stop!' },
         { id: 'stoppen', keys: ['stoppen', 'stop', 'ik wil weg', 'ik wil niet meer', 'doei', 'klaar mee', 'ophouden'],
           a: 'Wil je stoppen? Tik dan op het huisje. Of speur nog even mee, dan krijg je een kruisje!', a2: 'Even pauze mag altijd, hoor! Tik op het huisje, of vraag nog iets, ga maar door.' },
-        { id: 'grap', keys: ['grapje', 'mop', 'poep', 'poepie', 'scheet', 'scheten', 'plas', 'pies', 'drol', 'boertje', 'gek', 'lol', 'haha', 'hihi'],
+        { id: 'grap', keys: ['grapje', 'mop', 'poep', 'poepie', 'scheet', 'plas', 'pies', 'drol', 'boertje', 'gek', 'lol', 'haha', 'hihi'],
           a: 'Hihi, wat grappig, ik lach me krom! Maar waar ligt de schat? Kom, vraag nog eens, kom!', a2: 'Ha, daar moet ik om lachen, hoor! Maar nu weer speuren, ga maar door!' },
         { id: 'kwebbel', keys: ['wie ben jij', 'ben jij een piraat', 'ben jij een papegaai', 'hoe heet jij', 'wat eet jij', 'jouw hoed', 'jouw petje', 'lievelingseten', 'jouw veren'],
           a: 'Ik ben Kwebbel, piratenpapegaai, arrr! Maar nu gaat het om de schat, ben je klaar?', a2: 'Ik eet het liefst zaadjes, knabbel en knap. Nu weer over de schat, stap voor stap!' },
@@ -241,14 +240,17 @@ export default {
           a: 'De plek is grijs, zo grijs als een olifant. Het ligt heel stil, vlak naast het zand!',
           a2: 'Grijs, grijs, zo grijs als een muis. Maar Brom, niet schrikken, het is echt geen muis!' },
         { id: 'groot', keys: ['groot', 'klein', 'hoe groot', 'grootte', 'reuzegroot', 'dik', 'dun', 'hoog', 'laag'],
-          a: 'Groot is het, zo groot als Brom zijn schoen. Je kunt er zelfs op zitten, dat mag je doen!',
-          a2: 'Zo groot als een stoel, of een beetje meer. Je tilt het niet op, ook niet met z\'n tweeën, nooit meer!' },
-        { id: 'hard', keys: ['hard', 'zacht', 'voelen', 'voelt', 'zwaar', 'licht', 'optillen', 'tillen'],
+          a: 'Groot is het, zo groot als een stoel. Je kunt erop zitten, dat is het doel!',
+          a2: 'Groter dan een emmer, kleiner dan een huis. Je tilt het niet op, zelfs Brom niet, die reus!' },
+        { id: 'hard', keys: ['hard', 'zacht', 'voelen', 'voelt'],
           a: 'Zacht? Nee hoor, het is heel erg hard. Klop je erop, dan doet je knokkel au, apart!',
-          a2: 'Zwaar is het, echt veel te zwaar om te tillen. Zelfs Brom zou dat niet willen!' },
+          a2: 'Hard als een pot pindakaas die niet open wil. Voel maar, het is koel en stil!' },
+        { id: 'zwaar', keys: ['zwaar', 'licht', 'optillen', 'weegt'],
+          a: 'Zwaar is het, echt veel te zwaar om te tillen. Zelfs Brom zou dat niet willen!',
+          a2: 'Licht? Nee hoor, het is zwaar als een olifant. Dat tilt niemand op, met geen enkele hand!' },
         { id: 'zitten', keys: ['erop zitten', 'bovenop', 'erop', 'klimmen', 'erop klimmen', 'staan'],
           a: 'Erop zitten? Ja, dat kan heel fijn. Net een stoel in de zonneschijn!',
-          a2: 'Klimmen mag, maar doe het stil. Het wiebelt geen beetje, het blijft heel stil!' },
+          a2: 'Klimmen mag, heel voorzichtig, stap voor stap. Het wiebelt niet, het ligt muurvast, knap!' },
         { id: 'dier', keys: ['dier', 'dieren', 'beest', 'beestje', 'krab', 'krabbetje', 'vis', 'vogel', 'meeuw', 'schildpad', 'muis', 'leeft het', 'levend'],
           a: 'Een dier? Nee, het leeft niet, het ligt maar stil. Wel woont er een krabbetje onder, als hij wil!',
           a2: 'Het zwemt niet, het vliegt niet, het kruipt niet weg. Het ligt daar al jaren, op dezelfde plek!' },
@@ -281,7 +283,8 @@ export default {
           a2: 'Dat verklap ik niet, ik ben een piraat! Vraag hoeveel stappen, dan kom je er, kameraad!' }
       ],
       // Alleen echte woorden die spraakherkenning geeft.
-      secretKeys: ['rots', 'rotsen', 'rotsje', 'rotsblok', 'steen', 'stenen', 'steentje', 'kei', 'keien'],
+      // Geen losse 'kei': "kei leuk" is geen gok.
+      secretKeys: ['rots', 'rotsen', 'rotsje', 'rotsblok', 'steen', 'stenen', 'steentje', 'grote kei'],
       win: 'Ja, ja, ja, bij de grote rots, hoera! Jij bent een echte speurder, ik vlieg er al na!',
       wrongGuess: 'Nee, daar ligt hij niet, maar goed geprobeerd! Stel nog een vraag, dan kom je er, gegarandeerd!',
       wrongGuess2: 'Hmm, nee, daar is het niet, hoor. Vraag nog iets, dan kom je er, ga maar door!',
@@ -293,7 +296,7 @@ export default {
       hints: [
         'Begin bij de palmboom en ga naar rechts. Dan drie grote stappen, en kijk goed om je heen, echt!',
         'Het is grijs en hard, en het ligt daar al lang. Je kunt erop zitten, de hele dag lang!',
-        'Het is groot en grijs, zo zwaar als een huis. Een krabbetje woont eronder, dat is zijn thuis!'
+        'Het is groot en grijs, en keihard, echt waar. Een krabbetje woont eronder, lekker koel daar!'
       ]
     },
 
@@ -301,7 +304,7 @@ export default {
     { t: 'say', who: 'verteller', text: '{HELD} loopt drie grote stappen naar rechts. Daar ligt de grote grijze rots!', sfx: 'goed' },
     { t: 'say', who: 'florine', text: 'Ik graaf! Nu zit er zand in mijn laarsjes, hihi!', mood: 'lacht', sfx: 'whoosh' },
     { t: 'say', who: 'verteller', text: 'Tok, daar zit een houten kist! Er zit een slotje op, met een ster.', sfx: 'pop' },
-    { t: 'scene', bg: 'strand', chars: ['held', 'florine', 'kist'] },
+    { t: 'scene', bg: 'strand', chars: ['held', 'florine', 'kwebbel', 'kist'] },
     { t: 'say', who: 'held', text: 'Een ster! Net als op mijn gouden sleuteltje van Kwebbel.', mood: 'verbaasd' },
     {
       t: 'choice',
@@ -323,9 +326,9 @@ export default {
     // --- Cliffhanger ---
     { t: 'say', who: 'florine', text: 'Ik help! Ik druk op de knop!', mood: 'lacht', sfx: 'tap' },
     { t: 'say', who: 'verteller', text: 'Klik! Hoog in de lucht klinkt een zacht gezoem.', sfx: 'piep' },
-    { t: 'say', who: 'brom', text: 'Hmmm, daar komt iets aan met lichtjes. Heel snel en heel zacht!', mood: 'verbaasd' },
+    { t: 'say', who: 'kwebbel', text: 'Daar komt iets aan met lichtjes, zoem zoem! Heel zacht, zonder boem!', mood: 'verbaasd' },
     { t: 'scene', bg: 'strand', chars: ['held', 'florine', 'raket'] },
     { t: 'say', who: 'verteller', text: 'Whoooosh! Iets zakt heel zacht naar beneden, op het strand.', sfx: 'whoosh' },
-    { t: 'cliff', text: 'Op het strand staat opeens een echte raket! Het deurtje gaat langzaam open… Wordt vervolgd…' }
+    { t: 'cliff', chars: ['held', 'florine', 'raket'], text: 'Op het strand staat opeens een echte raket! Het deurtje gaat langzaam open… Wordt vervolgd…' }
   ]
 };

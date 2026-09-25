@@ -182,8 +182,17 @@ function lexicon(list) {
   return (tokens, norm) => tokens.some((t) => raw.has(t.raw) || (stems.has(t.stem) && !INNOCENT.has(t.raw))) || hasPhrase(norm, phrases);
 }
 // Onschuldige woorden die door het inkorten toevallig op een lijstwoord lijken ("bomen" -> "bom").
-const INNOCENT = new Set(['bomen', 'bommel', 'bommels']);
-const isUnsafe = lexicon(UNSAFE);
+const INNOCENT = new Set(['bomen', 'bommel', 'bommels', 'bommetje', 'bommetjes', 'rokje', 'rokjes']);
+// 'schieten' is gewoon in een raket- of balspel ("schiet de raket omhoog", "op doel schieten").
+const SHOOT = new Set(['schiet', 'schieten', 'schoot']);
+const SHOOT_OK = new Set(['raket', 'raketten', 'ruimte', 'ruimteschip', 'omhoog', 'lucht', 'maan', 'ster', 'sterren', 'planeet',
+  'vuurwerk', 'doel', 'goal', 'bal', 'penalty', 'voetbal', 'weg', 'snel']);
+const isUnsafeWord = lexicon(UNSAFE);
+const isUnsafe = (tokens, norm) => {
+  const ctxOk = tokens.some((t) => SHOOT_OK.has(t.raw));
+  const toks = ctxOk ? tokens.filter((t) => !SHOOT.has(t.raw)) : tokens;
+  return isUnsafeWord(toks, norm);
+};
 const isSilly = lexicon(SILLY);
 const isRude = lexicon(RUDE);
 const isScary = lexicon(SCARY);
@@ -311,7 +320,7 @@ function withHint(step, st, base) {
 
 // Het geheim: exact/stam, of 1 fout alleen bij de ECHTE key (niet bij schrijf-varianten) en alleen
 // als het woord geen bekend ander woord is ("sluiten" mag nooit "sleutel" winnen).
-const NOT_SECRET = new Set(['sluiten', 'sluit', 'sluitje', 'slepen', 'sleutelen', 'steunen', 'sleuf']);
+const NOT_SECRET = new Set(['sluiten', 'sluit', 'sluitje', 'slepen', 'sleutelen', 'steunen', 'sleuf', 'stelen', 'steden', 'steeg']);
 function secretMatch(tokens, keys) {
   const toks = tokens.filter((t) => !NOT_SECRET.has(t.raw));
   return bestKeyScore(toks, keys) > 0;
@@ -323,8 +332,8 @@ export function answer(talkStep, question, state = {}) {
   const step = talkStep || {};
   const st = state || {};
   const original = String(question ?? '').slice(0, 300);
-  const norm = normalize(original);
-  const tokens = tokenize(original);
+  const norm = normalize(original).replace(/\bdood eng\b/g, 'doodeng');
+  const tokens = tokenize(norm);
   const out = (reply, matched = null, solvedGuess = false, kind = 'intent') => ({ reply, matched, solvedGuess, kind });
 
   if (!tokens.length) return out(EMPTY_REPLY, null, false, 'empty');
@@ -365,6 +374,9 @@ export function answer(talkStep, question, state = {}) {
     const s = bestKeyScore(tokens, it.keys);
     if (s > bestScore) { best = it; bestScore = s; }
   }
+  // Alleen een fuzzy treffer (score 1) terwijl er een giechelwoord in zit? Dan is het een grapje:
+  // "blote billen" mag nooit als "tillen" gelezen worden.
+  if (best && bestScore < 2 && isSilly(tokens, norm)) best = null;
   if (best) {
     st.misses = 0;
     // Eigen teller (`_seen`): de frontend gebruikt `state.asked` zelf als getal.

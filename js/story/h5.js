@@ -8,8 +8,8 @@ export default {
   steps: [
     // --- Zachte landing op de raceplaneet ---
     { t: 'scene', bg: 'planeet', chars: ['held', 'florine', 'piep', 'raket'] },
-    { t: 'say', who: 'verteller', text: 'Poef! De raket landt zacht in een berg paars zand.', sfx: 'whoosh' },
-    { t: 'say', who: 'florine', text: 'Nog een keer! Nog een keer!', mood: 'lacht' },
+    { t: 'say', who: 'verteller', text: 'De raket staat veilig in een berg paars zand. Toet toet, er zoeft een kart voorbij!', sfx: 'whoosh' },
+    { t: 'say', who: 'florine', text: 'Dat stuiteren was leuk! Konijn wil nog een keer.', mood: 'lacht' },
     { t: 'say', who: 'piep', text: 'Bliep! Landing geslaagd, op een planeet vol racebanen.', mood: 'blij', sfx: 'piep' },
     { t: 'say', who: 'held', text: 'Racebanen? Kom op, dat wil ik zien!', mood: 'blij' },
 
@@ -76,7 +76,7 @@ export default {
     { t: 'say', who: 'verteller', text: 'De gemaskerde racer zakt diep weg in zijn kart. Oeps, hoor je heel zacht.' },
 
     // --- De race, deel 1 ---
-    { t: 'say', who: 'piep', text: 'Bliep! Drie, twee, één… Race!', mood: 'blij', sfx: 'piep' },
+    { t: 'say', who: 'piep', text: 'Bliep! Drie, twee, één, race!', mood: 'blij', sfx: 'piep' },
     {
       t: 'game', game: 'race', skill: 'rekenen',
       intro: 'Elke goede som geeft gas! Reken snel, dan rijdt jouw kart vooruit.',
@@ -121,12 +121,12 @@ export default {
     },
     { t: 'say', who: 'kwebbel', text: 'Hoera, hoera, wat een race, wat een vaart! Jij bent de winnaar, dat is klaar!', mood: 'lacht', sfx: 'fanfare' },
     { t: 'say', who: 'held', text: 'Mijn wens: ik wil het Sterrenkompas terug!', mood: 'blij' },
-    { t: 'say', who: 'verteller', text: 'Hoepla! De gemaskerde racer pakt het kompas van de toren, stopt het in een bal en rent weg.', sfx: 'whoosh' },
+    { t: 'say', who: 'verteller', text: 'Hoepla, de gemaskerde racer stopt het kompas in een bal. En weg rent hij!', sfx: 'whoosh' },
 
     // --- Rugby-finale ---
-    { t: 'scene', bg: 'kartbaan', chars: ['held', 'florine', 'brom', 'racer'] },
-    { t: 'say', who: 'brom', text: 'Hmmmm… Ik kwam kijken naar de race. Maar dit is een rugbybal!', mood: 'verbaasd', sfx: 'dreun' },
-    { t: 'say', who: 'held', text: 'Kom op, Brom, we spelen rugby om de kompasbal. Heel vriendelijk, zonder duwen!', mood: 'blij' },
+    { t: 'scene', bg: 'kartbaan', chars: ['held', 'florine', 'piep', 'racer'] },
+    { t: 'say', who: 'piep', text: 'Bliep! Dat is geen gewone bal, dat is een rugbybal!', mood: 'verbaasd', sfx: 'piep' },
+    { t: 'say', who: 'held', text: 'Kom op, Piep, we spelen rugby om de kompasbal. Heel vriendelijk, zonder duwen!', mood: 'blij' },
     { t: 'say', who: 'verteller', text: 'De gemaskerde racer gooit de bal per ongeluk hoog in de lucht. Nu is het team {HELD} aan de beurt!' },
     {
       t: 'game', game: 'memory', skill: 'geheugen',
@@ -136,7 +136,7 @@ export default {
       params: {
         1: { length: 3, items: ['🧒', '👧', '🦜'] },
         2: { length: 4, items: ['🧒', '👧', '🦜', '🤖'] },
-        3: { length: 5, items: ['🧒', '👧', '🦜', '🤖', '👟'] }
+        3: { length: 5, items: ['🧒', '👧', '🦜', '🤖', '🐰'] }
       }
     },
     { t: 'say', who: 'verteller', text: '{HELD} duikt met de bal over de lijn. Try, een punt voor het team!', sfx: 'goed' },
@@ -152,7 +152,7 @@ export default {
         3: { a: 12, b: 7, op: '+', item: '🏉' }
       }
     },
-    { t: 'say', who: 'brom', text: 'Hmmmm… Wat een mooie wedstrijd. En niemand is omgevallen.', mood: 'lacht' },
+    { t: 'say', who: 'piep', text: 'Bliep! Wat een mooie wedstrijd, en niemand is omgevallen.', mood: 'lacht' },
     { t: 'say', who: 'verteller', text: 'De gemaskerde racer gaat op het gras zitten. Hij houdt de bal stevig vast.' },
     { t: 'say', who: 'held', text: 'Wie ben jij eigenlijk? Heb jij het kompas?', mood: 'denkt' },
 
@@ -160,7 +160,7 @@ export default {
     { t: 'scene', bg: 'kartbaan', chars: ['held', 'florine', 'racer'] },
     {
       t: 'talk', puzzle: 'h5-ontmaskeren', who: 'rommel', char: 'racer', label: 'Gemaskerde racer',
-      intro: 'Ik? Ik weet van niks, hoor. Ik ben gewoon een racer met een helm. Vraag maar wat je wilt… oeps.',
+      intro: 'Ik weet van niks, hoor, ik ben gewoon een racer. Vraag maar wat je wilt… oeps.',
       ask: 'Wie is de gemaskerde racer echt?',
       minQuestions: 2,
       answers: [
@@ -171,17 +171,17 @@ export default {
       ],
       // Tikvragen als spraak niet kan: elke vraag laat de racer iets meer toegeven.
       fallbackQs: [
-        { q: 'Heb jij kleine handjes?', a: 'Eh… ja, kleine handjes met vingertjes. Maar dat zegt toch niks? Oeps.' },
-        { q: 'Is die staart met strepen van jou?', a: 'Die staart? Eh… die is nep! Nou ja… hij wiebelt wel als ik blij ben.' },
+        { q: 'Heb jij kleine handjes?', a: 'Eh, ja, kleine handjes met vingertjes. Maar dat zegt toch niks, oeps?' },
+        { q: 'Is die staart met strepen van jou?', a: 'Die staart is nep, hoor! Nou ja, hij wiebelt wel als ik blij ben.' },
         { q: 'Waarom liggen er snoeppapiertjes?', a: 'Snoeppapiertjes? Die vallen er soms uit. Ik snoep een beetje veel, oeps.' },
         { q: 'Deed jij belletje lellen bij de hut?', a: 'Tring… ik wilde alleen even hallo zeggen. En toen durfde ik niet meer.' },
         { q: 'Waarom heb jij het kompas?', a: 'Als ik het had… dan was dat omdat ik zelf de weg naar huis kwijt ben.' },
-        { q: 'Mag je masker af?', a: 'Mijn masker gaat niet af, dat is mijn gezicht! Oeps, dat zei ik niet.' }
+        { q: 'Mag je masker af?', a: 'Mijn maskertje gaat niet af, dat is mijn gezicht! Oeps, dat zei ik niet.' }
       ],
       intents: [
         { id: 'hint', hint: true,
-          keys: ['hint', 'help', 'helpen', 'ik weet het niet', 'weet niet', 'geen idee', 'moeilijk', 'tip', 'zeg het maar', 'zeg het',
-            'vertel het', 'verklap', 'verklappen', 'snap het niet', 'snap niet', 'ik geef het op', 'geef het op'],
+          keys: ['hint', 'help', 'helpen', 'ik weet het niet', 'weet niet', 'geen idee', 'weet ik nie', 'weet nie', 'moeilijk', 'tip', 'zeg het maar', 'zeg het',
+            'vertel het', 'verklap', 'verklappen', 'snap het niet', 'snap niet', 'wat is het nou', 'ik geef het op', 'geef het op'],
           a: 'Een tip? Oeps… goed dan, eentje.', a2: 'Nog een tip? Pfff, jij bent een echte speurneus.' },
         { id: 'groet', keys: ['hallo', 'hoi', 'hey', 'goedemorgen', 'goedemiddag', 'hoe gaat het'],
           a: 'Eh… hoi. Ik zeg niet zoveel, ik ben een beetje verlegen.', a2: 'Hoi nog een keer. Vraag maar iets, oeps.' },
@@ -190,14 +190,14 @@ export default {
         { id: 'grap', keys: ['grapje', 'mop', 'haha', 'hihi', 'lol', 'gek'],
           a: 'Hihi… ik moet lachen, maar ik mag niks verklappen. Oeps.', a2: 'Haha. Vraag nou maar iets over de sporen.' },
         { id: 'wie', keys: ['wie ben jij', 'wie ben je', 'hoe heet jij', 'hoe heet je', 'jouw naam', 'wat ben jij', 'wat voor dier', 'welk dier', 'ben jij een dier', 'dier'],
-          a: 'Wie ik ben? Gewoon… een racer. Een racer met een staart. Oeps.', a2: 'Ik ben een dier uit het bos, meer zeg ik niet. Nou ja, bijna niet.' },
+          a: 'Wie ik ben? Gewoon een racer, met een staart. Oeps.', a2: 'Ik ben een dier uit het bos, meer zeg ik niet. Nou ja, bijna niet.' },
         { id: 'handjes', keys: ['handjes', 'handen', 'hand', 'pootjes', 'poten', 'poot', 'vingertjes', 'vingers', 'voetafdruk', 'voetafdrukken',
             'afdruk', 'afdrukken', 'voetjes', 'voeten', 'sporen', 'spoor', 'handschoenen'],
-          a: 'Mijn handjes? Eh… ja, ze hebben kleine vingertjes. Net als die afdrukken in het zand. Oeps.', a2: 'Oké, oké. Die afdrukjes bij de hut waren van mij. Maar verder weet ik van niks!' },
+          a: 'Mijn handjes? Eh, ja, ze hebben kleine vingertjes, net als die afdrukken. Oeps.', a2: 'Oké, oké. Die afdrukjes bij de hut waren van mij. Maar verder weet ik van niks!' },
         { id: 'staart', keys: ['staart', 'strepen', 'streep', 'gestreept', 'gestreepte', 'streepjes', 'gestreepte staart', 'zwart en grijs', 'ringen'],
-          a: 'Die staart? Die is van plastic! Eh… nee, hij is echt. Hij wiebelt als ik zenuwachtig ben.', a2: 'Ja, die staart met strepen was in de struiken bij de hut. Dat was ik. Oeps.' },
+          a: 'Die staart is van plastic! Eh, nee, hij is echt, hij wiebelt als ik zenuwachtig ben.', a2: 'Ja, die staart met strepen was in de struiken bij de hut. Dat was ik. Oeps.' },
         { id: 'snoep', keys: ['snoep', 'snoepjes', 'snoepje', 'snoeppapier', 'snoeppapiertjes', 'papiertjes', 'papier', 'lolly', 'drop', 'snoepen'],
-          a: 'Snoeppapiertjes? Die vallen er soms uit mijn kart. Kijk, daar valt er weer een. Oeps.', a2: 'Ik snoep heel graag. Het spijt me van al die papiertjes.' },
+          a: 'Snoeppapiertjes? Die vallen soms uit mijn kart. Oeps, daar valt er weer een.', a2: 'Ik snoep heel graag. Het spijt me van al die papiertjes.' },
         { id: 'picknick', keys: ['picknick', 'broodjes', 'taart', 'eten van brom', 'geplunderd', 'mand', 'boterham', 'eten', 'honger'],
           a: 'De picknick van Brom? Eh… die rook zo lekker. Ik heb maar een heel klein hapje genomen.', a2: 'Nou ja… een groot hapje. Sorry, Brom. Ik had zo’n honger.' },
         { id: 'bel', keys: ['bel', 'belletje', 'belletje lellen', 'belletje trekken', 'aanbellen', 'aangebeld', 'gebeld', 'lellen', 'tring', 'deurbel'],
@@ -207,9 +207,9 @@ export default {
         { id: 'waarom', keys: ['waarom', 'hoezo', 'waarvoor', 'waarom deed je', 'waarom pakte'],
           a: 'Waarom? Stel dat ik iets heb gepakt… dan was dat omdat ik zelf de weg kwijt ben.', a2: 'Ik ben al heel lang verdwaald. Het kompas wijst de weg naar huis, snap je?' },
         { id: 'kompas', keys: ['kompas', 'sterrenkompas', 'toren', 'bal', 'rugbybal', 'kompasbal', 'geef terug', 'teruggeven', 'terug'],
-          a: 'Het kompas? Welk kompas? Eh… deze bal is gewoon een bal. Oeps, hij tikt als een klokje.', a2: 'Oké, het kompas zit in de bal. Maar ik wilde het alleen even lenen.' },
+          a: 'Welk kompas? Deze bal is gewoon een bal. Oeps, hij tikt als een klokje.', a2: 'Oké, het kompas zit in de bal. Maar ik wilde het alleen even lenen.' },
         { id: 'masker', keys: ['masker', 'maskertje', 'zwart masker', 'ogen', 'gezicht', 'bril', 'helm', 'helm af', 'afzetten', 'zet af', 'doe af', 'verstoppen', 'verkleed'],
-          a: 'Mijn helm blijft op! En mijn masker gaat niet af. Dat is namelijk… mijn gezicht. Oeps.', a2: 'Onder mijn helm zitten twee ronde oren. Meer zeg ik niet!' },
+          a: 'Mijn helm blijft op! En mijn maskertje gaat niet af, dat is mijn gezicht… oeps.', a2: 'Onder mijn helm zitten twee ronde oren. Meer zeg ik niet!' },
         { id: 'thuis', keys: ['thuis', 'huis', 'naar huis', 'waar woon je', 'waar woon jij', 'waar kom je vandaan', 'verdwaald', 'kwijt', 'de weg', 'weg kwijt', 'familie', 'mama', 'papa'],
           a: 'Mijn huis staat in een holle boom, heel ver weg. Ik weet de weg niet meer.', a2: 'Ik ben verdwaald, al heel lang. Ik mis mijn holle boom.' },
         { id: 'eenzaam', keys: ['eenzaam', 'alleen', 'vriend', 'vrienden', 'vriendje', 'verdrietig', 'huilen', 'zielig', 'spelen', 'samen', 'blij'],
@@ -223,23 +223,25 @@ export default {
         { id: 'florine', keys: ['florine', 'flo', 'zusje', 'konijn', 'knuffel'],
           a: 'Dat kleine meisje dacht dat ik een zebra was. Hihi, dat vond ik stiekem leuk.', a2: 'Haar knuffel Konijn heb ik niet gepakt, echt niet!' },
         { id: 'brom', keys: ['brom', 'reus', 'sok', 'sokken', 'schoen', 'muis', 'muizen'],
-          a: 'Die grote reus? Hij is heel lief. Zijn sok raakte kwijt omdat het kompas weg was. Oeps.', a2: 'Ik was een beetje bang voor Brom. Maar hij is bang voor muizen, dus we zijn quitte.' },
+          a: 'Die grote reus is heel lief. Zijn sok raakte kwijt omdat het kompas weg was, oeps.', a2: 'Ik was een beetje bang voor Brom. Maar hij is bang voor muizen, dus we zijn quitte.' },
         { id: 'kwebbel', keys: ['kwebbel', 'papegaai', 'kaart', 'toverkaart', 'rijm', 'rijmen'],
           a: 'Die papegaai rijmt de hele dag. Hij zag mij vast al in het bos.', a2: 'Die kaart had een leeg gat. Daar hoort het kompas, dat weet ik wel.' },
         { id: 'piep', keys: ['piep', 'robot', 'raket', 'ruimte', 'ruimteschip', 'planeet', 'vliegen', 'bliep'],
           a: 'Die robot zegt steeds bliep. Ik kwam hier met een ruimte-kart, heel hoog door de lucht.', a2: 'Ik dacht: op deze planeet vind ik de weg wel. Maar nee hoor.' },
         { id: 'boot', keys: ['boot', 'bootje', 'water', 'ven', 'zee', 'piraat', 'schatkist', 'kist', 'sleutel', 'sleuteltje'],
-          a: 'Het bootje op het ven? Dat dreef weg omdat alles de weg kwijt raakte. Ik was het echt niet!', a2: 'Toen het kompas weg was, raakte alles zoek. Ook bootjes. Dat spijt me.' },
+          a: 'Het bootje op de rivier? Dat dreef weg omdat alles de weg kwijt raakte. Ik was het echt niet!', a2: 'Toen het kompas weg was, raakte alles zoek. Ook bootjes. Dat spijt me.' },
         { id: 'kleur', keys: ['kleur', 'welke kleur', 'grijs', 'zwart', 'wit', 'bruin'],
           a: 'Ik ben grijs, met een zwart maskertje. Heel deftig, toch?', a2: 'Grijs met zwart. Net als die strepen op mijn staart. Oeps.' },
+        { id: 'beer', keys: ['beer', 'beertje', 'beren', 'ijsbeer', 'panda', 'teddybeer'],
+          a: 'Een beer? Bijna! Ik ben een kleine beer die zijn eten wast.', a2: 'Warm, heel warm! Wat voor beer wast zijn snoepje in het water?' },
         { id: 'bang', keys: ['bang', 'schrik', 'spannend', 'zenuwachtig', 'trillen'],
           a: 'Ik ben een beetje zenuwachtig. Mijn staart trilt ervan.', a2: 'Als jij lief bent, ben ik niet meer bang.' }
       ],
       // Het kind wint als het de wasbeer noemt of hem eerlijk aanwijst als de kompas-pakker.
-      secretKeys: ['wasbeer', 'wasberen', 'wasbeertje', 'rommel',
+      // Geen 'rommel' (gewoon woord: "wat een rommel") en geen 'kompas gepakt' (staat ook in "wie heeft het kompas gepakt?").
+      secretKeys: ['wasbeer', 'wasberen', 'wasbeertje', 'was beer', 'was beertje',
         'jij hebt het kompas', 'jij hebt het gepakt', 'jij hebt het gedaan', 'heb jij het gedaan', 'jij was het', 'was jij het',
-        'jij deed het', 'jij bent het', 'jij bent de dader', 'ben jij de dader', 'jij bent de dief', 'ben jij de dief',
-        'kompas gepakt', 'kompas gepikt', 'kompas meegenomen', 'kompas gestolen', 'kompas geleend', 'kompas weggenomen', 'kompas weggehaald'],
+        'jij deed het', 'jij bent het', 'jij bent de dader', 'ben jij de dader', 'jij bent de dief', 'ben jij de dief'],
       win: 'Oeps… ja. Jij hebt het goed, ik ben een wasbeer. En ik heb het kompas meegenomen.',
       wrongGuess: 'Nee, dat ben ik niet. Maar goed geprobeerd! Kijk nog eens naar de sporen.',
       wrongGuess2: 'Hihi, nee hoor. Vraag nog iets over mijn staart of mijn handjes.',
@@ -247,7 +249,7 @@ export default {
         zebra: ['zebra', 'zebras', 'zebraatje'],
         vos: ['vos', 'vosje', 'vossen'],
         eekhoorn: ['eekhoorn', 'eekhoorntje', 'eekhoorns'],
-        anders: ['kat', 'poes', 'hond', 'aap', 'aapje', 'tijger', 'muis', 'beer']
+        anders: ['kat', 'poes', 'hond', 'aap', 'aapje', 'tijger', 'muis']
       },
       hints: [
         'Kijk eens naar mijn staart met strepen. En naar mijn zwarte maskertje, oeps.',
@@ -276,16 +278,17 @@ export default {
     { t: 'say', who: 'rommel', text: 'Mij ook? Oh, dank je wel, {HELD}!', mood: 'lacht' },
 
     // --- Het kompas wijst de weg ---
-    { t: 'scene', bg: 'kartbaan', chars: ['held', 'rommel', 'kompas'] },
+    { t: 'scene', bg: 'kartbaan', chars: ['held', 'rommel', 'piep', 'kompas'] },
     { t: 'say', who: 'verteller', text: 'Rommel geeft de bal aan {HELD}. Klik, het Sterrenkompas springt eruit en straalt!', sfx: 'ster' },
     { t: 'say', who: 'verteller', text: 'De naald draait rond. Hij wijst naar een holle boom in Oisterwijk, vlak bij het ven!' },
     { t: 'say', who: 'rommel', text: 'Mijn holle boom! Dan wonen we vlak bij elkaar!', mood: 'lacht' },
-    { t: 'say', who: 'piep', text: 'Bliep! Iedereen de raket in, ook Brom. Hij past er net in!', mood: 'blij', sfx: 'piep' },
-    { t: 'say', who: 'brom', text: 'Hmmmm… Mijn knieën zitten bij mijn oren. Maar het is gezellig.', mood: 'lacht' },
+    { t: 'say', who: 'piep', text: 'Bliep! Iedereen de raket in, ook Rommel.', mood: 'blij', sfx: 'piep' },
+    { t: 'say', who: 'rommel', text: 'Dank je wel, bliep! Oeps, nu zeg ik ook al bliep.', mood: 'lacht' },
 
     // --- Terug naar Oisterwijk ---
-    { t: 'scene', bg: 'ven', chars: ['held', 'florine', 'rommel', 'raket'] },
+    { t: 'scene', bg: 'ven', chars: ['held', 'florine', 'brom', 'raket'] },
     { t: 'say', who: 'verteller', text: 'Zoef, de raket landt zacht naast het ven. Weer thuis in Oisterwijk!', sfx: 'whoosh' },
+    { t: 'say', who: 'brom', text: 'Hmmm, daar zijn jullie! Ik ben van het strand helemaal naar huis gelopen.', mood: 'blij', sfx: 'dreun' },
     { t: 'say', who: 'verteller', text: 'Overal komen verdwaalde dingen terug. Sokken, eendjes en zelfs een kikker met een hoedje.' },
     { t: 'say', who: 'florine', text: 'Konijn is er ook nog! Hij was nooit weg, hij zat in mijn jas.', mood: 'lacht' },
 
@@ -326,9 +329,9 @@ export default {
       }
     },
     { t: 'scene', bg: 'feest', chars: ['held', 'brom', 'piep', 'rommel'] },
-    { t: 'say', who: 'brom', text: 'Hmmmm… Taart, en mijn sok is terug. Beste dag ooit!', mood: 'lacht' },
-    { t: 'say', who: 'piep', text: 'Bliep! Mijn feesthoedje is… o wacht, een sok.', mood: 'lacht' },
-    { t: 'say', who: 'rommel', text: 'Ik heb nog nooit zoveel vrienden gehad. Geen belletje lellen meer, beloofd… nou ja, bijna nooit.', mood: 'lacht', sfx: 'bel' },
+    { t: 'say', who: 'brom', text: 'Hmmm, taart! En al mijn spullen zijn weer terug.', mood: 'lacht' },
+    { t: 'say', who: 'piep', text: 'Bliep! Kijk, mijn feesthoedje, o wacht, dat is een sok.', mood: 'lacht' },
+    { t: 'say', who: 'rommel', text: 'Ik heb nog nooit zoveel vrienden gehad. Geen belletje lellen meer, nou ja, bijna nooit!', mood: 'lacht', sfx: 'bel' },
 
     // --- Terug in de hut ---
     { t: 'scene', bg: 'hut', chars: ['held', 'florine', 'kompas'] },

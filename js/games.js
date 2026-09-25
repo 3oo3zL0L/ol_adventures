@@ -343,7 +343,8 @@ export async function pick(params, ctx) {
   const opts = shuffle(options);
   return new Promise((resolve) => {
     for (const o of opts) {
-      const b = h('button', { class: 'tile' }, o.pic, o.label ? h('span', { class: 'lbl' }, o.label) : null);
+      const n = [...new Intl.Segmenter('nl', { granularity: 'grapheme' }).segment(o.pic || '')].length;
+      const b = h('button', { class: `tile ${n >= 3 ? 'multi3' : n === 2 ? 'multi2' : ''}` }, o.pic, o.label ? h('span', { class: 'lbl' }, o.label) : null);
       tapper(b, async () => {
         if (o.correct) {
           b.classList.add('good'); ctx.sfx.play('goed'); [...row.children].forEach((x) => (x.disabled = true));
