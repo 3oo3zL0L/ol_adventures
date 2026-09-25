@@ -206,7 +206,7 @@ export const SILLY_REPLIES = [
   'Pfff, daar moet ik om lachen! Welke vraag heb je nog meer?',
 ];
 export const TOILET_BREAK_REPLIES = [
-  'Ga maar gauw! Ik wacht hier op je, ik vlieg niet weg.',
+  'Ga maar gauw! Ik wacht hier gewoon op je.',
 ];
 export const RUDE_REPLIES = [
   'Oei, dat vind ik niet zo lief. Misschien is het een beetje moeilijk?',
@@ -214,7 +214,7 @@ export const RUDE_REPLIES = [
 ];
 export const SCARY_REPLIES = [
   'Nee hoor, hier is niks engs! Stel maar een vraag, ik zit klaar.',
-  'Eng? Welnee, ik ben een vrolijke papegaai! Vraag nog maar iets.',
+  'Eng? Welnee, hier is alles vrolijk! Vraag nog maar iets.',
 ];
 export const REPEAT_PREFIX = ['Die vraag ken ik al!', 'Nog een keer? Goed hoor!', 'Dat vroeg je net ook al!'];
 export const FALLBACKS = [

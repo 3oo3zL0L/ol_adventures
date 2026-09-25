@@ -397,4 +397,38 @@ export async function jump(params, ctx) {
   });
 }
 
-export const GAMES = { count, sum, memory, word, pick, jump };
+// ---------- kartrace: elke goede som geeft gas ----------
+export async function race(params, ctx) {
+  const rounds = params.rounds?.length ? params.rounds : [{ a: 2, b: 1, op: '+' }];
+  const p = panel(ctx, '');
+  const title = p.querySelector('h2') || h('h2');
+  if (!title.parentNode) p.prepend(title);
+  const track = h('div', { class: 'jumpworld', style: 'height:24vh' });
+  const finish = h('div', { style: 'position:absolute;right:2%;top:0;bottom:0;width:3%;background:repeating-linear-gradient(0deg,#3b2a1a 0 2vmin,#fff 2vmin 4vmin)' });
+  const me = h('div', { class: 'hero', style: 'left:0%;bottom:52%;transform:scaleX(-1)' }, params.item || '🏎️');
+  const rival = h('div', { class: 'hero', style: 'left:0%;bottom:6%;transform:scaleX(-1)' }, params.rival || '🚙');
+  track.append(finish, me, rival);
+  p.append(track);
+  const qbox = h('div', { class: 'row' });
+  p.append(qbox);
+  let mistakes = 0, myPos = 0, rivalPos = 0;
+  const step = 84 / rounds.length;
+  for (const [i, r] of rounds.entries()) {
+    const ans = r.op === '-' ? r.a - r.b : r.a + r.b;
+    title.textContent = r.op === '-' ? `${r.a} − ${r.b} = ?` : `${r.a} + ${r.b} = ?`;
+    p.dataset.answer = ans;
+    qbox.replaceChildren();
+    ctx.speak(`${NUM_WORDS[r.a]} ${r.op === '-' ? 'min' : 'plus'} ${NUM_WORDS[r.b]}.`, 'verteller');
+    const res = await chooseNumber(ctx, qbox, ans, { hintText: r.op === '-' ? 'Bijna! Tel terug met je vingers.' : 'Bijna! Tel verder vanaf het grootste getal.' });
+    mistakes += res.mistakes;
+    ctx.sfx.play('whoosh');
+    myPos += step; rivalPos += step * (i === rounds.length - 1 ? 0.8 : 0.85);
+    me.style.left = `${myPos}%`; rival.style.left = `${rivalPos}%`;
+    await wait(700);
+    qbox.replaceChildren();
+  }
+  ctx.sfx.play('fanfare');
+  return { mistakes };
+}
+
+export const GAMES = { count, sum, memory, word, pick, jump, race };

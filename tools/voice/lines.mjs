@@ -34,6 +34,7 @@ const STATIC = [
   'Ik mag de microfoon nog niet gebruiken. Vraag papa of mama even om hulp. Je kunt ook op de knoppen tikken!',
   'Ik hoorde je niet goed. Hou de knop ingedrukt terwijl je praat, en laat dan los.', 'Goed geraden!',
   'Hmm, goeie vraag! Wat denk jij zelf?', 'Nee, dat is het niet. Stel nog een vraag!',
+  'Bijna! Tel terug met je vingers.', 'Bijna! Tel verder vanaf het grootste getal.',
 ];
 STATIC.forEach((t) => add(V, t));
 for (const w of Object.values(ARROW_WORDS)) add(V, w);
@@ -73,6 +74,7 @@ for (let n = 1; n <= 5; n++) {
       case 'game': {
         add(V, s.intro); add(V, s.success); add(V, s.hint);
         for (const p of Object.values(s.params || {})) {
+          if (s.game === 'race') for (const r of p.rounds || []) add(V, `${NUM_WORDS[r.a]} ${r.op === '-' ? 'min' : 'plus'} ${NUM_WORDS[r.b]}.`);
           if (s.game === 'sum') add(V, `${NUM_WORDS[p.a]} ${p.op === '-' ? 'min' : 'plus'} ${NUM_WORDS[p.b]}.`);
           if (s.game === 'pick') { add(V, p.q); (p.options || []).forEach((o) => add(V, o.say)); }
           if (s.game === 'word') wordLines(p);

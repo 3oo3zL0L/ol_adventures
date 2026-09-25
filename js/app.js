@@ -49,7 +49,7 @@ async function setBg(id) {
 
 // Personages: posities afhankelijk van het aantal op het scherm.
 const SLOTS = { 1: [14], 2: [8, 66], 3: [4, 36, 68], 4: [2, 26, 50, 74] };
-const SIZE = { brom: 'big', schoen: 'huge' };
+const SIZE = { brom: 'big', schoen: 'huge', raket: 'big', boot: 'big' };
 let onStage = [];
 function setChars(ids = []) {
   const pos = SLOTS[Math.min(ids.length, 4)] || [];
@@ -225,6 +225,7 @@ function parentMenu() {
   const testVoice = h('button', { class: 'btn white' }, '🔊 Test stem');
   const unlock = h('button', { class: 'btn white' }, '⏱️ Nieuwe speeltijd starten');
   const reset = h('button', { class: 'btn berry' }, 'Voortgang wissen');
+  const wipe = h('button', { class: 'btn berry' }, '🔄 Alles opnieuw (nieuwe naam)');
   const close = h('button', { class: 'btn white' }, 'Sluiten');
   const info = h('p', { class: 'muted' },
     `Stem: ingesproken clips (${settings.name === 'Olivier' ? 'met naam' : 'naam via iPad-stem'}), reserve: ${speech.voiceName?.() || 'standaard'} · Microfoon: ${speech.canListen() ? 'beschikbaar' : 'niet beschikbaar hier (gebruik dicteren of knoppen)'} · Gespeeld: ${Math.round(playMs / 60000)} min`);
@@ -239,9 +240,14 @@ function parentMenu() {
     if (!confirm('Alle sterren, stickers en voortgang wissen?')) return;
     progress = structuredClone(DEF_PROGRESS); saveProgress(); overlay.replaceChildren(); showMap();
   });
+  wipe.addEventListener('click', () => {
+    if (!confirm('Alles wissen: naam, PIN, instellingen, sterren en voortgang? Daarna begint het spel helemaal opnieuw.')) return;
+    try { ['sk_settings', 'sk_progress', 'sk_lock', 'sk_time'].forEach((k) => localStorage.removeItem(k)); } catch {}
+    location.reload();
+  });
   close.addEventListener('click', () => overlay.replaceChildren());
   overlay.replaceChildren(h('div', { class: 'card' }, h('h2', {}, '⚙️ Voor ouders'), info, ...f.fields,
-    h('div', { class: 'row' }, save, testVoice, unlock, reset, close)));
+    h('div', { class: 'row' }, save, testVoice, unlock, reset, wipe, close)));
 }
 
 // ---------- speeltijd ----------
@@ -461,13 +467,15 @@ async function runReward(step) {
 }
 
 async function runCliff(step) {
-  sfx.play('dreun'); app.classList.add('shake'); setTimeout(() => app.classList.remove('shake'), 600);
-  if (step.char || step.chars) setChars(step.chars || [...onStage.map((e) => e.dataset.id), step.char]);
+  if (!step.end) { sfx.play('dreun'); app.classList.add('shake'); setTimeout(() => app.classList.remove('shake'), 600); }
+  if (step.end) { /* feestelijk einde: decor blijft */ }
+  else if (step.char || step.chars) setChars(step.chars || [...onStage.map((e) => e.dataset.id), step.char]);
   else if (!onStage.some((e) => e.dataset.id === 'schoen')) setChars([...onStage.map((e) => e.dataset.id).slice(0, 2), 'schoen']);
   await say('verteller', step.text);
-  const c = h('div', { class: 'cliff' }, h('div', { class: 'vervolg' }, 'Wordt vervolgd…'));
+  const c = h('div', { class: 'cliff' }, h('div', { class: 'vervolg' }, step.end ? '🏆 Einde! 🏆' : 'Wordt vervolgd…'));
+  if (step.end) { confetti(); sfx.play('fanfare'); }
   ui.append(c);
-  sfx.play('dreun');
+  if (!step.end) sfx.play('dreun');
   await wait(1200);
   await nextButton();
 }
@@ -497,6 +505,7 @@ async function playChapter(n) {
   currentChapter = n; inPlay = true;
   sfx.music(settings.music);
   renderHud('play'); clearUI();
+  warmChapter(steps);
   let start = progress.resume?.ch === n ? progress.resume.step : 0;
   if (start >= steps.length) start = 0;
   // Herstel het decor van de laatste scene vóór het hervatpunt.
@@ -518,6 +527,20 @@ async function playChapter(n) {
   saveProgress();
   inPlay = false; sfx.music(false);
   showMap();
+}
+
+// Laad alle clips van dit hoofdstuk rustig op de achtergrond (sneller en offline via de service worker).
+function warmChapter(steps) {
+  const items = [];
+  for (const s of steps) {
+    if (s.t === 'say') items.push([s.text, s.who]);
+    if (s.t === 'game') items.push([s.intro, 'verteller'], [s.success, 'verteller']);
+    if (s.t === 'talk') items.push([s.intro, s.who], [s.win, s.who], ...(s.fallbackQs || []).map((q) => [q.a, s.who]));
+    if (s.t === 'reward' || s.t === 'cliff') items.push([s.text, 'verteller']);
+  }
+  let i = 0;
+  const next = () => { if (i >= items.length) return; const [t, w] = items[i++]; if (t) speech.warm?.(fill(t), w); setTimeout(next, 150); };
+  setTimeout(next, 1500);
 }
 
 async function comingSoon(n) {

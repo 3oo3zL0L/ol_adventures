@@ -213,6 +213,14 @@ function playClip(chunk, who, gen) {
   });
 }
 
+/** Haal clips alvast op zonder te decoderen (vult de cache van de service worker). */
+export function warm(text, who = 'verteller') {
+  if (!clipIndex) return;
+  for (const chunk of splitSentences(cleanForSpeech(text))) {
+    if (clipIndex.has(`${who}/${hash(chunk)}`)) fetch(clipPath(chunk, who)).catch(() => {});
+  }
+}
+
 /** Laad alvast de clips voor een tekst (zodat er geen pauze is als hij aan de beurt is). */
 export function prefetch(text, who = 'verteller') {
   if (!actx || !clipIndex) return;
