@@ -32,7 +32,8 @@ const CHAPTERS = [
 const $ = (id) => document.getElementById(id);
 const bgEl = $('bg'), charsEl = $('chars'), ui = $('ui'), hud = $('hud'), overlay = $('overlay'), app = $('app');
 const fill = (t = '') => String(t).replaceAll('{HELD}', settings.name || 'jij');
-const nameOf = (who) => fill(CHAR_NAMES?.[who] ?? who);
+const labelOverride = {};
+const nameOf = (who) => fill(labelOverride[who] ?? CHAR_NAMES?.[who] ?? who);
 const clearUI = () => { ui.replaceChildren(); };
 
 function safe(fn, fallback = '') { try { return fn() ?? fallback; } catch (e) { console.warn(e); return fallback; } }
@@ -331,7 +332,9 @@ async function runTalk(step) {
   const brainState = { asked: 0, misses: 0, used: new Set() };
   const mode = settings.talk === 'auto' ? (speech.canListen() ? 'mic' : 'dictate') : settings.talk;
   const others = onStage.map((el) => el.dataset.id);
-  setChars([who]);
+  if (step.label) labelOverride[who] = step.label;
+  setChars([step.char || who]);
+  if (step.char) onStage[0].dataset.id = who; // praat-animatie volgt de spreker
   if (step.intro) await say(who, step.intro);
 
   const p = h('div', { class: 'panel', style: 'top:auto;bottom:2.5vh;transform:translateX(-50%);left:62%;width:min(68vw,900px)' });
@@ -449,8 +452,9 @@ async function runTalk(step) {
     mode === 'dictate' ? 'Stel je vraag! Tik op het witte vak en praat via het toetsenbord. Of tik op een vraag.' : 'Tik op een vraag!');
 
   await won;
+  delete labelOverride[who];
   p.remove(); clearUI();
-  setChars(others.includes(who) ? others : [...others, who]);
+  setChars(others.includes(who) || step.char ? others : [...others, who]);
 }
 
 async function runReward(step) {

@@ -256,6 +256,16 @@
  },
  {
   "who": "verteller",
+  "text": "Tel terug met je vingers.",
+  "file": "verteller/51c5f1b4.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel verder vanaf het grootste getal.",
+  "file": "verteller/110f95ff.mp3"
+ },
+ {
+  "who": "verteller",
   "text": "links",
   "file": "verteller/e9ca9aee.mp3"
  },
@@ -2893,5 +2903,5535 @@
   "who": "verteller",
   "text": "Wordt vervolgd…",
   "file": "verteller/b80d6cba.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het bootje met Florine is de rivier af gedreven.",
+  "file": "verteller/e8d0a4e7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Helemaal tot aan de zee!",
+  "file": "verteller/0d165d4b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Florine heeft een zwemvest aan en ze giechelt.",
+  "file": "verteller/36256f40.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Ze vindt het een groot feest.",
+  "file": "verteller/70e0f970.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Joehoe!",
+  "file": "florine/59f16e06.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik ben een bootjes-meisje!",
+  "file": "florine/153c7d5d.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Florine, blijf lekker zitten.",
+  "file": "held/62037cf9.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wij komen eraan!",
+  "file": "held/690e0dad.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Hmmm, de zee komt maar tot mijn knieën.",
+  "file": "brom/3145538e.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Ik loop gewoon mee.",
+  "file": "brom/4b3d4395.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Aan de kant ligt een klein zeilbootje.",
+  "file": "verteller/a91600e4.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er ligt zelfs een piratenhoed in!",
+  "file": "verteller/82cfb1cd.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ahoi, ahoi, jij bent de kapitein!",
+  "file": "kwebbel/3c05284e.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "En ik ben je piratenpapegaai, hoe fijn!",
+  "file": "kwebbel/f0e63171.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Ik ben de Kleine Kapitein!",
+  "file": "held/2cb08027.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Kom op, zeil omhoog!",
+  "file": "held/3260ec5b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hoe noemen we ons bootje?",
+  "file": "verteller/7c74dc59.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De Zeemeeuw",
+  "file": "verteller/9b407233.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De Zeemeeuw!",
+  "file": "verteller/78739256.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Die vliegt net zo snel als een vogel.",
+  "file": "verteller/3b6901f1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De Snelle Vis",
+  "file": "verteller/28bab3bf.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De Snelle Vis!",
+  "file": "verteller/bbe8c1ba.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Blub blub, daar gaan we.",
+  "file": "verteller/992fe50a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De Sterrenboot",
+  "file": "verteller/723a53d7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De Sterrenboot!",
+  "file": "verteller/c7d22c42.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Die past bij het Sterrenkompas.",
+  "file": "verteller/8fb8c459.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Whoosh, het zeiltje bolt op.",
+  "file": "verteller/472ac83b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Naast de boot springen vissen uit het water!",
+  "file": "verteller/680fab96.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er zwemmen vissen naast de boot.",
+  "file": "verteller/7139bd29.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er komen er nog meer bij!",
+  "file": "verteller/5c25c8e4.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hoeveel vissen zijn het samen?",
+  "file": "verteller/1fced590.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Goed gerekend!",
+  "file": "verteller/a8548c68.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wat een vrolijke vissenclub.",
+  "file": "verteller/c8cdeea7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel eerst de eerste groep vissen.",
+  "file": "verteller/83b81473.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel dan verder met de nieuwe vissen.",
+  "file": "verteller/90c1d00d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "drie plus twee.",
+  "file": "verteller/2e4a1dac.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "zes plus vier.",
+  "file": "verteller/ec78f8cb.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "acht plus vier.",
+  "file": "verteller/5680d61b.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Vissen links en vissen rechts, ze zwemmen mee!",
+  "file": "kwebbel/dfa5c0ce.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Wat een parade in de grote zee!",
+  "file": "kwebbel/0bc91d7a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Daar, in de verte!",
+  "file": "verteller/58da2c72.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Op een eilandje zwaait iemand met een knuffel.",
+  "file": "verteller/4d9d10d9.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Er zijn een heleboel eilandjes.",
+  "file": "held/60935c4a.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Op welke zit Florine?",
+  "file": "held/633c6793.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ik zag haar zitten bij een kist en een palm.",
+  "file": "kwebbel/049c6a44.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Heel vrolijk en blij, en heel erg kalm!",
+  "file": "kwebbel/4f84dacf.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Kijk goed naar de eilandjes.",
+  "file": "verteller/10be8c27.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Welke past bij alles wat Kwebbel zag?",
+  "file": "verteller/2dcab2aa.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Palmboom en kist, daar zit Florine.",
+  "file": "verteller/2dd5e3a6.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Zoek eerst een palmboom.",
+  "file": "verteller/75774d2e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Kijk dan of er ook een kist staat.",
+  "file": "verteller/19a3c090.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Florine zit bij een palmboom en een kist.",
+  "file": "verteller/c29f6387.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Welk eilandje is het?",
+  "file": "verteller/e8166e78.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er is geen krab.",
+  "file": "verteller/13b68bfd.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Hoi!",
+  "file": "florine/7eeac696.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik ben een piraat en Konijn ook, arrr!",
+  "file": "florine/5dd0a4c0.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Gelukkig, Flo!",
+  "file": "held/b49bd396.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Je zwemvest zit nog goed vast.",
+  "file": "held/59a16c6f.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik heb een kist gevonden.",
+  "file": "florine/c3dd7471.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Er zat een kaart in!",
+  "file": "florine/5a33769e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het is een echte schatkaart.",
+  "file": "verteller/83eb9627.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Maar midden op het kruisje zit een konijnensticker!",
+  "file": "verteller/c679d943.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Die heb ik erop geplakt.",
+  "file": "florine/99577d88.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Mooi hè?",
+  "file": "florine/a01b9028.mp3"
+ },
+ {
+  "who": "held",
+  "text": "O, Flo!",
+  "file": "held/8a79c674.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Nu zien we niet meer waar de schat ligt.",
+  "file": "held/95d5cac4.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Achter een oude ton wiebelt iets.",
+  "file": "verteller/211def71.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Een gestreepte staart, zwiep, weg!",
+  "file": "verteller/d68f85cf.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "De kleine zebra!",
+  "file": "florine/513b9c25.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Die gaat ook op vakantie!",
+  "file": "florine/c8fdde7c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Naast de ton ligt een snoeppapiertje.",
+  "file": "verteller/c7c7e3b7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Olivier stopt het in de rugzak.",
+  "file": "verteller/b274c772.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Een staart met strepen, alweer, oh jee!",
+  "file": "kwebbel/50f23e83.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Wie reist er toch stiekem met ons mee?",
+  "file": "kwebbel/aec59e46.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Op de kaart staat een woordje, klein en fijn.",
+  "file": "kwebbel/f6c8559a.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Lees jij het, dan weten we waar we moeten zijn!",
+  "file": "kwebbel/b45cab83.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Welk woord staat er op de schatkaart?",
+  "file": "verteller/a35ee522.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Knap gelezen!",
+  "file": "verteller/86ce27d0.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De kaart wijst naar het grote eiland.",
+  "file": "verteller/f4ea7f3f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "oo ...",
+  "file": "verteller/bc36cc3d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "tu",
+  "file": "verteller/4c4557e2.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "tu ...",
+  "file": "verteller/15cd2984.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "boot!",
+  "file": "verteller/4dfaf31c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "boot.",
+  "file": "verteller/54fafe21.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "tu.",
+  "file": "verteller/dd293624.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat is boot.",
+  "file": "verteller/23a4a8b8.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat is maan.",
+  "file": "verteller/e24fa567.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat is roos.",
+  "file": "verteller/1dcf3d53.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "mmm ...",
+  "file": "verteller/f89ce800.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "aa ...",
+  "file": "verteller/556e75a9.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "nnn",
+  "file": "verteller/11b54859.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "nnn ...",
+  "file": "verteller/4e9972a7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "maan!",
+  "file": "verteller/4182fb53.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "maan.",
+  "file": "verteller/4e830fca.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "nnn.",
+  "file": "verteller/57611355.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Luister nog eens: mmm ...",
+  "file": "verteller/b3600d07.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat is vis.",
+  "file": "verteller/9317876e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "mmm",
+  "file": "verteller/ca99d446.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "rrr ...",
+  "file": "verteller/0e2edd2b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "roos!",
+  "file": "verteller/4a4c51b3.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "roos.",
+  "file": "verteller/574c662a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Luister nog eens: rrr ...",
+  "file": "verteller/18139a0c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "rrr",
+  "file": "verteller/38deadf5.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Kijk, op de kaart staan pijltjes.",
+  "file": "held/6db1338b.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Dat is de route naar het grote eiland!",
+  "file": "held/cae69cfc.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Kijk goed naar de pijltjes op de kaart.",
+  "file": "verteller/56a66936.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Stuur het bootje daarna precies zo!",
+  "file": "verteller/5f07057e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Goed gestuurd, kapitein!",
+  "file": "verteller/ae6f8689.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Daar is het grote eiland.",
+  "file": "verteller/c3123b80.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wijs met je vinger mee: links, omhoog, rechts of omlaag.",
+  "file": "verteller/4b9a82b4.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Brom loopt voor het bootje uit.",
+  "file": "verteller/2b1d366d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Plons, plons, het water komt maar tot zijn knieën!",
+  "file": "verteller/95a7e8e6.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Hmmm, ik ben een reuzensleepboot.",
+  "file": "brom/32d507dd.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Hup, hup!",
+  "file": "brom/b8bcc9ba.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Brom is een grote eend!",
+  "file": "florine/4d8d7535.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Kwak, kwak!",
+  "file": "florine/79f97010.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het bootje glijdt zacht het zand op.",
+  "file": "verteller/be681a22.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Ze zijn op het grote eiland!",
+  "file": "verteller/152875ee.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Schelpen!",
+  "file": "florine/576a7996.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik neem ze allemaal mee naar huis.",
+  "file": "florine/86bdd8a4.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Florine heeft schelpen gevonden.",
+  "file": "verteller/b0d6b12a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hoeveel schelpen zie je?",
+  "file": "verteller/b417eaa1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Goed geteld!",
+  "file": "verteller/c92f4e2c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Florine stopt ze in haar zakken.",
+  "file": "verteller/e5960622.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wijs elke schelp één keer aan.",
+  "file": "verteller/0c3096c7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel hardop mee.",
+  "file": "verteller/fb65b4c5.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Hmmm, er loopt iets over mijn schoen.",
+  "file": "brom/21c17c6a.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Is dat een muis?",
+  "file": "brom/aa08326b.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Nee Brom, dat zijn krabbetjes.",
+  "file": "held/06c3525a.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Die lopen gewoon zijwaarts!",
+  "file": "held/8842c1aa.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er zitten krabbetjes op het strand.",
+  "file": "verteller/d67b5087.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Een paar lopen weg naar de zee.",
+  "file": "verteller/c09e0895.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Brom is weer gerust.",
+  "file": "verteller/db9d4052.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel eerst alle krabbetjes.",
+  "file": "verteller/6318bfc0.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Haal dan de weggelopen krabbetjes eraf.",
+  "file": "verteller/6c139445.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "vijf min twee.",
+  "file": "verteller/94ac2d3b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "negen min drie.",
+  "file": "verteller/16e7e0dc.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "twaalf min vijf.",
+  "file": "verteller/86b26d81.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ik zag die kaart al lang geleden, echt waar.",
+  "file": "kwebbel/ea70bd1a.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ik weet waar het kruisje zit, precies en klaar!",
+  "file": "kwebbel/63b809d6.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Maar een piraat verklapt dat niet zomaar.",
+  "file": "kwebbel/aa49b14b.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Stel mij vragen, dan kom je er wel, hoor!",
+  "file": "kwebbel/415af0af.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Dan ga ik speuren.",
+  "file": "held/622ded80.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Ik stel slimme vragen!",
+  "file": "held/ec001b5e.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Vraag maar raak, over links of rechts of een boom.",
+  "file": "kwebbel/2984e6e1.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Dan vind jij de schat, zo snel als een stroom!",
+  "file": "kwebbel/e23e6636.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Bij welke plek ligt de schat?",
+  "file": "kwebbel/382644ff.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ja, ja, ja, bij de grote rots, hoera!",
+  "file": "kwebbel/e6c34671.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Jij bent een echte speurder, ik vlieg er al na!",
+  "file": "kwebbel/95284363.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nee, daar ligt hij niet, maar goed geprobeerd!",
+  "file": "kwebbel/3215fa14.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Hmm, nee, daar is het niet, hoor.",
+  "file": "kwebbel/5834ac52.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Begin bij de palmboom en ga naar rechts.",
+  "file": "kwebbel/9e32093d.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Dan drie grote stappen, en kijk goed om je heen, echt!",
+  "file": "kwebbel/7e634857.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het is grijs en hard, en het ligt daar al lang.",
+  "file": "kwebbel/b8878306.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Je kunt erop zitten, de hele dag lang!",
+  "file": "kwebbel/7866f6c6.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het is groot en grijs, zo zwaar als een huis.",
+  "file": "kwebbel/0ed93be6.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Een krabbetje woont eronder, dat is zijn thuis!",
+  "file": "kwebbel/67e3bcc9.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Bij welke plek ligt de schat?",
+  "file": "verteller/382644ff.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Een aanwijzing?",
+  "file": "kwebbel/558510be.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Niet getreurd, ik help je erbij!",
+  "file": "kwebbel/5d76dd18.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ahoi, ahoi, wat fijn dat je praat!",
+  "file": "kwebbel/e43bac9d.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Stel mij een vraag, ik sta paraat!",
+  "file": "kwebbel/660666b0.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Hoi kapitein, met mij gaat het top!",
+  "file": "kwebbel/d259de4a.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Of speur nog even mee, dan krijg je een kruisje!",
+  "file": "kwebbel/2513cab9.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Maar waar ligt de schat?",
+  "file": "kwebbel/cafa7908.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Kom, vraag nog eens, kom!",
+  "file": "kwebbel/12c6d0de.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Maar nu weer speuren, ga maar door!",
+  "file": "kwebbel/51357fd0.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ik ben Kwebbel, piratenpapegaai, arrr!",
+  "file": "kwebbel/491d3827.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Maar nu gaat het om de schat, ben je klaar?",
+  "file": "kwebbel/d3d9ea3d.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ik eet het liefst zaadjes, knabbel en knap.",
+  "file": "kwebbel/143d1eb1.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nu weer over de schat, stap voor stap!",
+  "file": "kwebbel/a567e76e.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Oeh, je bent warm, heel warm, echt waar!",
+  "file": "kwebbel/f1c33627.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het is iets kleiners, dan ben je klaar!",
+  "file": "kwebbel/9105e51d.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nog een klein stukje, wie weet wat je weet!",
+  "file": "kwebbel/dc5181b1.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Bij de palmboom begin je, dat is waar.",
+  "file": "kwebbel/61320cf2.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Maar de schat ligt er niet, hij ligt verderop, daar!",
+  "file": "kwebbel/01e227be.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Niet onder de palmboom, daar valt soms iets, bonk!",
+  "file": "kwebbel/f760ca08.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Begin daar met lopen, dan vind je de schat heel vlug!",
+  "file": "kwebbel/6e985a50.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Links?",
+  "file": "kwebbel/8a33aea3.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nee hoor, daar is alleen gras.",
+  "file": "kwebbel/166f59c9.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ga naar rechts, dat is de goede pas!",
+  "file": "kwebbel/1426850f.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Vanaf de palmboom ga je naar rechts, hoera!",
+  "file": "kwebbel/d65e2f83.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Daar ligt de schat, en ik vlieg erachteraan, ha!",
+  "file": "kwebbel/816d520b.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Drie grote stappen, dat is genoeg.",
+  "file": "kwebbel/83d54a4d.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Een, twee, drie, niet te laat en niet te vroeg!",
+  "file": "kwebbel/8a98fa97.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Tel maar mee: een, twee, drie, heel groot.",
+  "file": "kwebbel/af729d5e.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Dan sta je er vlak naast, wat een geluk, zo groot!",
+  "file": "kwebbel/5ee79a42.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "In de zee?",
+  "file": "kwebbel/2d96db62.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nee hoor, dan wordt alles nat.",
+  "file": "kwebbel/a08fc00e.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "De schat ligt op het droge, dat is wat!",
+  "file": "kwebbel/7fd7a19a.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Niet in het water, niet tussen de vis.",
+  "file": "kwebbel/fe3a6c61.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "De schat ligt op het droge, dat is gewis!",
+  "file": "kwebbel/443cc0b9.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Een klein beetje graven, dat moet je wel.",
+  "file": "kwebbel/f85d9653.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Vlak naast de plek, dan heb je hem snel!",
+  "file": "kwebbel/6201b88d.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Niet diep, hoor, net onder het zand.",
+  "file": "kwebbel/4ea535ce.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Graaf met je handjes, dan heb je hem in je hand!",
+  "file": "kwebbel/5fd0ac4d.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "De plek is grijs, zo grijs als een olifant.",
+  "file": "kwebbel/9d64b68c.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het ligt heel stil, vlak naast het zand!",
+  "file": "kwebbel/75d23c38.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Grijs, grijs, zo grijs als een muis.",
+  "file": "kwebbel/fe593775.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Maar Brom, niet schrikken, het is echt geen muis!",
+  "file": "kwebbel/8122245b.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Groot is het, zo groot als Brom zijn schoen.",
+  "file": "kwebbel/74a5cc78.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Je kunt er zelfs op zitten, dat mag je doen!",
+  "file": "kwebbel/64c10318.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Zo groot als een stoel, of een beetje meer.",
+  "file": "kwebbel/4e0b2427.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Je tilt het niet op, ook niet met z'n tweeën, nooit meer!",
+  "file": "kwebbel/e4a843d2.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nee hoor, het is heel erg hard.",
+  "file": "kwebbel/1008f7d9.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Klop je erop, dan doet je knokkel au, apart!",
+  "file": "kwebbel/a8edb404.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Zwaar is het, echt veel te zwaar om te tillen.",
+  "file": "kwebbel/bb6c9b7c.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Zelfs Brom zou dat niet willen!",
+  "file": "kwebbel/da722af4.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Erop zitten?",
+  "file": "kwebbel/a5127b8e.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ja, dat kan heel fijn.",
+  "file": "kwebbel/dbece46a.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Net een stoel in de zonneschijn!",
+  "file": "kwebbel/3b3b7597.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Klimmen mag, maar doe het stil.",
+  "file": "kwebbel/ff75f237.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het wiebelt geen beetje, het blijft heel stil!",
+  "file": "kwebbel/f4f432c7.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Een dier?",
+  "file": "kwebbel/452c2866.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nee, het leeft niet, het ligt maar stil.",
+  "file": "kwebbel/913f2de0.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Wel woont er een krabbetje onder, als hij wil!",
+  "file": "kwebbel/c9267179.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het zwemt niet, het vliegt niet, het kruipt niet weg.",
+  "file": "kwebbel/6b5465c0.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het ligt daar al jaren, op dezelfde plek!",
+  "file": "kwebbel/b4e6d072.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Bij het bootje?",
+  "file": "kwebbel/f8056ba9.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nee, daar ligt alleen het touw.",
+  "file": "kwebbel/9789a0c6.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "De schat ligt verderop, dat zeg ik aan jou!",
+  "file": "kwebbel/4e0b73dc.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het bootje ligt veilig op het strand.",
+  "file": "kwebbel/11b9437d.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "De schat ligt ergens anders op het land!",
+  "file": "kwebbel/8afc23f2.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "De zon schijnt erop, de hele dag.",
+  "file": "kwebbel/22b4d283.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het wordt er lekker warm van, zo ik zag!",
+  "file": "kwebbel/c7b749a1.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Geen schaduw daar, alleen zon en licht.",
+  "file": "kwebbel/08748492.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Knijp je ogen maar een beetje dicht!",
+  "file": "kwebbel/c5c87b58.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Wat erin zit?",
+  "file": "kwebbel/b8042c6f.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Dat is een verrassing, hoor!",
+  "file": "kwebbel/e7a3629b.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Eerst de plek vinden, ga maar door!",
+  "file": "kwebbel/0cf708c3.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Geen idee, ik keek er nooit in, echt niet.",
+  "file": "kwebbel/93d242a4.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Maar het is iets bijzonders, dat zeg ik je, zie!",
+  "file": "kwebbel/215fb4bb.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Piraat Kees verstopte hem, mijn oude maat.",
+  "file": "kwebbel/8ea61994.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Hij was heel lief en hij zong zo graag, dat was zijn daad!",
+  "file": "kwebbel/2f8e84a2.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Kees was een piraat met een lach op zijn snuit.",
+  "file": "kwebbel/505af444.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Hij verstopte de schat, en toen zeilde hij uit!",
+  "file": "kwebbel/dd5861b0.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het kruisje zit onder de sticker, oh wee!",
+  "file": "kwebbel/0d405f2b.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Maar ik weet het nog, dus vraag maar mee!",
+  "file": "kwebbel/8da95b60.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "De kaart helpt niet, want die sticker zit dwars.",
+  "file": "kwebbel/2e88f9ad.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Vraag het aan mij, ik weet het nog, ga maar door!",
+  "file": "kwebbel/8bc7a0bb.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Brom weet het niet, hij keek naar een krab.",
+  "file": "kwebbel/dd67590e.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Hij dacht dat het een muis was, wat een grap!",
+  "file": "kwebbel/e7a93246.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Brom is lief, maar hij zoekt veel te hoog.",
+  "file": "kwebbel/3529156e.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Kijk naar beneden, dan heb je het in je oog!",
+  "file": "kwebbel/69f7d353.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Florine graaft al, met zand in haar schoen.",
+  "file": "kwebbel/14915bdc.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Maar waar moet ze graven?",
+  "file": "kwebbel/d3e48bef.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Dat moet jij nu doen!",
+  "file": "kwebbel/e5e42dc2.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Florine en Konijn helpen je graag.",
+  "file": "kwebbel/e966d70f.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Stel nog een vraag, dat is mijn vraag!",
+  "file": "kwebbel/dfd857f7.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Die staart met strepen?",
+  "file": "kwebbel/d5887058.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Die was opeens weg!",
+  "file": "kwebbel/06f051ee.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Wie dat was, weet ik niet, wat een pech!",
+  "file": "kwebbel/d3520714.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Dat raadsel lossen we later op, heel fijn.",
+  "file": "kwebbel/2d8b46d0.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nu eerst de schat, dat moet het zijn!",
+  "file": "kwebbel/8001ed9a.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Waar hij ligt?",
+  "file": "kwebbel/16afed20.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Dat zeg ik niet zomaar, hoor!",
+  "file": "kwebbel/d68817a1.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Vraag naar de palmboom, of links of rechts, ga door!",
+  "file": "kwebbel/e979f563.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Dat verklap ik niet, ik ben een piraat!",
+  "file": "kwebbel/46f0fe3a.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Vraag hoeveel stappen, dan kom je er, kameraad!",
+  "file": "kwebbel/39c240d2.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Is het bij de palmboom?",
+  "file": "held/ecddbb44.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Moet ik naar links of rechts?",
+  "file": "held/fd5533d4.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Hoeveel stappen?",
+  "file": "held/fa63ddb7.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Welke kleur heeft het?",
+  "file": "held/cfc93d14.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Het is grijs, zo grijs als een olifant.",
+  "file": "kwebbel/56e866b0.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Is het zacht?",
+  "file": "held/9306bfcf.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Olivier loopt drie grote stappen naar rechts.",
+  "file": "verteller/9d76b3c8.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Daar ligt de grote grijze rots!",
+  "file": "verteller/077b74c7.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik graaf!",
+  "file": "florine/c94b89bd.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Nu zit er zand in mijn laarsjes, hihi!",
+  "file": "florine/0b15f94a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tok, daar zit een houten kist!",
+  "file": "verteller/875611f3.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er zit een slotje op, met een ster.",
+  "file": "verteller/1a827127.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Een ster!",
+  "file": "held/3ae59cd8.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Net als op mijn gouden sleuteltje van Kwebbel.",
+  "file": "held/78c40c3f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wie draait het sleuteltje om?",
+  "file": "verteller/8b4e5912.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Ik zelf",
+  "file": "verteller/3b8b2828.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De kapitein doet het zelf.",
+  "file": "verteller/b7769035.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Klik, het past precies!",
+  "file": "verteller/4cf0e887.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Florine",
+  "file": "verteller/3bda1594.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Florine draait heel voorzichtig.",
+  "file": "verteller/1dd8bd15.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Klik, samen met Konijn!",
+  "file": "verteller/c7495232.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Brom",
+  "file": "verteller/b6575999.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Brom zijn vinger is veel te dik, hihi.",
+  "file": "verteller/b0919a28.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Met een beetje hulp: klik!",
+  "file": "verteller/a38765ff.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Krrrr…",
+  "file": "verteller/60187cdc.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "langzaam gaat de deksel open.",
+  "file": "verteller/d94fda64.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Geen goud en geen munten.",
+  "file": "verteller/bea3d8b4.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er zit maar één ding in: een grote knop met een ster!",
+  "file": "verteller/4f65aeb7.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Een knop in een kist, wat raar en wat fijn!",
+  "file": "kwebbel/0a6548e6.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Waar zou die knop nou toch voor zijn?",
+  "file": "kwebbel/b28a7510.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Niet zomaar op drukken, hoor.",
+  "file": "held/848b5596.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Eerst goed nadenken.",
+  "file": "held/f9639b43.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Ahoi, Olivier!",
+  "file": "verteller/b6766b1f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Jij was de Kleine Kapitein, je vond Florine en de schat.",
+  "file": "verteller/20960fcb.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik druk op de knop!",
+  "file": "florine/5c825d82.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Klik!",
+  "file": "verteller/780c030d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hoog in de lucht klinkt een zacht gezoem.",
+  "file": "verteller/fc9f4a74.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Hmmm, daar komt iets aan met lichtjes.",
+  "file": "brom/30644408.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Heel snel en heel zacht!",
+  "file": "brom/ec1ec6bf.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Whoooosh!",
+  "file": "verteller/f3cc7fbc.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Iets zakt heel zacht naar beneden, op het strand.",
+  "file": "verteller/2cc79fed.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Op het strand staat opeens een echte raket!",
+  "file": "verteller/010c837f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het deurtje gaat langzaam open…",
+  "file": "verteller/33f9d519.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Op het strand staat een echte raket.",
+  "file": "verteller/571b1c74.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er komt nog een wolkje rook uit, pfff.",
+  "file": "verteller/dda54140.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Een raket!",
+  "file": "florine/83c3b94b.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Mag ik erin, met mijn laarsjes aan?",
+  "file": "florine/31790c76.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Een raket op het zand, wat een gek bezoek.",
+  "file": "kwebbel/57b4b43e.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Wie zit daarin, in dat ronde hoek?",
+  "file": "kwebbel/85b150fe.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Sssss, het deurtje gaat open.",
+  "file": "verteller/74f37081.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er rolt iemand naar buiten!",
+  "file": "verteller/74829963.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, hallo aardbewoners!",
+  "file": "piep/98535221.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik ben Piep, de robot van dit ruimteschip.",
+  "file": "piep/fec56000.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Een echte robot!",
+  "file": "held/bf49954f.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wat kom je hier doen, Piep?",
+  "file": "held/9cd82384.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Mijn kijker zag iets glimmen in de ruimte.",
+  "file": "piep/bdacbe79.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Een kompas met een ster erop, bliep!",
+  "file": "piep/7dc723bb.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Het Sterrenkompas!",
+  "file": "held/2939bccf.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Dat zoeken wij al het hele avontuur.",
+  "file": "held/720a04c8.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan gaan we samen.",
+  "file": "piep/36f4b709.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Er is plek voor drie aardbewoners en één papegaai.",
+  "file": "piep/f5381e50.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Wat is dat pluizige ding, Florine?",
+  "file": "piep/e6c38f7d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Een zachte ruimtehelm?",
+  "file": "piep/24471155.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Nee gekke robot, dat is Konijn!",
+  "file": "florine/6790c1d3.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Konijn gaat ook mee.",
+  "file": "florine/328ab975.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Hmmmm, ik pas daar niet in.",
+  "file": "brom/f56fd428.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Mijn schoen is al groter dan die raket.",
+  "file": "brom/324732f3.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Ik blijf hier en pas op het strand.",
+  "file": "brom/c8f1abe9.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Dag vrienden, goede reis!",
+  "file": "brom/a2d76b84.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Dag Brom!",
+  "file": "florine/fcd3a024.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Pas op voor muizen!",
+  "file": "florine/57ed1a99.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wat neem je mee de ruimte in?",
+  "file": "verteller/cb164a97.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Een zaklamp",
+  "file": "verteller/e2e517af.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dan kun je in het donker alles zien.",
+  "file": "verteller/e1d272c3.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Een boterham",
+  "file": "verteller/f830fc75.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Lekker!",
+  "file": "verteller/8193a9ba.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Een ruimteboterham, die zweeft vanzelf naar je mond.",
+  "file": "verteller/321a5ead.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Een verrekijker",
+  "file": "verteller/72dc5e17.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Daarmee zie je de sterren van heel dichtbij.",
+  "file": "verteller/3a3c48cd.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Binnen zijn overal lampjes en knoppen.",
+  "file": "verteller/a6c2beff.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het piept en het knippert.",
+  "file": "verteller/10726dff.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik druk op alle knoppen!",
+  "file": "florine/bd2b12aa.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Mag dat?",
+  "file": "florine/12d015f6.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, nee, eerst gordels om!",
+  "file": "piep/02a65a11.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan tellen we af, van tien naar nul.",
+  "file": "piep/b43e13a9.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Tien, negen, acht, wat een kracht!",
+  "file": "kwebbel/4a815dde.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Nu jij, dan gaan we met volle macht!",
+  "file": "kwebbel/7a7b31dd.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Op het aftelbord branden lampjes.",
+  "file": "verteller/77a5a2da.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er gaan er een paar uit.",
+  "file": "verteller/236b827c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hoeveel blijven er aan?",
+  "file": "verteller/4012f9ad.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Goed afgeteld!",
+  "file": "verteller/33eeab01.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De raket begint te brommen.",
+  "file": "verteller/f6ebdf4b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel eerst alle lampjes.",
+  "file": "verteller/b5cc63c5.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Haal de lampjes met een kruisje weg en tel wat er over is.",
+  "file": "verteller/84d09baf.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "tien min vier.",
+  "file": "verteller/1ffffc01.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "tien min zeven.",
+  "file": "verteller/d2c620bb.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Drie, twee, een, nul…",
+  "file": "verteller/ec69f751.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wroooom!",
+  "file": "verteller/62e9d47a.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Mijn buik kriebelt!",
+  "file": "florine/49291ce5.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Is dat de raket of mijn ontbijt?",
+  "file": "florine/fe74283a.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Nu de motorknoppen.",
+  "file": "piep/d714476f.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik druk ze voor, jij drukt ze na, bliep!",
+  "file": "piep/15b331a6.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Kijk goed welke knoppen Piep indrukt.",
+  "file": "verteller/99e55045.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Druk ze daarna in dezelfde volgorde in!",
+  "file": "verteller/dfd1ecd7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Bliep bliep!",
+  "file": "verteller/ce17396a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Alle motoren draaien.",
+  "file": "verteller/76002a79.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wat een knap geheugen!",
+  "file": "verteller/1a3d36f6.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Zeg de kleuren zachtjes mee terwijl Piep drukt.",
+  "file": "verteller/3bc04e60.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dan onthoud je ze beter.",
+  "file": "verteller/6cf1be91.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Door het raam zie je de aarde.",
+  "file": "verteller/926b95da.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Zo klein als een knikker!",
+  "file": "verteller/1acaba8f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Opeens gaan de gordels los.",
+  "file": "verteller/26be21e1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Iedereen zweeft door het schip!",
+  "file": "verteller/b31ce040.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Kijk, ik zwem in de lucht!",
+  "file": "florine/e149d518.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik ben een vis!",
+  "file": "florine/2ba59285.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Ik vlieg zonder fladderen, hoe kan dat nou?",
+  "file": "kwebbel/60bb5d11.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Mijn petje zweeft weg, petje, ik zie jou!",
+  "file": "kwebbel/138040b2.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dat heet gewichtloos.",
+  "file": "piep/1440eba4.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, mijn schroefje zweeft ook weg!",
+  "file": "piep/8f8f4642.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Kijk daar, zwevende blokken!",
+  "file": "held/041e83a3.mp3"
+ },
+ {
+  "who": "held",
+  "text": "En bovenop liggen sterren.",
+  "file": "held/d562cd22.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Spring van blok naar blok, net als in een spelletje.",
+  "file": "verteller/b2f633bf.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel de sterren die je pakt!",
+  "file": "verteller/620ae3d8.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Boing, boing, allemaal gepakt!",
+  "file": "verteller/44cbdcf1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wat spring jij goed.",
+  "file": "verteller/4dfa1d5e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tik steeds op het blok met de gele rand.",
+  "file": "verteller/7e66b95c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Eén voor één.",
+  "file": "verteller/afd7d33f.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Sterren gevonden, maar geen Sterrenkompas.",
+  "file": "piep/9a487a50.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, mijn kijker zegt: verder!",
+  "file": "piep/ce7b13f8.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Oei, de tank is bijna leeg.",
+  "file": "piep/8bd95c90.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "We moeten brandstof bijdoen, bliep!",
+  "file": "piep/3518cfb6.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik doe er appelsap in.",
+  "file": "florine/28e04041.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Nee Flo, geen appelsap.",
+  "file": "piep/1b920603.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Deze raket drinkt alleen sterrenblikjes.",
+  "file": "piep/fbcc6b44.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Piep heeft blikjes brandstof, en Olivier vindt er nog meer.",
+  "file": "verteller/ee9e6b94.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De tank is vol.",
+  "file": "verteller/0412d09b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Glug, glug, bliep!",
+  "file": "verteller/3955ac2a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel eerst de blikjes van Piep.",
+  "file": "verteller/1af7b275.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel dan verder met de blikjes van Olivier.",
+  "file": "verteller/a7118729.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "vijf plus vier.",
+  "file": "verteller/06b92c74.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "acht plus zeven.",
+  "file": "verteller/76c1f905.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Mijn kijker ziet het kompas nu bij een planeet met racebanen.",
+  "file": "piep/0f3a2b17.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Met kartjes!",
+  "file": "piep/445a5540.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Er zijn vier reisknoppen: rood, blauw, geel en groen.",
+  "file": "piep/c6ec6ff1.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar welke gaat daarheen?",
+  "file": "piep/729d5698.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, ik ben het vergeten.",
+  "file": "piep/71243ad9.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Mijn computer weet wel wat elke knop doet!",
+  "file": "piep/de512b0b.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag maar: wat als ik op een knop druk?",
+  "file": "piep/7ecabaf9.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Mijn computer vertelt wat er dan gebeurt, bliep!",
+  "file": "piep/e825a2ef.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Welke knop gaat naar de planeet met de karts?",
+  "file": "piep/f0fe5061.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep bliep, ja!",
+  "file": "piep/04fabc25.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Die knop gaat naar de planeet met de karts.",
+  "file": "piep/40ca92a0.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Wat ben jij slim!",
+  "file": "piep/aa38762b.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep!",
+  "file": "piep/fd3fc71e.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Nee, die knop gaat niet naar de racebanen.",
+  "file": "piep/8904060e.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Goed geprobeerd!",
+  "file": "piep/6140423c.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag eens wat een andere knop doet.",
+  "file": "piep/40c421b2.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep bloep, die is het niet.",
+  "file": "piep/a1d515cc.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag nog eens: wat als ik op een knop druk?",
+  "file": "piep/c6b41bb1.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Op de planeet met de karts zijn veel wegen.",
+  "file": "piep/81cc9315.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Welke knop gaat naar een planeet met wegen?",
+  "file": "piep/31cc95f6.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "De toeter, het ijs en de zon zijn het niet.",
+  "file": "piep/284a28d7.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Welke knop blijft er dan over?",
+  "file": "piep/59f041d1.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "De goede knop heeft de kleur van gras.",
+  "file": "piep/11a39d74.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "En van een kikker, kwak!",
+  "file": "piep/6afe6f41.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Welke knop gaat naar de planeet met de karts?",
+  "file": "verteller/f0fe5061.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik geef je een hint!",
+  "file": "piep/94370c41.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Een tip?",
+  "file": "piep/75ecd433.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Mijn computer rekent even, bliep bloep…",
+  "file": "piep/248b6e5d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Geen zorgen, we doen het samen.",
+  "file": "piep/362e7b52.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, hallo!",
+  "file": "piep/1853e6a0.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Met mij gaat het top, al mijn lampjes branden.",
+  "file": "piep/54111b33.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hoi hoi!",
+  "file": "piep/4e7961f2.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag maar wat een knop doet, bliep.",
+  "file": "piep/98e2ba5d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Wil je stoppen?",
+  "file": "piep/04ebb460.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Tik dan op het huisje.",
+  "file": "piep/c8578916.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Of vraag nog iets, bliep!",
+  "file": "piep/12969251.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Even pauze mag altijd.",
+  "file": "piep/691b2617.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Tik op het huisje, of vraag wat een knop doet.",
+  "file": "piep/1abb0297.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep bliep, hahaha!",
+  "file": "piep/18ed8ea3.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Mijn lampjes knipperen van het lachen.",
+  "file": "piep/1fca9af4.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Nu weer een knop?",
+  "file": "piep/fe0d41fc.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hihi, mijn antenne wiebelt ervan.",
+  "file": "piep/1bb15b68.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag nu wat een knop doet!",
+  "file": "piep/2fd1f836.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan gaat de grote toeter: TOETOET!",
+  "file": "piep/179a2a15.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "En dan komen er zeepbellen uit het plafond, bliep.",
+  "file": "piep/b2f6c993.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "De rode knop?",
+  "file": "piep/235b3ccd.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Toeter en zeepbellen!",
+  "file": "piep/200d3274.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Leuk, maar we komen er geen stap verder mee.",
+  "file": "piep/a3d056f0.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan vliegen we naar de ijsplaneet.",
+  "file": "piep/669b6678.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Brrr, mijn schroefjes worden ijsjes!",
+  "file": "piep/d1f2d565.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "De blauwe knop gaat naar ijs en sneeuw.",
+  "file": "piep/2b541f47.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Daar rijdt niemand, alleen pinguïns glijden er.",
+  "file": "piep/ed62eb28.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan vliegen we naar de zon.",
+  "file": "piep/806e6836.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Veel te warm, dan smelt mijn antenne als een ijsje!",
+  "file": "piep/6a448a76.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "De gele knop gaat naar de zon.",
+  "file": "piep/4f61e8fa.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Pfoe, daar heb je wel tien zonnebrillen nodig!",
+  "file": "piep/71c107bd.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan vliegen we naar een planeet vol wegen met bochten.",
+  "file": "piep/b391f65d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "En daar rijden kleine autootjes, vroem!",
+  "file": "piep/ff2b449e.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Wegen, bochten en autootjes, bliep!",
+  "file": "piep/678281de.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Weet je het?",
+  "file": "piep/4de2f3e5.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Zeg dan: ik kies…",
+  "file": "piep/71152476.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "en dan de kleur!",
+  "file": "piep/9f25ab78.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan draait het schip rondjes als een tol.",
+  "file": "piep/12651263.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, ik word draaierig!",
+  "file": "piep/0f078200.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Alles tegelijk?",
+  "file": "piep/a4af8b5c.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan maakt de computer een koprol.",
+  "file": "piep/394f1481.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Liever één knop, hoor!",
+  "file": "piep/b453a63f.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan zweven we hier maar wat.",
+  "file": "piep/7ff7871e.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan vinden we het kompas nooit, bliep.",
+  "file": "piep/84e4ffdf.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Niks doen?",
+  "file": "piep/83937d7d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan gaat Kwebbel snurken.",
+  "file": "piep/9ce59399.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Liever op een knop drukken!",
+  "file": "piep/cce01334.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Die kleur knop heb ik niet, bliep.",
+  "file": "piep/2792883b.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik heb er maar vier!",
+  "file": "piep/65ce628b.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hmm, die zit niet op mijn bord.",
+  "file": "piep/ddd64e1c.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag eens naar een van de vier knoppen.",
+  "file": "piep/7d2b7b7c.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ja, daar moeten we heen!",
+  "file": "piep/871dc94d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar welke kleur knop gaat daarheen?",
+  "file": "piep/2368dda3.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag wat de knoppen doen.",
+  "file": "piep/cd877402.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vroem vroem, daar wil ik heen, bliep!",
+  "file": "piep/e5d35298.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Welke knop brengt ons naar de autootjes?",
+  "file": "piep/a94c9775.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Op de maan spring je superhoog, boing!",
+  "file": "piep/2222a05c.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar er is geen kaas, bliep, dat heb ik gecheckt.",
+  "file": "piep/592d5408.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "De maan is leuk om te springen.",
+  "file": "piep/229fdcf7.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar het kompas ligt daar niet.",
+  "file": "piep/968f1342.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Sterren zijn heel ver weg en heel warm.",
+  "file": "piep/db8824e1.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "We zwaaien alleen even: hallo sterren!",
+  "file": "piep/b1b1a9e3.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Een ster pakken?",
+  "file": "piep/7014d076.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Die is te heet, bliep.",
+  "file": "piep/9aaad7d2.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "De blokjessterren waren wel lekker koel.",
+  "file": "piep/204b0ccd.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Naar huis?",
+  "file": "piep/d7481ebb.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dat kan straks, bliep.",
+  "file": "piep/6efb066e.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Eerst het Sterrenkompas, dan vindt alles de weg terug.",
+  "file": "piep/620cc795.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Brom wacht op het strand.",
+  "file": "piep/1dddb6d8.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar eerst gaan we het kompas halen!",
+  "file": "piep/3fe5d83f.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Als je zweeft, kun je op het plafond zitten.",
+  "file": "piep/c8c954e6.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Flo eet haar koekje nu ondersteboven!",
+  "file": "piep/d47aee03.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Zweven is net zwemmen zonder water, bliep.",
+  "file": "piep/1ffcec5d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Kijk, Kwebbel draait een rondje!",
+  "file": "piep/9899a830.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Sneller?",
+  "file": "piep/b5111f3d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan waaien Kwebbels veren recht naar achter.",
+  "file": "piep/d31eafe3.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Zoef!",
+  "file": "piep/fa5c10e4.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Turbo aan en je wangen gaan wiebelen, bliep!",
+  "file": "piep/a16776b6.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar welke knop kies je?",
+  "file": "piep/c4c01340.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Als we remmen, glijdt iedereen naar voren.",
+  "file": "piep/96ca89d8.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Florine landt dan in de koekjeskast!",
+  "file": "piep/08a25af0.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Remmen kan altijd, bliep.",
+  "file": "piep/e2eed89b.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar dan komen we nergens.",
+  "file": "piep/918bcb05.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Een toeter?",
+  "file": "piep/9c016bd7.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Die zit op één van de knoppen.",
+  "file": "piep/46009114.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "TOETOET, dan wordt iedereen wakker!",
+  "file": "piep/047ce121.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Geluid maken vind ik leuk, bliep bloep!",
+  "file": "piep/edbacc30.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Welke knop wil je nog proberen?",
+  "file": "piep/43ad0a68.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Naar buiten?",
+  "file": "piep/b4c94bfb.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Nee hoor, daar is geen lucht.",
+  "file": "piep/6f2b72cc.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "We kijken lekker door het raam.",
+  "file": "piep/a03da373.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Het deurtje blijft dicht tot we landen, bliep.",
+  "file": "piep/43a0f0f1.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dat is de regel van Piep.",
+  "file": "piep/661e4a8b.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Eten?",
+  "file": "piep/30d99c90.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik eet alleen batterijen, bliep.",
+  "file": "piep/aaf8f164.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Die smaken naar prik!",
+  "file": "piep/2a3444d3.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Mijn buik rammelt niet, ik ben een robot.",
+  "file": "piep/3632d2cb.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar ik hoor wel knorren bij Flo!",
+  "file": "piep/98cfbefa.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik ben Piep, een robot met een antenne.",
+  "file": "piep/45f115db.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Als ik blij ben, gaat mijn lampje knipperen!",
+  "file": "piep/5531dc28.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik ben een beetje verstrooid, maar mijn computer weet alles van de knoppen.",
+  "file": "piep/98da90c5.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Mijn computer zegt: het kompas is bij de planeet met de racebanen.",
+  "file": "piep/4738ca99.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Welke knop gaat daarheen?",
+  "file": "piep/18621d6d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Op mijn scherm knippert het kompas, bliep.",
+  "file": "piep/821fa155.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag wat elke knop doet!",
+  "file": "piep/40ebd6a2.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Er zijn vier knoppen, allemaal een andere kleur.",
+  "file": "piep/ef74fb61.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag maar: wat als ik op de rode druk?",
+  "file": "piep/902a46fa.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Noem maar een kleur, bliep.",
+  "file": "piep/c54bedc6.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dan zegt mijn computer wat die knop doet.",
+  "file": "piep/18483781.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wat als ik op de rode knop druk?",
+  "file": "held/8144db24.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wat als ik op de blauwe knop druk?",
+  "file": "held/906eade8.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wat als ik op de gele knop druk?",
+  "file": "held/fae9cd59.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wat als ik op de groene knop druk?",
+  "file": "held/34837c84.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wat als we op alle knoppen drukken?",
+  "file": "held/e2ffffaa.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wat als we niks doen?",
+  "file": "held/1a010975.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hmm, dat past niet in ons verhaal.",
+  "file": "piep/d3aaab92.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Kom, we gaan verder met ons avontuur!",
+  "file": "piep/dc1962da.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dat laten we lekker buiten ons spel.",
+  "file": "piep/33a5ab9f.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Zullen we verder raden, Olivier?",
+  "file": "piep/1d2b0e7e.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Laten we het gezellig houden!",
+  "file": "piep/59782399.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Stel mij maar een andere vraag.",
+  "file": "piep/91499f84.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dat is iets van jou zelf.",
+  "file": "piep/38646ee9.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dat hoef je niemand op een scherm te vertellen, ook mij niet!",
+  "file": "piep/9fd0e01e.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dat houden we lekker geheim, net als mijn raadsel!",
+  "file": "piep/f83e758c.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Stel mij maar een vraag over mijn geheim.",
+  "file": "piep/186742f6.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Oh jee, wat naar.",
+  "file": "piep/15dc252a.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ga even naar papa of mama, die helpen je graag.",
+  "file": "piep/e818e99d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Daarna raden we samen verder, als je wilt.",
+  "file": "piep/a2caf595.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Wat naar voor je.",
+  "file": "piep/0c458402.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ga maar even naar papa of mama toe, ik wacht hier op je.",
+  "file": "piep/4cd2a238.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hihi, wat een giechelwoord!",
+  "file": "piep/7d561cc2.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar nu weer raden, kom maar op.",
+  "file": "piep/55c0b33d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Haha, jij bent een grapjas!",
+  "file": "piep/49a9f1b6.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Stel mij nu een raadvraag.",
+  "file": "piep/06956beb.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Pfff, daar moet ik om lachen!",
+  "file": "piep/e2f497da.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Welke vraag heb je nog meer?",
+  "file": "piep/c08864b2.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ga maar gauw!",
+  "file": "piep/6ccffdf9.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik wacht hier gewoon op je.",
+  "file": "piep/e5020fab.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Oei, dat vind ik niet zo lief.",
+  "file": "piep/40b1a021.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Misschien is het een beetje moeilijk?",
+  "file": "piep/df44532b.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hmm, niet zo aardig, hoor.",
+  "file": "piep/3b6f122a.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Kom, we doen het samen!",
+  "file": "piep/01f54228.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Nee hoor, hier is niks engs!",
+  "file": "piep/009cabfa.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Stel maar een vraag, ik zit klaar.",
+  "file": "piep/0139eca9.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Eng?",
+  "file": "piep/ba207218.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Welnee, hier is alles vrolijk!",
+  "file": "piep/b66f75bc.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag nog maar iets.",
+  "file": "piep/67419ef2.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Die vraag ken ik al!",
+  "file": "piep/d0f46c34.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Nog een keer?",
+  "file": "piep/f0feaea7.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Goed hoor!",
+  "file": "piep/522faebd.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dat vroeg je net ook al!",
+  "file": "piep/c488d184.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hmm, dat weet ik niet zo goed.",
+  "file": "piep/380a4f1d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Stel mij maar een andere vraag!",
+  "file": "piep/88499159.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Goeie vraag!",
+  "file": "piep/a4f62512.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Maar daar kan ik niet op antwoorden.",
+  "file": "piep/6c48572c.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Probeer eens: is het groot of klein?",
+  "file": "piep/574e1768.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Oei, daar moet ik over nadenken.",
+  "file": "piep/63c0ac6f.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag eens iets anders, Olivier!",
+  "file": "piep/e6ffe260.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Dat snap ik niet helemaal.",
+  "file": "piep/11efa9b1.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Kun je het nog eens anders vragen?",
+  "file": "piep/5ade6787.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hihi, wat een vraag!",
+  "file": "piep/c508e123.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag eens hoe het eruitziet.",
+  "file": "piep/1592d43b.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hmm, daar zeg ik niks over.",
+  "file": "piep/4342ec5c.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Vraag eens wat je ermee kunt doen!",
+  "file": "piep/0eca9d95.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik hoorde je niet goed.",
+  "file": "piep/cf5e6680.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Wil je het nog eens zeggen?",
+  "file": "piep/ab327c1f.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ja!",
+  "file": "piep/01f2620f.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Goed geraden, Olivier!",
+  "file": "piep/3666f925.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Knap hoor!",
+  "file": "piep/b8749ed6.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Nee, dat is het niet!",
+  "file": "piep/7282680a.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Goed geprobeerd.",
+  "file": "piep/68404d41.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Stel nog een vraag!",
+  "file": "piep/847b8207.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hmm, goeie vraag!",
+  "file": "piep/6266d40a.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Wat denk jij zelf?",
+  "file": "piep/0abd71e0.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Goed geraden!",
+  "file": "piep/81180019.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Nee, dat is het niet.",
+  "file": "piep/65825393.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep bliep, knop ingedrukt!",
+  "file": "piep/39895b5d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Koers: de kartplaneet.",
+  "file": "piep/59dd7c89.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Wat een slimme keus, wat een slimme kop!",
+  "file": "kwebbel/18b8d246.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Op naar de karts, hop hop hop!",
+  "file": "kwebbel/37e7a322.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Waar is het ruimtesnoep?",
+  "file": "florine/4c06281d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "In de voorraadkast, achterin het schip.",
+  "file": "piep/3253d55a.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Zweef maar mee!",
+  "file": "piep/770267fd.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De gang naar de kast zweeft vol losse blokken.",
+  "file": "verteller/3db2009b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Je moet eroverheen springen!",
+  "file": "verteller/c835977b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Spring over de zwevende blokken naar de voorraadkast.",
+  "file": "verteller/f10e810d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Pak onderweg de sterren!",
+  "file": "verteller/374d44b5.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hop, je bent bij de kast!",
+  "file": "verteller/49d2fc92.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "En je hebt sterren in je zak.",
+  "file": "verteller/d1e6caaf.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Rustig aan.",
+  "file": "verteller/5c3b41df.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tik op het blok met de gele rand, dan spring je vanzelf.",
+  "file": "verteller/6986282b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Piep doet de kast open.",
+  "file": "verteller/475c95f9.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hij is leeg, alleen maar snoeppapiertjes!",
+  "file": "verteller/936d3cd8.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, al het ruimtesnoep is op!",
+  "file": "piep/fe25825a.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ik was het niet, ik eet batterijen.",
+  "file": "piep/f17c3275.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Achter een doos flitst iets weg.",
+  "file": "verteller/45696f17.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Een ruimtezebra!",
+  "file": "florine/39f20a06.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Hij heeft mijn snoep!",
+  "file": "florine/3b2214e4.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Weer die gestreepte staart.",
+  "file": "held/6712bceb.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wie is dat toch?",
+  "file": "held/b76d2ece.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Er zweeft nog één doos rond.",
+  "file": "piep/2452d3e5.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Er staat een woord op, maar ik lees alleen robottaal.",
+  "file": "piep/bf5fbb4e.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik weet het, er staat snoep!",
+  "file": "florine/1e3b257f.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Toch?",
+  "file": "florine/241fe458.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wat staat er op de doos?",
+  "file": "verteller/fce4abed.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Kip!",
+  "file": "verteller/eed1fa9e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er zit een rubberen ruimtekip in de doos.",
+  "file": "verteller/fc5b3df3.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tok tok!",
+  "file": "verteller/aee00f0e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Zeg de klanken langzaam na: k…",
+  "file": "verteller/81d5dff1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "i…",
+  "file": "verteller/790672c6.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "p.",
+  "file": "verteller/834ea8d3.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "ku ...",
+  "file": "verteller/ee89dcf3.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "ih ...",
+  "file": "verteller/98c7e4c2.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "pu",
+  "file": "verteller/5c4e6b6e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "pu ...",
+  "file": "verteller/480b4358.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "kip!",
+  "file": "verteller/07f199fe.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "kip.",
+  "file": "verteller/02f1921f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "pu.",
+  "file": "verteller/8f72d5c0.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat is kip.",
+  "file": "verteller/0ae8b764.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Luister nog eens: ku ...",
+  "file": "verteller/2a3faffa.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat is pen.",
+  "file": "verteller/6ca44891.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "ku",
+  "file": "verteller/5c3d224d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat is pet.",
+  "file": "verteller/ecdb2c0b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat is kop.",
+  "file": "verteller/0691e66e.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Een kip in de ruimte, hij zweeft!",
+  "file": "florine/ce4875f0.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Tok tok!",
+  "file": "florine/aee00f0e.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, een kip is en blijft een kip.",
+  "file": "piep/cb79cdf9.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Ook zonder zwaartekracht!",
+  "file": "piep/ba0d0d94.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Je telde af, sprong over sterrenblokken en koos de goede knop.",
+  "file": "verteller/4fee1075.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Opeens sputtert de motor.",
+  "file": "verteller/c7a3a63e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Put, put, pruttel…",
+  "file": "verteller/0da72ef1.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Bliep, iemand heeft aan de snoertjes geknabbeld!",
+  "file": "piep/587b8279.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "We gaan heel zacht landen, hou je vast.",
+  "file": "piep/e00b55a3.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Wiebel, wiebel, daar gaan we dan!",
+  "file": "kwebbel/7264ac02.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Hou Konijn goed vast, zo goed als je kan!",
+  "file": "kwebbel/0ea4e465.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Boing, boing!",
+  "file": "verteller/c6d46daa.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het schip stuitert als een bal op een zachte heuvel.",
+  "file": "verteller/bf6e9193.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Nog een keer!",
+  "file": "florine/d6fe85b9.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Overal zijn racebanen, met bochten en bruggen.",
+  "file": "verteller/dc0448e6.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "En daar, heel in de verte…",
+  "file": "verteller/3516c89a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Toet toet!",
+  "file": "verteller/7161e7ce.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Er toetert een kart.",
+  "file": "verteller/679b30df.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wie rijdt daar?",
+  "file": "verteller/a38dfe0c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Poef!",
+  "file": "verteller/83ea0eae.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De raket landt zacht in een berg paars zand.",
+  "file": "verteller/8a428c1d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Landing geslaagd, op een planeet vol racebanen.",
+  "file": "piep/002140d0.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Racebanen?",
+  "file": "held/3cb4f0f3.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Kom op, dat wil ik zien!",
+  "file": "held/4395d2ff.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Hallo, hallo, wat een baan, wat een bocht!",
+  "file": "kwebbel/73a9f660.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Hier wordt vandaag hard gerend en gezocht!",
+  "file": "kwebbel/af283f9d.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Wie de Grote Kartrace wint, mag één wens doen!",
+  "file": "piep/6a46580e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Kijk, boven op de finish-toren glinstert iets.",
+  "file": "verteller/9656fb7f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het Sterrenkompas!",
+  "file": "verteller/2939bccf.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Als ik win, wens ik het kompas terug.",
+  "file": "held/4dc5fb8d.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Ik doe mee!",
+  "file": "held/46b9fedf.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik doe ook mee!",
+  "file": "florine/dae2f1de.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Met mijn loopfiets.",
+  "file": "florine/49b2ac00.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Een loopfiets heeft nul motoren, dus Florine wordt pitstop-baas.",
+  "file": "piep/85a98b11.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Welke kleur krijgt jouw kart?",
+  "file": "verteller/5f8db3d5.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Rood als vuur",
+  "file": "verteller/ce3b678f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Vroem!",
+  "file": "verteller/5c74af23.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Een rode kart is supersnel.",
+  "file": "verteller/6f6292c2.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Blauw als het ven",
+  "file": "verteller/07b00790.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Net zo blauw als het ven in Oisterwijk.",
+  "file": "verteller/ab61a6f8.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Groen als het bos",
+  "file": "verteller/6d2050d1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Stoer!",
+  "file": "verteller/8a77cdf7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Een groene bos-kart.",
+  "file": "verteller/8571016c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Naast Olivier staat nog één kart.",
+  "file": "verteller/fc6d929b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De racer heeft een helm op en een zwart masker.",
+  "file": "verteller/c9198a78.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Achter uit de kart wappert een staart.",
+  "file": "verteller/ba6fd911.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Daar is de kleine zebra weer!",
+  "file": "florine/feaff474.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Hallo zebra!",
+  "file": "florine/175d1f8a.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wacht eens.",
+  "file": "held/f15fa0b7.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Die staart heb ik vaker gezien.",
+  "file": "held/3f7c4b4c.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Er liggen sporen bij elke kart in het zand.",
+  "file": "kwebbel/0cf48efe.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Kijk goed, welk spoor is van die gemaskerde hand?",
+  "file": "kwebbel/a2e67fea.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Kijk goed naar de sporen.",
+  "file": "verteller/d9305a75.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Welk spoor hoort bij de gemaskerde racer?",
+  "file": "verteller/69f45f95.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Kleine handjes en snoeppapiertjes.",
+  "file": "verteller/32ee8b75.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat kennen we!",
+  "file": "verteller/090bb252.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Denk aan de hut en aan de picknick van Brom.",
+  "file": "verteller/55fc05ac.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wat vonden we daar steeds?",
+  "file": "verteller/4c9c46a6.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Bij de kart liggen kleine afdrukjes met vingertjes.",
+  "file": "verteller/d670180b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het spoor heeft kleine vingertjes.",
+  "file": "verteller/8bbdbe22.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "En er ligt snoep bij.",
+  "file": "verteller/67a100b5.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het spoor heeft vingertjes, snoeppapier en een belletje.",
+  "file": "verteller/7fc0bc18.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Ik weet het!",
+  "file": "held/92906052.mp3"
+ },
+ {
+  "who": "held",
+  "text": "De racer is de belletje-lellende snoepsmikkelaar!",
+  "file": "held/a3107fa3.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De gemaskerde racer zakt diep weg in zijn kart.",
+  "file": "verteller/2268e2a6.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Oeps, hoor je heel zacht.",
+  "file": "verteller/baf54f0b.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Drie, twee, één…",
+  "file": "piep/973a2970.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Race!",
+  "file": "piep/12c963db.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Elke goede som geeft gas!",
+  "file": "verteller/06e9d6fa.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Reken snel, dan rijdt jouw kart vooruit.",
+  "file": "verteller/a65a56d7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Jij ligt voor.",
+  "file": "verteller/a31863da.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Maar de band maakt een raar geluid…",
+  "file": "verteller/c03acbca.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Bij min tel je terug.",
+  "file": "verteller/ee28ec83.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "twee plus een.",
+  "file": "verteller/89f196b0.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "vier min een.",
+  "file": "verteller/a920d917.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "vijf plus drie.",
+  "file": "verteller/d057a126.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "negen min vier.",
+  "file": "verteller/b1e9ab8e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "tien min drie.",
+  "file": "verteller/be855627.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "acht plus zes.",
+  "file": "verteller/91a7f4ed.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "vijftien min zeven.",
+  "file": "verteller/dc8cb7d0.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "negen plus negen.",
+  "file": "verteller/2680dca3.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "twintig min zes.",
+  "file": "verteller/6e7ec003.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Pssssst, een band is lek!",
+  "file": "verteller/8d5889fc.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Snel naar de pitstop!",
+  "file": "verteller/ad39d638.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik ben de pitstop-baas!",
+  "file": "florine/824da33b.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik pak nieuwe banden, of donuts?",
+  "file": "florine/5e529c33.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Florine heeft banden klaargelegd.",
+  "file": "verteller/0467d585.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hoeveel banden zie je?",
+  "file": "verteller/24b4ef57.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Florine rolt de juiste band naar de kart.",
+  "file": "verteller/73ff6c86.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tik met je vinger op elke band.",
+  "file": "verteller/1e5e5b7c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel ze één voor één.",
+  "file": "verteller/8eca8277.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Florine is de snelste pitstop-baas van het heelal!",
+  "file": "piep/7fd79920.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "En ik heb geen donut opgegeten.",
+  "file": "florine/7cb85f24.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Nou ja, eentje.",
+  "file": "florine/3ac22fb7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De gemaskerde racer is vlakbij!",
+  "file": "verteller/4746b39d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Zijn gestreepte staart wappert in de wind.",
+  "file": "verteller/c1265620.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Laatste ronde!",
+  "file": "verteller/b29122f2.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Reken goed, dan haal jij de finish als eerste.",
+  "file": "verteller/163def47.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Finish!",
+  "file": "verteller/22029169.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Jij hebt de Grote Kartrace gewonnen!",
+  "file": "verteller/fad3fb6e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Rustig maar.",
+  "file": "verteller/920e019e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Gebruik je vingers om verder of terug te tellen.",
+  "file": "verteller/0c63fd20.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "drie plus een.",
+  "file": "verteller/70064fa7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "twee plus twee.",
+  "file": "verteller/2774d8a1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "zeven plus twee.",
+  "file": "verteller/ec28fe94.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "acht min vijf.",
+  "file": "verteller/c00cb718.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "vier plus zes.",
+  "file": "verteller/3b8a81ab.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "zeven plus acht.",
+  "file": "verteller/91d69165.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "zeventien min negen.",
+  "file": "verteller/32dd6f32.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "elf plus zes.",
+  "file": "verteller/ab1b5956.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "negentien min twaalf.",
+  "file": "verteller/cd63e35b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "dertien plus zeven.",
+  "file": "verteller/de9e9d8c.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Hoera, hoera, wat een race, wat een vaart!",
+  "file": "kwebbel/897a4847.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Jij bent de winnaar, dat is klaar!",
+  "file": "kwebbel/21ae1895.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Mijn wens: ik wil het Sterrenkompas terug!",
+  "file": "held/309c844b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hoepla!",
+  "file": "verteller/940aee0d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De gemaskerde racer pakt het kompas van de toren, stopt het in een bal en rent weg.",
+  "file": "verteller/4032b8d3.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Hmmmm…",
+  "file": "brom/0221643f.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Ik kwam kijken naar de race.",
+  "file": "brom/e2ea3575.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Maar dit is een rugbybal!",
+  "file": "brom/c483527a.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Kom op, Brom, we spelen rugby om de kompasbal.",
+  "file": "held/85163666.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Heel vriendelijk, zonder duwen!",
+  "file": "held/d7994c90.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De gemaskerde racer gooit de bal per ongeluk hoog in de lucht.",
+  "file": "verteller/ce67dd42.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Nu is het team Olivier aan de beurt!",
+  "file": "verteller/37e74372.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Kijk goed wie de bal naar wie gooit.",
+  "file": "verteller/8425203d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Doe de passes daarna na!",
+  "file": "verteller/0db3160c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wat een mooie passes!",
+  "file": "verteller/f754552c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De bal gaat van hand tot hand.",
+  "file": "verteller/9cb6198a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Zeg hardop wie de bal krijgt.",
+  "file": "verteller/0d35511b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Olivier duikt met de bal over de lijn.",
+  "file": "verteller/af2736fe.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Try, een punt voor het team!",
+  "file": "verteller/d3837d4e.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Ik scoor ook!",
+  "file": "florine/e0df9da7.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "O nee, dat is mijn knuffel Konijn.",
+  "file": "florine/3890b53f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Op het scorebord staan de punten van het team.",
+  "file": "verteller/c23e141f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hoeveel punten zijn het samen?",
+  "file": "verteller/010dde3a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Team Olivier wint het rugbypotje.",
+  "file": "verteller/5121d0a4.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Begin bij het grootste getal.",
+  "file": "verteller/3880dc4c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Tel dan de rest erbij.",
+  "file": "verteller/33041bbc.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "twaalf plus zeven.",
+  "file": "verteller/fa0f2618.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Wat een mooie wedstrijd.",
+  "file": "brom/18da11ba.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "En niemand is omgevallen.",
+  "file": "brom/75730d4a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De gemaskerde racer gaat op het gras zitten.",
+  "file": "verteller/d4b17e53.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hij houdt de bal stevig vast.",
+  "file": "verteller/15634230.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wie ben jij eigenlijk?",
+  "file": "held/5758d9d1.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Heb jij het kompas?",
+  "file": "held/5515482c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik?",
+  "file": "rommel/af806f06.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik weet van niks, hoor.",
+  "file": "rommel/339ebd18.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik ben gewoon een racer met een helm.",
+  "file": "rommel/353598f6.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Vraag maar wat je wilt…",
+  "file": "rommel/c06dfefc.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "oeps.",
+  "file": "rommel/e6cf2cda.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Wie is de gemaskerde racer echt?",
+  "file": "rommel/09f9aead.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oeps…",
+  "file": "rommel/84bcf1e2.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "ja.",
+  "file": "rommel/a1ed694e.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Jij hebt het goed, ik ben een wasbeer.",
+  "file": "rommel/dd8a8457.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "En ik heb het kompas meegenomen.",
+  "file": "rommel/6c097753.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Nee, dat ben ik niet.",
+  "file": "rommel/5806833d.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar goed geprobeerd!",
+  "file": "rommel/dceadc01.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Kijk nog eens naar de sporen.",
+  "file": "rommel/199d6c17.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hihi, nee hoor.",
+  "file": "rommel/51d6ddb9.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Vraag nog iets over mijn staart of mijn handjes.",
+  "file": "rommel/2bd72e7c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Kijk eens naar mijn staart met strepen.",
+  "file": "rommel/72f9f819.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "En naar mijn zwarte maskertje, oeps.",
+  "file": "rommel/03a98556.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik heb kleine handjes en ik woon in het bos.",
+  "file": "rommel/f13b54ad.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik was mijn eten graag in het water.",
+  "file": "rommel/81f6f381.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik was mijn snoepje voor ik het eet.",
+  "file": "rommel/83fa8591.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Was…",
+  "file": "rommel/dd6c3f5c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "en ik ben zo knuffelig als een beer!",
+  "file": "rommel/ce48d438.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wie is de gemaskerde racer echt?",
+  "file": "verteller/09f9aead.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik geef je een hint!",
+  "file": "rommel/94370c41.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Een tip?",
+  "file": "rommel/75ecd433.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "goed dan, eentje.",
+  "file": "rommel/b3ff6c0a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Nog een tip?",
+  "file": "rommel/a1f85cf3.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Pfff, jij bent een echte speurneus.",
+  "file": "rommel/03634c7a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Eh…",
+  "file": "rommel/ad51d63a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "hoi.",
+  "file": "rommel/09be8bc7.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik zeg niet zoveel, ik ben een beetje verlegen.",
+  "file": "rommel/d8171acc.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hoi nog een keer.",
+  "file": "rommel/c258e298.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Vraag maar iets, oeps.",
+  "file": "rommel/bb909d81.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Wil je stoppen?",
+  "file": "rommel/04ebb460.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Tik dan op het huisje.",
+  "file": "rommel/c8578916.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Of vraag nog even door, dat is ook goed.",
+  "file": "rommel/44ac3b9c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Even pauze mag altijd.",
+  "file": "rommel/691b2617.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Tik op het huisje, of stel nog een vraag.",
+  "file": "rommel/42f6d05f.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hihi…",
+  "file": "rommel/18899f11.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "ik moet lachen, maar ik mag niks verklappen.",
+  "file": "rommel/800224ba.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oeps.",
+  "file": "rommel/8c8a9e7a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Haha.",
+  "file": "rommel/0bd5f159.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Vraag nou maar iets over de sporen.",
+  "file": "rommel/280ccaca.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Wie ik ben?",
+  "file": "rommel/8edb97b6.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Gewoon…",
+  "file": "rommel/91fc1c54.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "een racer.",
+  "file": "rommel/247cf9c4.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Een racer met een staart.",
+  "file": "rommel/773ecccb.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik ben een dier uit het bos, meer zeg ik niet.",
+  "file": "rommel/d4fa4aba.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Nou ja, bijna niet.",
+  "file": "rommel/d97f2680.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Mijn handjes?",
+  "file": "rommel/359bcd53.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "ja, ze hebben kleine vingertjes.",
+  "file": "rommel/dd150342.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Net als die afdrukken in het zand.",
+  "file": "rommel/a86b8226.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oké, oké.",
+  "file": "rommel/5d855f27.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die afdrukjes bij de hut waren van mij.",
+  "file": "rommel/579ef259.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar verder weet ik van niks!",
+  "file": "rommel/1f6ac61c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die staart?",
+  "file": "rommel/1abdbe49.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die is van plastic!",
+  "file": "rommel/ba3cbcc1.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "nee, hij is echt.",
+  "file": "rommel/4623bd84.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hij wiebelt als ik zenuwachtig ben.",
+  "file": "rommel/ea56e272.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ja, die staart met strepen was in de struiken bij de hut.",
+  "file": "rommel/9ce496a7.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat was ik.",
+  "file": "rommel/3b79ab15.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Snoeppapiertjes?",
+  "file": "rommel/2eb314ea.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die vallen er soms uit mijn kart.",
+  "file": "rommel/9d2ddeb2.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Kijk, daar valt er weer een.",
+  "file": "rommel/18ef2fad.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik snoep heel graag.",
+  "file": "rommel/c8004d02.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Het spijt me van al die papiertjes.",
+  "file": "rommel/5a61c1e9.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "De picknick van Brom?",
+  "file": "rommel/ddb9676c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "die rook zo lekker.",
+  "file": "rommel/5cb6e429.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik heb maar een heel klein hapje genomen.",
+  "file": "rommel/7feced63.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Nou ja…",
+  "file": "rommel/f2cdd60c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "een groot hapje.",
+  "file": "rommel/b6563fe0.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Sorry, Brom.",
+  "file": "rommel/38920aa8.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik had zo’n honger.",
+  "file": "rommel/773f0251.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Tring, tring…",
+  "file": "rommel/d8b93235.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "ik wilde alleen even hallo zeggen bij de hut.",
+  "file": "rommel/f5588096.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar toen durfde ik niet.",
+  "file": "rommel/2fd41e5c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ja, ik deed belletje lellen.",
+  "file": "rommel/d521091d.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik was te verlegen om te blijven.",
+  "file": "rommel/df375986.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "De dader?",
+  "file": "rommel/faf65cbd.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "die heeft vast kleine handjes en een staart met strepen.",
+  "file": "rommel/b4c9b78f.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Wie het was?",
+  "file": "rommel/17045a39.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Kijk maar goed naar mij…",
+  "file": "rommel/d17cf2c6.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "eh, naar de sporen, bedoel ik.",
+  "file": "rommel/24db7251.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Waarom?",
+  "file": "rommel/f92215eb.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Stel dat ik iets heb gepakt…",
+  "file": "rommel/1badaf50.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "dan was dat omdat ik zelf de weg kwijt ben.",
+  "file": "rommel/d2a98630.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik ben al heel lang verdwaald.",
+  "file": "rommel/6d216219.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Het kompas wijst de weg naar huis, snap je?",
+  "file": "rommel/523c9fcd.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Het kompas?",
+  "file": "rommel/d724ea6a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Welk kompas?",
+  "file": "rommel/943988c0.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "deze bal is gewoon een bal.",
+  "file": "rommel/a1f4df16.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oeps, hij tikt als een klokje.",
+  "file": "rommel/ca014b7d.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oké, het kompas zit in de bal.",
+  "file": "rommel/7fba3e8e.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar ik wilde het alleen even lenen.",
+  "file": "rommel/234ca835.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Mijn helm blijft op!",
+  "file": "rommel/1879798a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "En mijn masker gaat niet af.",
+  "file": "rommel/d078bd43.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat is namelijk…",
+  "file": "rommel/173ff1dd.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "mijn gezicht.",
+  "file": "rommel/59ebb479.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Onder mijn helm zitten twee ronde oren.",
+  "file": "rommel/a4c52c3c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Meer zeg ik niet!",
+  "file": "rommel/467a70a5.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Mijn huis staat in een holle boom, heel ver weg.",
+  "file": "rommel/1ab36311.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik weet de weg niet meer.",
+  "file": "rommel/65efa3f5.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik ben verdwaald, al heel lang.",
+  "file": "rommel/eb8b83bd.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik mis mijn holle boom.",
+  "file": "rommel/fd5098ff.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik ben vaak alleen.",
+  "file": "rommel/d1adf4d8.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Daarom haal ik soms kattenkwaad uit, dan zien ze me tenminste.",
+  "file": "rommel/ce6202e3.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Een vriendje?",
+  "file": "rommel/690572a9.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat zou ik heel fijn vinden.",
+  "file": "rommel/274b5da9.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar wie wil er nou een snoepsmikkelaar als vriend?",
+  "file": "rommel/ede35edc.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ben je niet boos?",
+  "file": "rommel/4271301f.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oh…",
+  "file": "rommel/3df3500c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "dat is fijn.",
+  "file": "rommel/6c030ec7.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dan durf ik misschien de waarheid te zeggen.",
+  "file": "rommel/841b3019.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dank je.",
+  "file": "rommel/a6442474.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Vraag nog één ding, dan vertel ik wie ik ben.",
+  "file": "rommel/4e003dbf.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Liegen is niet netjes, dat weet ik.",
+  "file": "rommel/e49272c8.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oké, ik jok een beetje.",
+  "file": "rommel/c214454b.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "De waarheid?",
+  "file": "rommel/e81b4aec.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Kijk maar naar alle sporen, dan weet jij het al.",
+  "file": "rommel/7e890261.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Jij racet supergoed!",
+  "file": "rommel/fe3626d8.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik wilde winnen, zodat ik het kompas mocht wensen.",
+  "file": "rommel/f0881054.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik werd tweede.",
+  "file": "rommel/86835d4b.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Jij was gewoon sneller, dat is eerlijk.",
+  "file": "rommel/5ce41008.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat kleine meisje dacht dat ik een zebra was.",
+  "file": "rommel/78a3e2a9.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hihi, dat vond ik stiekem leuk.",
+  "file": "rommel/d0dad012.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Haar knuffel Konijn heb ik niet gepakt, echt niet!",
+  "file": "rommel/0d57bfd7.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die grote reus?",
+  "file": "rommel/97d5bc32.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hij is heel lief.",
+  "file": "rommel/4a748ff8.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Zijn sok raakte kwijt omdat het kompas weg was.",
+  "file": "rommel/037e5d8b.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik was een beetje bang voor Brom.",
+  "file": "rommel/936df187.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar hij is bang voor muizen, dus we zijn quitte.",
+  "file": "rommel/620a8e18.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die papegaai rijmt de hele dag.",
+  "file": "rommel/8f1e8336.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hij zag mij vast al in het bos.",
+  "file": "rommel/bdd44349.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die kaart had een leeg gat.",
+  "file": "rommel/1aa2e31e.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Daar hoort het kompas, dat weet ik wel.",
+  "file": "rommel/5f644bdb.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die robot zegt steeds bliep.",
+  "file": "rommel/c6691753.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik kwam hier met een ruimte-kart, heel hoog door de lucht.",
+  "file": "rommel/b87b1a46.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik dacht: op deze planeet vind ik de weg wel.",
+  "file": "rommel/0e4b52c0.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar nee hoor.",
+  "file": "rommel/d8b498fa.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Het bootje op het ven?",
+  "file": "rommel/7c9b84cb.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat dreef weg omdat alles de weg kwijt raakte.",
+  "file": "rommel/a8775e30.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik was het echt niet!",
+  "file": "rommel/7fc5c208.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Toen het kompas weg was, raakte alles zoek.",
+  "file": "rommel/dc4137af.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ook bootjes.",
+  "file": "rommel/8acd4bb8.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat spijt me.",
+  "file": "rommel/a98f868a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik ben grijs, met een zwart maskertje.",
+  "file": "rommel/87121f3b.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Heel deftig, toch?",
+  "file": "rommel/1db2d29f.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Grijs met zwart.",
+  "file": "rommel/e9059c80.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Net als die strepen op mijn staart.",
+  "file": "rommel/db9859f5.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik ben een beetje zenuwachtig.",
+  "file": "rommel/253f507e.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Mijn staart trilt ervan.",
+  "file": "rommel/6606e5bf.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Als jij lief bent, ben ik niet meer bang.",
+  "file": "rommel/211cd7f5.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Heb jij kleine handjes?",
+  "file": "held/80cba943.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "ja, kleine handjes met vingertjes.",
+  "file": "rommel/6d07c82c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar dat zegt toch niks?",
+  "file": "rommel/aaa7b4c5.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Is die staart met strepen van jou?",
+  "file": "held/f692b217.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "die is nep!",
+  "file": "rommel/036354af.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "hij wiebelt wel als ik blij ben.",
+  "file": "rommel/6d9a8c12.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Waarom liggen er snoeppapiertjes?",
+  "file": "held/ad55efc2.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die vallen er soms uit.",
+  "file": "rommel/eacf8436.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik snoep een beetje veel, oeps.",
+  "file": "rommel/905e4be6.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Deed jij belletje lellen bij de hut?",
+  "file": "held/10d3ecc7.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Tring…",
+  "file": "rommel/1e6d7f29.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "ik wilde alleen even hallo zeggen.",
+  "file": "rommel/f15a1007.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "En toen durfde ik niet meer.",
+  "file": "rommel/2b126745.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Waarom heb jij het kompas?",
+  "file": "held/07bc8621.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Als ik het had…",
+  "file": "rommel/299597b7.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "dan was dat omdat ik zelf de weg naar huis kwijt ben.",
+  "file": "rommel/e7876b8f.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Mag je masker af?",
+  "file": "held/6471de78.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Mijn masker gaat niet af, dat is mijn gezicht!",
+  "file": "rommel/a46fb78c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oeps, dat zei ik niet.",
+  "file": "rommel/eecbf741.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hmm, dat past niet in ons verhaal.",
+  "file": "rommel/d3aaab92.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Kom, we gaan verder met ons avontuur!",
+  "file": "rommel/dc1962da.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat laten we lekker buiten ons spel.",
+  "file": "rommel/33a5ab9f.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Zullen we verder raden, Olivier?",
+  "file": "rommel/1d2b0e7e.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Laten we het gezellig houden!",
+  "file": "rommel/59782399.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Stel mij maar een andere vraag.",
+  "file": "rommel/91499f84.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat is iets van jou zelf.",
+  "file": "rommel/38646ee9.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat hoef je niemand op een scherm te vertellen, ook mij niet!",
+  "file": "rommel/9fd0e01e.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat houden we lekker geheim, net als mijn raadsel!",
+  "file": "rommel/f83e758c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Stel mij maar een vraag over mijn geheim.",
+  "file": "rommel/186742f6.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oh jee, wat naar.",
+  "file": "rommel/15dc252a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ga even naar papa of mama, die helpen je graag.",
+  "file": "rommel/e818e99d.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Daarna raden we samen verder, als je wilt.",
+  "file": "rommel/a2caf595.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Wat naar voor je.",
+  "file": "rommel/0c458402.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ga maar even naar papa of mama toe, ik wacht hier op je.",
+  "file": "rommel/4cd2a238.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hihi, wat een giechelwoord!",
+  "file": "rommel/7d561cc2.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar nu weer raden, kom maar op.",
+  "file": "rommel/55c0b33d.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Haha, jij bent een grapjas!",
+  "file": "rommel/49a9f1b6.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Stel mij nu een raadvraag.",
+  "file": "rommel/06956beb.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Pfff, daar moet ik om lachen!",
+  "file": "rommel/e2f497da.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Welke vraag heb je nog meer?",
+  "file": "rommel/c08864b2.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ga maar gauw!",
+  "file": "rommel/6ccffdf9.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik wacht hier gewoon op je.",
+  "file": "rommel/e5020fab.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oei, dat vind ik niet zo lief.",
+  "file": "rommel/40b1a021.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Misschien is het een beetje moeilijk?",
+  "file": "rommel/df44532b.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hmm, niet zo aardig, hoor.",
+  "file": "rommel/3b6f122a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Kom, we doen het samen!",
+  "file": "rommel/01f54228.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Nee hoor, hier is niks engs!",
+  "file": "rommel/009cabfa.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Stel maar een vraag, ik zit klaar.",
+  "file": "rommel/0139eca9.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Eng?",
+  "file": "rommel/ba207218.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Welnee, hier is alles vrolijk!",
+  "file": "rommel/b66f75bc.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Vraag nog maar iets.",
+  "file": "rommel/67419ef2.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Die vraag ken ik al!",
+  "file": "rommel/d0f46c34.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Nog een keer?",
+  "file": "rommel/f0feaea7.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Goed hoor!",
+  "file": "rommel/522faebd.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat vroeg je net ook al!",
+  "file": "rommel/c488d184.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hmm, dat weet ik niet zo goed.",
+  "file": "rommel/380a4f1d.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Stel mij maar een andere vraag!",
+  "file": "rommel/88499159.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Goeie vraag!",
+  "file": "rommel/a4f62512.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Maar daar kan ik niet op antwoorden.",
+  "file": "rommel/6c48572c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Probeer eens: is het groot of klein?",
+  "file": "rommel/574e1768.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oei, daar moet ik over nadenken.",
+  "file": "rommel/63c0ac6f.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Vraag eens iets anders, Olivier!",
+  "file": "rommel/e6ffe260.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dat snap ik niet helemaal.",
+  "file": "rommel/11efa9b1.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Kun je het nog eens anders vragen?",
+  "file": "rommel/5ade6787.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hihi, wat een vraag!",
+  "file": "rommel/c508e123.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Vraag eens hoe het eruitziet.",
+  "file": "rommel/1592d43b.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hmm, daar zeg ik niks over.",
+  "file": "rommel/4342ec5c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Vraag eens wat je ermee kunt doen!",
+  "file": "rommel/0eca9d95.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik hoorde je niet goed.",
+  "file": "rommel/cf5e6680.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Wil je het nog eens zeggen?",
+  "file": "rommel/ab327c1f.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ja!",
+  "file": "rommel/01f2620f.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Goed geraden, Olivier!",
+  "file": "rommel/3666f925.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Knap hoor!",
+  "file": "rommel/b8749ed6.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Nee, dat is het niet!",
+  "file": "rommel/7282680a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Goed geprobeerd.",
+  "file": "rommel/68404d41.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Stel nog een vraag!",
+  "file": "rommel/847b8207.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Hmm, goeie vraag!",
+  "file": "rommel/6266d40a.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Wat denk jij zelf?",
+  "file": "rommel/0abd71e0.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Goed geraden!",
+  "file": "rommel/81180019.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Nee, dat is het niet.",
+  "file": "rommel/65825393.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De racer zet langzaam zijn helm af.",
+  "file": "verteller/c95c2d9b.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Twee ronde oortjes en een zwart maskertje!",
+  "file": "verteller/57949582.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik heet Rommel.",
+  "file": "rommel/72a29047.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Rommel de wasbeer.",
+  "file": "rommel/9f7ef057.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Sorry voor het belletje lellen en de picknick.",
+  "file": "rommel/e119e760.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "En sorry voor het kompas.",
+  "file": "rommel/b309ec75.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik was al zo lang de weg naar huis kwijt.",
+  "file": "rommel/9b040066.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik wilde het kompas alleen even lenen.",
+  "file": "rommel/e788ab71.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Geen zebra?",
+  "file": "florine/e97fe79f.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Nou ja, je mag toch mijn vriendje zijn.",
+  "file": "florine/66460eb8.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wat zeg jij tegen Rommel?",
+  "file": "verteller/e4e79122.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het is goed, ik vergeef je",
+  "file": "verteller/9a08203c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Rommel krijgt een hele grote glimlach.",
+  "file": "verteller/a47d01ca.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dank je wel!",
+  "file": "verteller/ccb603d1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Wil jij onze vriend zijn?",
+  "file": "verteller/ace7de24.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Rommel springt op van blijdschap.",
+  "file": "verteller/bf1b126c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Een vriend, echt waar?",
+  "file": "verteller/72b1c761.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Geef me een knuffel!",
+  "file": "verteller/bfb4811c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Knuffel!",
+  "file": "verteller/4bc79bb1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Rommel is zacht als een kussen.",
+  "file": "verteller/866c7ace.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Weet je wat, Rommel?",
+  "file": "held/3fc8c8c6.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Het kompas wijst iedereen de weg naar huis, ook jou!",
+  "file": "held/7fe178b2.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Mij ook?",
+  "file": "rommel/b0264949.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Oh, dank je wel, Olivier!",
+  "file": "rommel/2d189484.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Rommel geeft de bal aan Olivier.",
+  "file": "verteller/6b89f39a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Klik, het Sterrenkompas springt eruit en straalt!",
+  "file": "verteller/7fc2e4a4.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De naald draait rond.",
+  "file": "verteller/ce419d2a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hij wijst naar een holle boom in Oisterwijk, vlak bij het ven!",
+  "file": "verteller/10301594.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Mijn holle boom!",
+  "file": "rommel/fffe6741.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Dan wonen we vlak bij elkaar!",
+  "file": "rommel/e521ee61.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Iedereen de raket in, ook Brom.",
+  "file": "piep/6bb813c6.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Hij past er net in!",
+  "file": "piep/0360bbae.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Mijn knieën zitten bij mijn oren.",
+  "file": "brom/22a3da18.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Maar het is gezellig.",
+  "file": "brom/8d90bfbe.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Zoef, de raket landt zacht naast het ven.",
+  "file": "verteller/48475187.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Weer thuis in Oisterwijk!",
+  "file": "verteller/ae60482a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Overal komen verdwaalde dingen terug.",
+  "file": "verteller/141b9103.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Sokken, eendjes en zelfs een kikker met een hoedje.",
+  "file": "verteller/6ddf0723.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Konijn is er ook nog!",
+  "file": "florine/003a0aa5.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Hij was nooit weg, hij zat in mijn jas.",
+  "file": "florine/469a862c.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "Feest, feest, wat een pret en wat een lol!",
+  "file": "kwebbel/dc04e267.mp3"
+ },
+ {
+  "who": "kwebbel",
+  "text": "De hele hut zit met vrienden vol!",
+  "file": "kwebbel/a4ba798f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Op de feestslinger is één woord nog niet af.",
+  "file": "verteller/c75a7970.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het is het ding waarmee je rugby speelt!",
+  "file": "verteller/f9628d11.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Maak het feestwoord af.",
+  "file": "verteller/6a1269fd.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Waar speelden we rugby mee?",
+  "file": "verteller/6a2915e7.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Bal!",
+  "file": "verteller/506fc773.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het feestwoord is af.",
+  "file": "verteller/f848d52d.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Nu kan het feest beginnen!",
+  "file": "verteller/29c005f1.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Zeg de klanken langzaam: b…",
+  "file": "verteller/2942fa23.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "a…",
+  "file": "verteller/08f23abe.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "l.",
+  "file": "verteller/03315d3f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Plak ze aan elkaar.",
+  "file": "verteller/174dea96.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "ah ...",
+  "file": "verteller/ce04adda.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "lll",
+  "file": "verteller/365991eb.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "lll ...",
+  "file": "verteller/14c39035.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "bal!",
+  "file": "verteller/698f66d3.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "bal.",
+  "file": "verteller/768f7b4a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "lll.",
+  "file": "verteller/5400791f.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Dat is bel.",
+  "file": "verteller/2f5faa45.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Taart, en mijn sok is terug.",
+  "file": "brom/ef1bc4a2.mp3"
+ },
+ {
+  "who": "brom",
+  "text": "Beste dag ooit!",
+  "file": "brom/0d824f58.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "Mijn feesthoedje is…",
+  "file": "piep/7217f2db.mp3"
+ },
+ {
+  "who": "piep",
+  "text": "o wacht, een sok.",
+  "file": "piep/614a0d3c.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Ik heb nog nooit zoveel vrienden gehad.",
+  "file": "rommel/a0f679d6.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "Geen belletje lellen meer, beloofd…",
+  "file": "rommel/b5f3bb75.mp3"
+ },
+ {
+  "who": "rommel",
+  "text": "nou ja, bijna nooit.",
+  "file": "rommel/46365d83.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het Sterrenkompas hangt weer op zijn plek op de toverkaart.",
+  "file": "verteller/a57e209c.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Het glinstert zachtjes.",
+  "file": "verteller/15c53f9c.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Morgen weer een avontuur?",
+  "file": "florine/463f8f4f.mp3"
+ },
+ {
+  "who": "florine",
+  "text": "Met Rommel en taart?",
+  "file": "florine/4172d09b.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Zeker weten, Flo.",
+  "file": "held/882756ba.mp3"
+ },
+ {
+  "who": "held",
+  "text": "Wij zijn het beste team!",
+  "file": "held/38d64c2a.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Hoera, Olivier!",
+  "file": "verteller/035616ed.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Je won de Grote Kartrace, ontmaskerde Rommel en bracht het Sterrenkompas terug.",
+  "file": "verteller/383158e5.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "De zon zakt achter het ven.",
+  "file": "verteller/e0a8c02e.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "In de holle boom zwaait Rommel welterusten.",
+  "file": "verteller/f051c090.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Einde.",
+  "file": "verteller/f94a4026.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "Maar wie weet…",
+  "file": "verteller/1bbfa512.mp3"
+ },
+ {
+  "who": "verteller",
+  "text": "komt er ooit een nieuw avontuur!",
+  "file": "verteller/6ed122d1.mp3"
  }
 ]

@@ -13,7 +13,7 @@ export default {
     { t: 'say', who: 'verteller', text: 'Florine heeft een zwemvest aan en ze giechelt. Ze vindt het een groot feest.' },
     { t: 'say', who: 'florine', text: 'Joehoe! Ik ben een bootjes-meisje!', mood: 'lacht' },
     { t: 'say', who: 'held', text: 'Florine, blijf lekker zitten. Wij komen eraan!', mood: 'blij' },
-    { t: 'say', who: 'brom', text: 'Hmmm… de zee komt maar tot mijn knieën. Ik loop gewoon mee.', mood: 'blij', sfx: 'dreun' },
+    { t: 'say', who: 'brom', text: 'Hmmm, de zee komt maar tot mijn knieën. Ik loop gewoon mee.', mood: 'blij', sfx: 'dreun' },
     { t: 'say', who: 'verteller', text: 'Aan de kant ligt een klein zeilbootje. Er ligt zelfs een piratenhoed in!', sfx: 'pop' },
     { t: 'scene', bg: 'zee', chars: ['held', 'kwebbel', 'boot'] },
     { t: 'say', who: 'kwebbel', text: 'Ahoi, ahoi, jij bent de kapitein! En ik ben je piratenpapegaai, hoe fijn!', mood: 'lacht', sfx: 'papegaai' },
@@ -85,7 +85,7 @@ export default {
 
     // --- Florine op het eilandje met de kist ---
     { t: 'scene', bg: 'eiland', chars: ['held', 'florine', 'kist'] },
-    { t: 'say', who: 'florine', text: 'Hoi! Ik ben een piraat. Konijn ook, arrr!', mood: 'lacht' },
+    { t: 'say', who: 'florine', text: 'Hoi! Ik ben een piraat en Konijn ook, arrr!', mood: 'lacht' },
     { t: 'say', who: 'held', text: 'Gelukkig, Flo! Je zwemvest zit nog goed vast.', mood: 'blij' },
     { t: 'say', who: 'florine', text: 'Ik heb een kist gevonden. Er zat een kaart in!', mood: 'blij' },
     { t: 'say', who: 'verteller', text: 'Het is een echte schatkaart. Maar midden op het kruisje zit een konijnensticker!', sfx: 'pop' },
@@ -99,7 +99,7 @@ export default {
     { t: 'say', who: 'kwebbel', text: 'Een staart met strepen, alweer, oh jee! Wie reist er toch stiekem met ons mee?', mood: 'denkt' },
 
     // --- Woord op de schatkaart ---
-    { t: 'say', who: 'kwebbel', text: 'Op de kaart staat een woordje, klein en fijn. Lees jij het? Dan weten we waar we moeten zijn!', mood: 'blij' },
+    { t: 'say', who: 'kwebbel', text: 'Op de kaart staat een woordje, klein en fijn. Lees jij het, dan weten we waar we moeten zijn!', mood: 'blij' },
     {
       t: 'game', game: 'word', skill: 'woorden',
       intro: 'Luister goed naar de klanken. Welk woord staat er op de schatkaart?',
@@ -149,7 +149,7 @@ export default {
     },
     { t: 'scene', bg: 'zee', chars: ['held', 'florine', 'brom', 'boot'] },
     { t: 'say', who: 'verteller', text: 'Brom loopt voor het bootje uit. Plons, plons, het water komt maar tot zijn knieën!', sfx: 'dreun' },
-    { t: 'say', who: 'brom', text: 'Hmmm… ik ben een reuzensleepboot. Hup, hup!', mood: 'lacht' },
+    { t: 'say', who: 'brom', text: 'Hmmm, ik ben een reuzensleepboot. Hup, hup!', mood: 'lacht' },
     { t: 'say', who: 'florine', text: 'Brom is een grote eend! Kwak, kwak!', mood: 'lacht' },
 
     // --- Op het grote eiland ---
@@ -167,7 +167,7 @@ export default {
         3: { mode: 'howmany', n: 12, item: '🐚' }
       }
     },
-    { t: 'say', who: 'brom', text: 'Hmmm… er loopt iets over mijn schoen. Is dat een muis?', mood: 'verbaasd' },
+    { t: 'say', who: 'brom', text: 'Hmmm, er loopt iets over mijn schoen. Is dat een muis?', mood: 'verbaasd' },
     { t: 'say', who: 'held', text: 'Nee Brom, dat zijn krabbetjes. Die lopen gewoon zijwaarts!', mood: 'lacht' },
     {
       t: 'game', game: 'sum', skill: 'rekenen',
@@ -224,16 +224,16 @@ export default {
           a: 'Oeh, je bent warm, heel warm, echt waar! Het is iets kleiners, dan ben je klaar!', a2: 'Warm, warm, bijna heet! Nog een klein stukje, wie weet wat je weet!' },
         { id: 'palmboom', keys: ['palmboom', 'palmbomen', 'palm', 'palmen', 'boom', 'onder de boom', 'bij de boom'],
           a: 'Bij de palmboom begin je, dat is waar. Maar de schat ligt er niet, hij ligt verderop, daar!',
-          a2: 'Niet onder de palmboom, daar valt soms wat, bonk! Begin daar met lopen, dan vind je het pronk!' },
+          a2: 'Niet onder de palmboom, daar valt soms iets, bonk! Begin daar met lopen, dan vind je de schat heel vlug!' },
         { id: 'richting', keys: ['links', 'rechts', 'linksaf', 'rechtsaf', 'welke kant', 'kant', 'richting', 'rechtdoor', 'welke kant op'],
           a: 'Links? Nee hoor, daar is alleen gras. Ga naar rechts, dat is de goede pas!',
           a2: 'Vanaf de palmboom ga je naar rechts, hoera! Daar ligt de schat, en ik vlieg erachteraan, ha!' },
         { id: 'stappen', keys: ['hoeveel stappen', 'stappen', 'stap', 'hoe ver', 'ver', 'ver weg', 'dichtbij', 'lopen', 'hoe lang lopen', 'meters'],
           a: 'Drie grote stappen, dat is genoeg. Een, twee, drie, niet te laat en niet te vroeg!',
-          a2: 'Tel maar mee: een, twee, drie, heel groot. Dan sta je er vlak naast, net als een boot!' },
+          a2: 'Tel maar mee: een, twee, drie, heel groot. Dan sta je er vlak naast, wat een geluk, zo groot!' },
         { id: 'water', keys: ['zee', 'water', 'nat', 'golven', 'golf', 'zwemmen', 'onder water', 'duiken', 'in de zee'],
           a: 'In de zee? Nee hoor, dan wordt alles nat. De schat ligt op het droge, dat is wat!',
-          a2: 'Niet in het water, niet bij de golf. De schat ligt droog, zo droog als een wolf!' },
+          a2: 'Niet in het water, niet tussen de vis. De schat ligt op het droge, dat is gewis!' },
         { id: 'zand', keys: ['zand', 'graven', 'begraven', 'onder de grond', 'onder', 'diep', 'schep', 'scheppen', 'ingegraven', 'eronder', 'ernaast'],
           a: 'Een klein beetje graven, dat moet je wel. Vlak naast de plek, dan heb je hem snel!',
           a2: 'Niet diep, hoor, net onder het zand. Graaf met je handjes, dan heb je hem in je hand!' },
@@ -242,16 +242,16 @@ export default {
           a2: 'Grijs, grijs, zo grijs als een muis. Maar Brom, niet schrikken, het is echt geen muis!' },
         { id: 'groot', keys: ['groot', 'klein', 'hoe groot', 'grootte', 'reuzegroot', 'dik', 'dun', 'hoog', 'laag'],
           a: 'Groot is het, zo groot als Brom zijn schoen. Je kunt er zelfs op zitten, dat mag je doen!',
-          a2: 'Zo groot als een stoel, of een beetje meer. Je tilt het niet op, ook niet met z\'n tweeën, echt geen keer!' },
+          a2: 'Zo groot als een stoel, of een beetje meer. Je tilt het niet op, ook niet met z\'n tweeën, nooit meer!' },
         { id: 'hard', keys: ['hard', 'zacht', 'voelen', 'voelt', 'zwaar', 'licht', 'optillen', 'tillen'],
           a: 'Zacht? Nee hoor, het is heel erg hard. Klop je erop, dan doet je knokkel au, apart!',
           a2: 'Zwaar is het, echt veel te zwaar om te tillen. Zelfs Brom zou dat niet willen!' },
         { id: 'zitten', keys: ['erop zitten', 'bovenop', 'erop', 'klimmen', 'erop klimmen', 'staan'],
           a: 'Erop zitten? Ja, dat kan heel fijn. Net een stoel in de zonneschijn!',
-          a2: 'Klimmen mag, maar doe het stil. Het beweegt niet, al wil je dat wel, zo’n gril!' },
+          a2: 'Klimmen mag, maar doe het stil. Het wiebelt geen beetje, het blijft heel stil!' },
         { id: 'dier', keys: ['dier', 'dieren', 'beest', 'beestje', 'krab', 'krabbetje', 'vis', 'vogel', 'meeuw', 'schildpad', 'muis', 'leeft het', 'levend'],
           a: 'Een dier? Nee, het leeft niet, het ligt maar stil. Wel woont er een krabbetje onder, als hij wil!',
-          a2: 'Het zwemt niet, het vliegt niet, het kruipt niet weg. Het ligt daar al jaren, zegt mijn oude pet!' },
+          a2: 'Het zwemt niet, het vliegt niet, het kruipt niet weg. Het ligt daar al jaren, op dezelfde plek!' },
         { id: 'boot', keys: ['boot', 'bootje', 'schip', 'steiger', 'zeil'],
           a: 'Bij het bootje? Nee, daar ligt alleen het touw. De schat ligt verderop, dat zeg ik aan jou!',
           a2: 'Het bootje ligt veilig op het strand. De schat ligt ergens anders op het land!' },
@@ -262,11 +262,11 @@ export default {
           a: 'Wat erin zit? Dat is een verrassing, hoor! Eerst de plek vinden, ga maar door!',
           a2: 'Geen idee, ik keek er nooit in, echt niet. Maar het is iets bijzonders, dat zeg ik je, zie!' },
         { id: 'piraat', keys: ['wie heeft', 'wie verstopte', 'verstopt', 'piraat', 'piraten', 'kees', 'van wie'],
-          a: 'Piraat Kees verstopte hem, mijn oude maat. Hij was heel lief, en hij zong altijd, op straat!',
+          a: 'Piraat Kees verstopte hem, mijn oude maat. Hij was heel lief en hij zong zo graag, dat was zijn daad!',
           a2: 'Kees was een piraat met een lach op zijn snuit. Hij verstopte de schat, en toen zeilde hij uit!' },
         { id: 'kaart', keys: ['kaart', 'schatkaart', 'kruisje', 'kruis', 'sticker', 'konijnensticker'],
           a: 'Het kruisje zit onder de sticker, oh wee! Maar ik weet het nog, dus vraag maar mee!',
-          a2: 'De kaart helpt niet, want die sticker zit dwars. Vraag het aan mij, ik weet het nog, echt waar, hoor!' },
+          a2: 'De kaart helpt niet, want die sticker zit dwars. Vraag het aan mij, ik weet het nog, ga maar door!' },
         { id: 'brom', keys: ['brom', 'reus'],
           a: 'Brom weet het niet, hij keek naar een krab. Hij dacht dat het een muis was, wat een grap!',
           a2: 'Brom is lief, maar hij zoekt veel te hoog. Kijk naar beneden, dan heb je het in je oog!' },
@@ -276,9 +276,9 @@ export default {
         { id: 'staart', keys: ['staart', 'strepen', 'gestreept', 'zebra', 'ton', 'snoep', 'snoeppapiertje', 'papiertje'],
           a: 'Die staart met strepen? Die was opeens weg! Wie dat was, weet ik niet, wat een pech!',
           a2: 'Dat raadsel lossen we later op, heel fijn. Nu eerst de schat, dat moet het zijn!' },
-        { id: 'waar', keys: ['waar', 'welke plek', 'plek', 'waar is', 'waar ligt'],
+        { id: 'waar', keys: ['waar', 'welke plek', 'plek'],
           a: 'Waar hij ligt? Dat zeg ik niet zomaar, hoor! Vraag naar de palmboom, of links of rechts, ga door!',
-          a2: 'Dat verklap ik niet, ik ben een piraat! Vraag hoeveel stappen, dan weet je wat je gaat!' }
+          a2: 'Dat verklap ik niet, ik ben een piraat! Vraag hoeveel stappen, dan kom je er, kameraad!' }
       ],
       // Alleen echte woorden die spraakherkenning geeft.
       secretKeys: ['rots', 'rotsen', 'rotsje', 'rotsblok', 'steen', 'stenen', 'steentje', 'kei', 'keien'],
@@ -291,8 +291,8 @@ export default {
         kokosnoot: ['kokosnoot', 'kokosnoten', 'kokos', 'noot', 'noten']
       },
       hints: [
-        'Begin bij de palmboom en ga naar rechts. Dan drie grote stappen, en kijk goed, niet slechts!',
-        'Het is grijs en hard, en het ligt daar al lang. Je kunt erop zitten, je hoeft niet bang!',
+        'Begin bij de palmboom en ga naar rechts. Dan drie grote stappen, en kijk goed om je heen, echt!',
+        'Het is grijs en hard, en het ligt daar al lang. Je kunt erop zitten, de hele dag lang!',
         'Het is groot en grijs, zo zwaar als een huis. Een krabbetje woont eronder, dat is zijn thuis!'
       ]
     },
@@ -300,14 +300,14 @@ export default {
     // --- De schat opgraven ---
     { t: 'say', who: 'verteller', text: '{HELD} loopt drie grote stappen naar rechts. Daar ligt de grote grijze rots!', sfx: 'goed' },
     { t: 'say', who: 'florine', text: 'Ik graaf! Nu zit er zand in mijn laarsjes, hihi!', mood: 'lacht', sfx: 'whoosh' },
-    { t: 'say', who: 'verteller', text: 'Tok! Daar zit een houten kist. Er zit een slotje op, met een ster.', sfx: 'pop' },
+    { t: 'say', who: 'verteller', text: 'Tok, daar zit een houten kist! Er zit een slotje op, met een ster.', sfx: 'pop' },
     { t: 'scene', bg: 'strand', chars: ['held', 'florine', 'kist'] },
     { t: 'say', who: 'held', text: 'Een ster! Net als op mijn gouden sleuteltje van Kwebbel.', mood: 'verbaasd' },
     {
       t: 'choice',
       q: 'Wie draait het sleuteltje om?',
       options: [
-        { label: '{HELD}', icon: '🧢', say: 'De kapitein doet het zelf. Klik, het past precies!' },
+        { label: 'Ik zelf', icon: '🧢', say: 'De kapitein doet het zelf. Klik, het past precies!' },
         { label: 'Florine', icon: '🐰', say: 'Florine draait heel voorzichtig. Klik, samen met Konijn!' },
         { label: 'Brom', icon: '👢', say: 'Brom zijn vinger is veel te dik, hihi. Met een beetje hulp: klik!' }
       ]
@@ -323,7 +323,7 @@ export default {
     // --- Cliffhanger ---
     { t: 'say', who: 'florine', text: 'Ik help! Ik druk op de knop!', mood: 'lacht', sfx: 'tap' },
     { t: 'say', who: 'verteller', text: 'Klik! Hoog in de lucht klinkt een zacht gezoem.', sfx: 'piep' },
-    { t: 'say', who: 'brom', text: 'Hmmm… daar komt iets aan. Iets met lichtjes, heel snel!', mood: 'verbaasd' },
+    { t: 'say', who: 'brom', text: 'Hmmm, daar komt iets aan met lichtjes. Heel snel en heel zacht!', mood: 'verbaasd' },
     { t: 'scene', bg: 'strand', chars: ['held', 'florine', 'raket'] },
     { t: 'say', who: 'verteller', text: 'Whoooosh! Iets zakt heel zacht naar beneden, op het strand.', sfx: 'whoosh' },
     { t: 'cliff', text: 'Op het strand staat opeens een echte raket! Het deurtje gaat langzaam open… Wordt vervolgd…' }

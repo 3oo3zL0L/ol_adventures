@@ -10,17 +10,17 @@ export default {
     { t: 'scene', bg: 'planeet', chars: ['held', 'florine', 'piep', 'raket'] },
     { t: 'say', who: 'verteller', text: 'Poef! De raket landt zacht in een berg paars zand.', sfx: 'whoosh' },
     { t: 'say', who: 'florine', text: 'Nog een keer! Nog een keer!', mood: 'lacht' },
-    { t: 'say', who: 'piep', text: 'Bliep! Landing geslaagd. Deze planeet zit vol racebanen.', mood: 'blij', sfx: 'piep' },
+    { t: 'say', who: 'piep', text: 'Bliep! Landing geslaagd, op een planeet vol racebanen.', mood: 'blij', sfx: 'piep' },
     { t: 'say', who: 'held', text: 'Racebanen? Kom op, dat wil ik zien!', mood: 'blij' },
 
     // --- De kartbaan ---
     { t: 'scene', bg: 'kartbaan', chars: ['held', 'florine', 'piep', 'kwebbel'] },
     { t: 'say', who: 'kwebbel', text: 'Hallo, hallo, wat een baan, wat een bocht! Hier wordt vandaag hard gerend en gezocht!', mood: 'lacht', sfx: 'papegaai' },
-    { t: 'say', who: 'piep', text: 'Bliep! Op het bord staat: de Grote Kartrace. De winnaar mag één wens doen!', mood: 'verbaasd' },
-    { t: 'say', who: 'verteller', text: 'Kijk! Boven op de finish-toren glinstert iets. Het Sterrenkompas!', sfx: 'ster' },
+    { t: 'say', who: 'piep', text: 'Bliep! Wie de Grote Kartrace wint, mag één wens doen!', mood: 'verbaasd' },
+    { t: 'say', who: 'verteller', text: 'Kijk, boven op de finish-toren glinstert iets. Het Sterrenkompas!', sfx: 'ster' },
     { t: 'say', who: 'held', text: 'Als ik win, wens ik het kompas terug. Ik doe mee!', mood: 'blij' },
     { t: 'say', who: 'florine', text: 'Ik doe ook mee! Met mijn loopfiets.', mood: 'blij' },
-    { t: 'say', who: 'piep', text: 'Bliep. Loopfiets heeft nul motoren. Florine wordt onze pitstop-baas!', mood: 'lacht' },
+    { t: 'say', who: 'piep', text: 'Bliep! Een loopfiets heeft nul motoren, dus Florine wordt pitstop-baas.', mood: 'lacht' },
     {
       t: 'choice',
       q: 'Welke kleur krijgt jouw kart?',
@@ -90,8 +90,8 @@ export default {
     },
 
     // --- Pitstop ---
-    { t: 'say', who: 'verteller', text: 'Pssssst! Een band is lek. Snel naar de pitstop!', sfx: 'pop' },
-    { t: 'say', who: 'florine', text: 'Ik ben de pitstop-baas! Ik pak nieuwe banden. Of donuts?', mood: 'lacht' },
+    { t: 'say', who: 'verteller', text: 'Pssssst, een band is lek! Snel naar de pitstop!', sfx: 'pop' },
+    { t: 'say', who: 'florine', text: 'Ik ben de pitstop-baas! Ik pak nieuwe banden, of donuts?', mood: 'lacht' },
     {
       t: 'game', game: 'count', skill: 'tellen',
       intro: 'Florine heeft banden klaargelegd. Hoeveel banden zie je?',
@@ -103,7 +103,7 @@ export default {
         3: { mode: 'howmany', n: 14, item: '🛞' }
       }
     },
-    { t: 'say', who: 'piep', text: 'Bliep! Nieuwe band zit erop. Florine is de snelste pitstop-baas van het heelal!', mood: 'blij' },
+    { t: 'say', who: 'piep', text: 'Bliep! Florine is de snelste pitstop-baas van het heelal!', mood: 'blij' },
     { t: 'say', who: 'florine', text: 'En ik heb geen donut opgegeten. Nou ja, eentje.', mood: 'lacht' },
 
     // --- De race, deel 2 ---
@@ -124,9 +124,9 @@ export default {
     { t: 'say', who: 'verteller', text: 'Hoepla! De gemaskerde racer pakt het kompas van de toren, stopt het in een bal en rent weg.', sfx: 'whoosh' },
 
     // --- Rugby-finale ---
-    { t: 'scene', bg: 'kartbaan', chars: ['held', 'florine', 'brom', 'rommel'] },
+    { t: 'scene', bg: 'kartbaan', chars: ['held', 'florine', 'brom', 'racer'] },
     { t: 'say', who: 'brom', text: 'Hmmmm… Ik kwam kijken naar de race. Maar dit is een rugbybal!', mood: 'verbaasd', sfx: 'dreun' },
-    { t: 'say', who: 'held', text: 'Brom! Kom op, we spelen rugby om de kompasbal. Heel vriendelijk, zonder duwen.', mood: 'blij' },
+    { t: 'say', who: 'held', text: 'Kom op, Brom, we spelen rugby om de kompasbal. Heel vriendelijk, zonder duwen!', mood: 'blij' },
     { t: 'say', who: 'verteller', text: 'De gemaskerde racer gooit de bal per ongeluk hoog in de lucht. Nu is het team {HELD} aan de beurt!' },
     {
       t: 'game', game: 'memory', skill: 'geheugen',
@@ -139,7 +139,7 @@ export default {
         3: { length: 5, items: ['🧒', '👧', '🦜', '🤖', '👟'] }
       }
     },
-    { t: 'say', who: 'verteller', text: '{HELD} duikt over de lijn. Try! Dat is een punt voor het team!', sfx: 'goed' },
+    { t: 'say', who: 'verteller', text: '{HELD} duikt met de bal over de lijn. Try, een punt voor het team!', sfx: 'goed' },
     { t: 'say', who: 'florine', text: 'Ik scoor ook! O nee, dat is mijn knuffel Konijn.', mood: 'lacht' },
     {
       t: 'game', game: 'sum', skill: 'rekenen',
@@ -157,9 +157,9 @@ export default {
     { t: 'say', who: 'held', text: 'Wie ben jij eigenlijk? Heb jij het kompas?', mood: 'denkt' },
 
     // --- Praatpuzzel: ontmaskeren met bewijs ---
-    { t: 'scene', bg: 'kartbaan', chars: ['held', 'florine', 'rommel'] },
+    { t: 'scene', bg: 'kartbaan', chars: ['held', 'florine', 'racer'] },
     {
-      t: 'talk', puzzle: 'h5-ontmaskeren', who: 'rommel',
+      t: 'talk', puzzle: 'h5-ontmaskeren', who: 'rommel', char: 'racer', label: 'Gemaskerde racer',
       intro: 'Ik? Ik weet van niks, hoor. Ik ben gewoon een racer met een helm. Vraag maar wat je wilt… oeps.',
       ask: 'Wie is de gemaskerde racer echt?',
       minQuestions: 2,
@@ -202,6 +202,8 @@ export default {
           a: 'De picknick van Brom? Eh… die rook zo lekker. Ik heb maar een heel klein hapje genomen.', a2: 'Nou ja… een groot hapje. Sorry, Brom. Ik had zo’n honger.' },
         { id: 'bel', keys: ['bel', 'belletje', 'belletje lellen', 'belletje trekken', 'aanbellen', 'aangebeld', 'gebeld', 'lellen', 'tring', 'deurbel'],
           a: 'Tring, tring… ik wilde alleen even hallo zeggen bij de hut. Maar toen durfde ik niet.', a2: 'Ja, ik deed belletje lellen. Ik was te verlegen om te blijven.' },
+        { id: 'dader', keys: ['dader', 'dief', 'boef', 'wie heeft het gedaan', 'wie was het', 'wie heeft het kompas', 'wie pakte', 'schuldig'],
+          a: 'De dader? Eh… die heeft vast kleine handjes en een staart met strepen. Oeps.', a2: 'Wie het was? Kijk maar goed naar mij… eh, naar de sporen, bedoel ik.' },
         { id: 'waarom', keys: ['waarom', 'hoezo', 'waarvoor', 'waarom deed je', 'waarom pakte'],
           a: 'Waarom? Stel dat ik iets heb gepakt… dan was dat omdat ik zelf de weg kwijt ben.', a2: 'Ik ben al heel lang verdwaald. Het kompas wijst de weg naar huis, snap je?' },
         { id: 'kompas', keys: ['kompas', 'sterrenkompas', 'toren', 'bal', 'rugbybal', 'kompasbal', 'geef terug', 'teruggeven', 'terug'],
@@ -256,6 +258,7 @@ export default {
 
     // --- Ontmaskerd: Rommel ---
     { t: 'say', who: 'verteller', text: 'De racer zet langzaam zijn helm af. Twee ronde oortjes en een zwart maskertje!', sfx: 'pop' },
+    { t: 'scene', bg: 'kartbaan', chars: ['held', 'florine', 'rommel'] },
     { t: 'say', who: 'rommel', text: 'Ik heet Rommel. Rommel de wasbeer.', mood: 'verbaasd' },
     { t: 'say', who: 'rommel', text: 'Sorry voor het belletje lellen en de picknick. En sorry voor het kompas.', mood: 'denkt' },
     { t: 'say', who: 'rommel', text: 'Ik was al zo lang de weg naar huis kwijt. Ik wilde het kompas alleen even lenen.', mood: 'denkt' },
@@ -269,27 +272,27 @@ export default {
         { label: 'Geef me een knuffel!', icon: '🤗', say: 'Knuffel! Rommel is zacht als een kussen.' }
       ]
     },
-    { t: 'say', who: 'held', text: 'Weet je wat, Rommel? Het kompas wijst iedereen de weg naar huis. Ook jou!', mood: 'blij' },
+    { t: 'say', who: 'held', text: 'Weet je wat, Rommel? Het kompas wijst iedereen de weg naar huis, ook jou!', mood: 'blij' },
     { t: 'say', who: 'rommel', text: 'Mij ook? Oh, dank je wel, {HELD}!', mood: 'lacht' },
 
     // --- Het kompas wijst de weg ---
     { t: 'scene', bg: 'kartbaan', chars: ['held', 'rommel', 'kompas'] },
-    { t: 'say', who: 'verteller', text: 'Rommel geeft de bal aan {HELD}. Klik! Het Sterrenkompas springt eruit en begint te stralen.', sfx: 'ster' },
+    { t: 'say', who: 'verteller', text: 'Rommel geeft de bal aan {HELD}. Klik, het Sterrenkompas springt eruit en straalt!', sfx: 'ster' },
     { t: 'say', who: 'verteller', text: 'De naald draait rond. Hij wijst naar een holle boom in Oisterwijk, vlak bij het ven!' },
     { t: 'say', who: 'rommel', text: 'Mijn holle boom! Dan wonen we vlak bij elkaar!', mood: 'lacht' },
-    { t: 'say', who: 'piep', text: 'Bliep! Route berekend. Iedereen de raket in, ook Brom. Hij past er net in.', mood: 'blij', sfx: 'piep' },
+    { t: 'say', who: 'piep', text: 'Bliep! Iedereen de raket in, ook Brom. Hij past er net in!', mood: 'blij', sfx: 'piep' },
     { t: 'say', who: 'brom', text: 'Hmmmm… Mijn knieën zitten bij mijn oren. Maar het is gezellig.', mood: 'lacht' },
 
     // --- Terug naar Oisterwijk ---
     { t: 'scene', bg: 'ven', chars: ['held', 'florine', 'rommel', 'raket'] },
-    { t: 'say', who: 'verteller', text: 'Zoef! De raket landt zacht naast het ven. Ze zijn weer thuis in Oisterwijk!', sfx: 'whoosh' },
+    { t: 'say', who: 'verteller', text: 'Zoef, de raket landt zacht naast het ven. Weer thuis in Oisterwijk!', sfx: 'whoosh' },
     { t: 'say', who: 'verteller', text: 'Overal komen verdwaalde dingen terug. Sokken, eendjes en zelfs een kikker met een hoedje.' },
     { t: 'say', who: 'florine', text: 'Konijn is er ook nog! Hij was nooit weg, hij zat in mijn jas.', mood: 'lacht' },
 
     // --- Het feest ---
     { t: 'scene', bg: 'feest', chars: ['held', 'florine', 'kwebbel', 'rommel'] },
     { t: 'say', who: 'kwebbel', text: 'Feest, feest, wat een pret en wat een lol! De hele hut zit met vrienden vol!', mood: 'lacht', sfx: 'papegaai' },
-    { t: 'say', who: 'verteller', text: 'Er hangt een slinger met letters. Eén woord is nog niet af. Het is het ding waarmee je rugby speelt!' },
+    { t: 'say', who: 'verteller', text: 'Op de feestslinger is één woord nog niet af. Het is het ding waarmee je rugby speelt!' },
     {
       t: 'game', game: 'word', skill: 'woorden',
       intro: 'Maak het feestwoord af. Waar speelden we rugby mee?',
@@ -323,8 +326,8 @@ export default {
       }
     },
     { t: 'scene', bg: 'feest', chars: ['held', 'brom', 'piep', 'rommel'] },
-    { t: 'say', who: 'brom', text: 'Hmmmm… Taart! En ik heb mijn sok terug. Beste dag ooit.', mood: 'lacht' },
-    { t: 'say', who: 'piep', text: 'Bliep! Ik draag een feesthoedje. O wacht, dit is een sok.', mood: 'lacht' },
+    { t: 'say', who: 'brom', text: 'Hmmmm… Taart, en mijn sok is terug. Beste dag ooit!', mood: 'lacht' },
+    { t: 'say', who: 'piep', text: 'Bliep! Mijn feesthoedje is… o wacht, een sok.', mood: 'lacht' },
     { t: 'say', who: 'rommel', text: 'Ik heb nog nooit zoveel vrienden gehad. Geen belletje lellen meer, beloofd… nou ja, bijna nooit.', mood: 'lacht', sfx: 'bel' },
 
     // --- Terug in de hut ---

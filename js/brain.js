@@ -177,8 +177,10 @@ function lexicon(list) {
   const phrases = list.filter((w) => w.includes(' '));
   const raw = new Set(words);
   const stems = new Set(words.map((w) => stem(w)));
-  return (tokens, norm) => tokens.some((t) => raw.has(t.raw) || stems.has(t.stem)) || hasPhrase(norm, phrases);
+  return (tokens, norm) => tokens.some((t) => raw.has(t.raw) || (stems.has(t.stem) && !INNOCENT.has(t.raw))) || hasPhrase(norm, phrases);
 }
+// Onschuldige woorden die door het inkorten toevallig op een lijstwoord lijken ("bomen" -> "bom").
+const INNOCENT = new Set(['bomen', 'bommel', 'bommels']);
 const isUnsafe = lexicon(UNSAFE);
 const isSilly = lexicon(SILLY);
 const isRude = lexicon(RUDE);
@@ -343,7 +345,9 @@ export function answer(talkStep, question, state = {}) {
   }
 
   // 3. Fout geraden (een van de andere plaatjes)?
-  if (bestKeyScore(tokens, wrongGuessKeys(step), false) > 0) {
+  // "Wat als ik op blauw druk?" is een wat-als-vraag, geen gok: dan eerst de intents.
+  const whatIf = /\bwat (als|gebeurt|gebeurd|doet)\b|\bals ik\b/.test(norm);
+  if (!whatIf && bestKeyScore(tokens, wrongGuessKeys(step), false) > 0) {
     st._wrong = (st._wrong || 0) + 1;
     const base = (st._wrong % 2 === 0 && step.wrongGuess2) || step.wrongGuess || DEFAULT_WRONG;
     const r = miss(step, st, base);

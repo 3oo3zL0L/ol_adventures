@@ -142,13 +142,13 @@ export default {
           a: 'Wil je stoppen? Tik dan op het huisje. Of vraag nog iets, bliep!', a2: 'Even pauze mag altijd. Tik op het huisje, of vraag wat een knop doet.' },
         { id: 'grap', keys: ['grapje', 'mop', 'poep', 'poepie', 'scheet', 'scheten', 'drol', 'boertje', 'haha', 'hihi', 'gek'],
           a: 'Bliep bliep, hahaha! Mijn lampjes knipperen van het lachen. Nu weer een knop?', a2: 'Hihi, mijn antenne wiebelt ervan. Vraag nu wat een knop doet!' },
-        { id: 'rood', keys: ['rode', 'rode knop', 'roodje'],
+        { id: 'rood', keys: ['rode', 'rode knop', 'roodje', 'rood'],
           a: 'Dan gaat de grote toeter: TOETOET! En dan komen er zeepbellen uit het plafond, bliep.',
           a2: 'De rode knop? Toeter en zeepbellen! Leuk, maar we komen er geen stap verder mee.' },
-        { id: 'blauw', keys: ['blauwe', 'blauwe knop', 'ijs', 'ijsplaneet'],
+        { id: 'blauw', keys: ['blauwe', 'blauwe knop', 'ijs', 'ijsplaneet', 'blauw'],
           a: 'Dan vliegen we naar de ijsplaneet. Brrr, mijn schroefjes worden ijsjes!',
           a2: 'De blauwe knop gaat naar ijs en sneeuw. Daar rijdt niemand, alleen pinguïns glijden er.' },
-        { id: 'geel', keys: ['gele', 'gele knop', 'zon', 'zonnetje'],
+        { id: 'geel', keys: ['gele', 'gele knop', 'zon', 'zonnetje', 'geel'],
           a: 'Dan vliegen we naar de zon. Veel te warm, dan smelt mijn antenne als een ijsje!',
           a2: 'De gele knop gaat naar de zon. Pfoe, daar heb je wel tien zonnebrillen nodig!' },
         { id: 'groen', keys: ['groene', 'groene knop', 'groen'],
@@ -205,7 +205,6 @@ export default {
       ]
     },
     { t: 'say', who: 'piep', text: 'Bliep bliep, knop ingedrukt! Koers: de kartplaneet.', mood: 'lacht', sfx: 'piep' },
-    { t: 'say', who: 'held', text: 'Oorzaak en gevolg, Piep. Eerst nadenken, dan drukken!', mood: 'blij' },
     { t: 'say', who: 'kwebbel', text: 'Wat een slimme keus, wat een slimme kop! Op naar de karts, hop hop hop!', mood: 'lacht' },
 
     // --- Rommel-spoor: de voorraadkast ---
