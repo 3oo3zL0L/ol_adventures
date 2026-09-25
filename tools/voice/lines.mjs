@@ -42,7 +42,7 @@ for (let i = 0; i <= 20; i++) {
   add(V, n); add(V, `${n}!`); add(V, `Precies ${n}!`); add(V, `Tik er ${n} aan.`);
   add(V, `Oei, dat zijn er ${n}.`); add(V, `Je hebt er ${n}.`); add(V, `We hebben er ${n} nodig.`);
 }
-add('kwebbel', `Hoi ${NAME}!`); add('kwebbel', `Hallo ${NAME}!`); add('kwebbel', 'Klaar voor avontuur?');
+add('kwebbel', `Hoi ${NAME}!`); add('kwebbel', `Hallo ${NAME}!`); add('kwebbel', 'Klaar voor avontuur?'); add('kwebbel', 'Kies een avontuur.');
 add('kwebbel', 'Gaap… tijd om uit te rusten, dat vind ik fijn. Straks weer avontuur, dan zal het nog leuker zijn!');
 add('kwebbel', 'Dit avontuur wordt nog geschreven, het is nog niet klaar. Kom snel terug, dan staat het voor je paraat!');
 
